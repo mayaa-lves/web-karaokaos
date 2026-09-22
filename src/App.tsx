@@ -580,6 +580,10 @@ function App() {
 
       jogoFinalizado.current = true;
 
+      if (pin) {
+        socket.emit("finalizar_partida", {pin})
+      }
+
       setTempo(audio.duration || DURACAO_ARQUIVO);
 
       window.setTimeout(() => {
