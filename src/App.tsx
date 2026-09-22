@@ -510,6 +510,10 @@ function App() {
   function iniciarContagem() {
     resetarJogo();
 
+    if (pin) {
+      socket.emit("iniciar_partida", { pin });
+    }
+
     setContagem(3);
     setTela("contagem");
   }
