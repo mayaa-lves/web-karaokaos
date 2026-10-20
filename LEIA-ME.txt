@@ -1,0 +1,40 @@
+KARAOKAOS — PACOTE INICIAL PARA A FEIRA
+
+1. Abra o terminal dentro da pasta web-karaokaos.
+2. Crie uma branch: git switch -c feira-versao-inicial
+3. Copie aplicar_web.py para essa pasta.
+4. Execute: python aplicar_web.py
+5. Teste: npm install && npm run build
+6. Rode a web, o servidor e os celulares como de costume para testar uma partida real.
+
+O script verifica cada trecho esperado antes de salvar. Se um trecho não corresponder,
+não sobrescreve o arquivo. Ao aplicar, cria backup src/App.tsx.bak.
+
+O QUE MUDA
+- Uma rodada usa 120 segundos começando em 14,5 s de Fio de Cabelo.
+- Temporização das letras, pontuação e desafios 'chaos' é ajustada para o trecho.
+- Busca local entre músicas efetivamente preparadas (hoje só Fio de Cabelo).
+- Estrelas de 0 a 5 baseadas em pontos — limiares provisórios.
+
+O QUE AINDA NÃO MUDA
+- Reconhecimento real de palavras, fotos, streaming da Apple e músicas adicionais.
+- Pontuação ainda depende do detector do mobile, que tem fallback 220 Hz.
+- Não substitui teste de compilação nem teste de partida.
+
+Se o build falhar, restaure o src/App.tsx.bak e informe o erro.
+
+CORREÇÃO MOBILE
+- Na pasta mobile-karaokaos, crie sua própria branch de testes.
+- Copie aplicar_mobile.py para lá e rode: python aplicar_mobile.py
+- Remove fallback de 220 Hz falso (não atribui pontuação quando tom não é detectado).
+- É necessário testar no celular: pode diminuir a pontuação em áudio barulhento, mas é mais honesto.
+
+RECONHECIMENTO DE LETRA — PROVA DE CONCEITO
+- Dentro de um ambiente virtual Python: pip install faster-whisper
+- Grave um arquivo WAV com apenas voz/trecho de teste (sem divulgar dados de terceiros).
+- Crie JSON de referências no formato de referencias-exemplo.json.
+- Execute: python avaliar_letra.py voz.wav referencias-exemplo.json --modelo tiny
+- Modelo baixa arquivos na primeira execução; precisa internet para essa etapa.
+- Esta prova de conceito NÃO está conectada aos celulares ou ao servidor.
+- Em canto com música no fundo, a transcrição pode errar bastante.
+- Para pontuação definitiva é necessário sincronizar os tempos e validar com pessoas reais.
