@@ -1,0 +1,11 @@
+.karao-search{box-sizing:border-box;width:100%;min-height:52px;background:#161225;color:white;border:1px solid #8955bd;border-radius:14px;padding:13px 17px;font:inherit;margin:14px 0 20px;outline-offset:3px}
+.karao-catalogo{display:flex;flex-direction:column;gap:12px;margin:0 0 22px;max-height:53vh;overflow:auto;padding:3px}
+.karao-item{display:flex;align-items:center;gap:14px;width:100%;border-radius:16px;padding:14px;text-align:left;color:#fff;background:rgba(55,38,83,.83);border:2px solid transparent;cursor:pointer;font:inherit;transition:transform .15s,border-color .15s}
+.karao-item:hover:not(:disabled){transform:translateY(-2px);border-color:#b477f7}
+.karao-item.karao-selected{border-color:#c389ff;background:rgba(93,47,138,.92)}
+.karao-item:disabled{opacity:.65;cursor:not-allowed}
+.karao-art{display:grid;place-items:center;font-size:32px;flex-shrink:0;width:56px;height:56px;background:#2b1a40;border-radius:12px}
+.karao-item-texto{flex:1;min-width:0;display:flex;flex-direction:column;gap:4px}
+.karao-item-texto strong{font-size:17px}
+.karao-item-texto small{font-size:12px;color:#dac9ef}
+@media(max-width:520px){.karao-art{width:46px;height:46px}.karao-item{padding:10px;gap:9px}}

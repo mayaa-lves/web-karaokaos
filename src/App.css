@@ -1478,3 +1478,38 @@ button {
     grid-template-columns: 1fr;
   }
 }
+/* Controles locais, mantendo a identidade e o layout originais. */
+.song-choice { color: inherit; text-align: left; cursor: pointer; border-color: transparent; }
+.song-choice.song-active { border-color: #633cff; }
+.song-choice:focus-visible { outline: 3px solid #ff6b3d; outline-offset: 3px; }
+.local-audio-controls { display: flex; align-items: center; justify-content: center; flex-wrap: wrap; gap: 8px; padding: 8px 20px; }
+.local-audio-controls button { cursor: pointer; border: 1px solid #ddd4ff; border-radius: 12px; background: white; color: #633cff; padding: 9px 12px; font-weight: 750; }
+.local-audio-controls p { width: 100%; text-align: center; color: #b22b2b; }
+.lyrics-area > .dev-note { margin: 24px 0 0; }
+
+/* Progresso de cinco estrelas por jogador. */
+.star-meter { width: 100%; margin: 14px 0 7px; --meter-color: #633cff; }
+.p2-score .star-meter, .final-p2 .star-meter { --meter-color: #ff6b3d; }
+.star-meter-heading { display: flex; align-items: baseline; justify-content: space-between; }
+.star-meter-heading > span { color: #817982; font-size: 8px; font-weight: 900; letter-spacing: 1px; }
+.star-meter-heading > strong { color: var(--meter-color); font-size: 16px; }
+.star-meter-heading > strong > small { color: #aaa1ab; font-size: 10px; }
+.star-meter-body { position: relative; height: 46px; margin-top: 4px; }
+.star-meter-track { position: absolute; top: 29px; height: 8px; width: 100%; background: #e9e3ef; border-radius: 999px; overflow: hidden; }
+.star-meter-fill { height: 100%; border-radius: inherit; background: var(--meter-color); transition: width .18s linear; }
+.star-stop { position: absolute; top: 1px; width: 22px; height: 34px; transform: translateX(-50%); color: #c4bccd; }
+.star-stop::after { content: ''; position: absolute; top: 23px; left: 10px; width: 2px; height: 12px; background: currentColor; }
+.star-stop svg { display: block; width: 22px; height: 22px; fill: #f5f2f7; stroke: currentColor; stroke-width: 1.6; }
+.star-stop b { position: absolute; top: 5px; left: 0; width: 100%; text-align: center; font-size: 8px; color: #8f849a; }
+.star-stop.star-earned { color: #e8aa00; animation: star-pop .35s ease-out; }
+.star-earned svg { fill: #ffdc48; stroke: #dca000; }
+.star-earned b { color: #765400; }
+.star-meter > .star-next { display: block; margin-top: 0; font-size: 9px; color: #817982; }
+.voice-participation { display: flex; flex-direction: column; gap: 8px; margin-top: 26px; color: #633cff; }
+.voice-participation strong { font-size: 15px; }
+.voice-participation small { color: #aaa1ab; font-size: 9px; letter-spacing: 1px; }
+.final-player .star-meter { max-width: 200px; text-align: left; }
+@keyframes star-pop { 0% { transform: translateX(-50%) scale(.7); } 60% { transform: translateX(-50%) scale(1.3); } 100% { transform: translateX(-50%) scale(1); } }
+@media (prefers-reduced-motion: reduce) { .star-stop.star-earned { animation: none; } .star-meter-fill { transition: none; } }
+.audio-recovery { width: 100%; display: flex; align-items: center; justify-content: center; gap: 12px; flex-wrap: wrap; }
+.audio-recovery p { width: auto; margin: 6px 0; }

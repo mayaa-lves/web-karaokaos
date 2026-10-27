@@ -1,0 +1,362 @@
+type Trecho = { inicio: number; fim: number; cantor: 1 | 2 | "intro" | "dueto"; letra: string; alvoHz: number };
+// Letra enviada pela Maya. Referência temporal da versão de 201,952653s, compatível com o áudio local de 201,943946s.
+// Pausa instrumental preservada; o relógio do áudio controla as transições. Precisão vocal ainda não validada.
+export const INFIEL_TRECHOS: Trecho[] = [
+  {
+    "inicio": 0,
+    "fim": 11.99,
+    "cantor": "intro",
+    "letra": "♪ Introdução ♪",
+    "alvoHz": 0
+  },
+  {
+    "inicio": 11.99,
+    "fim": 14.89,
+    "cantor": 1,
+    "letra": "Isso não é uma disputa",
+    "alvoHz": 0
+  },
+  {
+    "inicio": 14.89,
+    "fim": 19.22,
+    "cantor": 2,
+    "letra": "Eu não quero te provocar",
+    "alvoHz": 0
+  },
+  {
+    "inicio": 19.22,
+    "fim": 20.24,
+    "cantor": 1,
+    "letra": "Descobri faz um ano",
+    "alvoHz": 0
+  },
+  {
+    "inicio": 20.24,
+    "fim": 22.48,
+    "cantor": 2,
+    "letra": "E tô te procurando pra dizer",
+    "alvoHz": 0
+  },
+  {
+    "inicio": 22.48,
+    "fim": 27.15,
+    "cantor": 1,
+    "letra": "Hoje a farsa vai acabar",
+    "alvoHz": 0
+  },
+  {
+    "inicio": 27.15,
+    "fim": 30.04,
+    "cantor": 2,
+    "letra": "Hoje não tem hora de ir embora",
+    "alvoHz": 0
+  },
+  {
+    "inicio": 30.04,
+    "fim": 34.5,
+    "cantor": 1,
+    "letra": "Hoje ele vai ficar",
+    "alvoHz": 0
+  },
+  {
+    "inicio": 34.5,
+    "fim": 36.0,
+    "cantor": 2,
+    "letra": "No momento deve estar feliz",
+    "alvoHz": 0
+  },
+  {
+    "inicio": 36.0,
+    "fim": 37.42,
+    "cantor": 1,
+    "letra": "E achando que ganhou",
+    "alvoHz": 0
+  },
+  {
+    "inicio": 37.42,
+    "fim": 42.08,
+    "cantor": 2,
+    "letra": "Não perdi nada, acabei de me livrar",
+    "alvoHz": 0
+  },
+  {
+    "inicio": 42.08,
+    "fim": 45.65,
+    "cantor": 1,
+    "letra": "Com certeza ele vai atrás, mas com outra intenção",
+    "alvoHz": 0
+  },
+  {
+    "inicio": 45.65,
+    "fim": 49.42,
+    "cantor": 2,
+    "letra": "Tá sem casa, sem rumo e você é a única opção",
+    "alvoHz": 0
+  },
+  {
+    "inicio": 49.42,
+    "fim": 53.21,
+    "cantor": 1,
+    "letra": "E agora, será que aguenta a barra sozinha?",
+    "alvoHz": 0
+  },
+  {
+    "inicio": 53.21,
+    "fim": 56.92,
+    "cantor": 2,
+    "letra": "Se sabia de tudo, se vira, a culpa não é minha",
+    "alvoHz": 0
+  },
+  {
+    "inicio": 56.92,
+    "fim": 60.79,
+    "cantor": 1,
+    "letra": "O seu prêmio que não vale nada, estou te entregando",
+    "alvoHz": 0
+  },
+  {
+    "inicio": 60.79,
+    "fim": 64.47,
+    "cantor": 2,
+    "letra": "Pus as malas lá fora e ele ainda saiu chorando",
+    "alvoHz": 0
+  },
+  {
+    "inicio": 64.47,
+    "fim": 68.05,
+    "cantor": 1,
+    "letra": "Essa competição por amor só serviu pra me machucar",
+    "alvoHz": 0
+  },
+  {
+    "inicio": 68.05,
+    "fim": 71.74,
+    "cantor": 2,
+    "letra": "Tá na sua mão, você agora vai cuidar",
+    "alvoHz": 0
+  },
+  {
+    "inicio": 71.74,
+    "fim": 78.21000000000001,
+    "cantor": 1,
+    "letra": "De um traidor, me faça esse favor",
+    "alvoHz": 0
+  },
+  {
+    "inicio": 78.21000000000001,
+    "fim": 80.85,
+    "cantor": "dueto",
+    "letra": "Iê, infiel",
+    "alvoHz": 0
+  },
+  {
+    "inicio": 80.85,
+    "fim": 84.6,
+    "cantor": "dueto",
+    "letra": "Eu quero ver você morar num motel",
+    "alvoHz": 0
+  },
+  {
+    "inicio": 84.6,
+    "fim": 88.58,
+    "cantor": "dueto",
+    "letra": "Estou te expulsando do meu coração",
+    "alvoHz": 0
+  },
+  {
+    "inicio": 88.58,
+    "fim": 92.25999999999999,
+    "cantor": "dueto",
+    "letra": "Assuma as consequências dessa traição",
+    "alvoHz": 0
+  },
+  {
+    "inicio": 92.25999999999999,
+    "fim": 96.18,
+    "cantor": "dueto",
+    "letra": "Iê, iê, iê, infiel",
+    "alvoHz": 0
+  },
+  {
+    "inicio": 96.18,
+    "fim": 99.94,
+    "cantor": "dueto",
+    "letra": "Agora ela vai fazer o meu papel",
+    "alvoHz": 0
+  },
+  {
+    "inicio": 99.94,
+    "fim": 103.78,
+    "cantor": "dueto",
+    "letra": "Daqui um tempo, você vai se acostumar",
+    "alvoHz": 0
+  },
+  {
+    "inicio": 103.78,
+    "fim": 107.12,
+    "cantor": "dueto",
+    "letra": "E aí vai ser a ela a quem vai enganar",
+    "alvoHz": 0
+  },
+  {
+    "inicio": 107.12,
+    "fim": 115.34,
+    "cantor": "dueto",
+    "letra": "Você não vai mudar",
+    "alvoHz": 0
+  },
+  {
+    "inicio": 115.34,
+    "fim": 122.05,
+    "cantor": "intro",
+    "letra": "♪ Instrumental ♪",
+    "alvoHz": 0
+  },
+  {
+    "inicio": 122.05,
+    "fim": 125.56,
+    "cantor": 1,
+    "letra": "O seu prêmio que não vale nada, estou te entregando",
+    "alvoHz": 0
+  },
+  {
+    "inicio": 125.56,
+    "fim": 129.41,
+    "cantor": 2,
+    "letra": "Pus as malas lá fora e ele ainda saiu chorando",
+    "alvoHz": 0
+  },
+  {
+    "inicio": 129.41,
+    "fim": 132.96,
+    "cantor": 1,
+    "letra": "Essa competição por amor só serviu pra me machucar",
+    "alvoHz": 0
+  },
+  {
+    "inicio": 132.96,
+    "fim": 136.55,
+    "cantor": 2,
+    "letra": "Tá na sua mão, você agora vai cuidar",
+    "alvoHz": 0
+  },
+  {
+    "inicio": 136.55,
+    "fim": 143.03,
+    "cantor": 1,
+    "letra": "De um traidor, me faça esse favor",
+    "alvoHz": 0
+  },
+  {
+    "inicio": 143.03,
+    "fim": 145.88,
+    "cantor": "dueto",
+    "letra": "Iê, infiel",
+    "alvoHz": 0
+  },
+  {
+    "inicio": 145.88,
+    "fim": 149.64,
+    "cantor": "dueto",
+    "letra": "Eu quero ver você morar num motel",
+    "alvoHz": 0
+  },
+  {
+    "inicio": 149.64,
+    "fim": 153.2,
+    "cantor": "dueto",
+    "letra": "Estou te expulsando do meu coração",
+    "alvoHz": 0
+  },
+  {
+    "inicio": 153.2,
+    "fim": 157.13,
+    "cantor": "dueto",
+    "letra": "Assuma as consequências dessa traição",
+    "alvoHz": 0
+  },
+  {
+    "inicio": 157.13,
+    "fim": 160.94,
+    "cantor": "dueto",
+    "letra": "Iê, iê, iê, infiel",
+    "alvoHz": 0
+  },
+  {
+    "inicio": 160.94,
+    "fim": 164.78,
+    "cantor": "dueto",
+    "letra": "Agora ela vai fazer o meu papel",
+    "alvoHz": 0
+  },
+  {
+    "inicio": 164.78,
+    "fim": 168.45,
+    "cantor": "dueto",
+    "letra": "Daqui um tempo, você vai se acostumar",
+    "alvoHz": 0
+  },
+  {
+    "inicio": 168.45,
+    "fim": 171.93,
+    "cantor": "dueto",
+    "letra": "E aí vai ser a ela a quem vai enganar",
+    "alvoHz": 0
+  },
+  {
+    "inicio": 171.93,
+    "fim": 173.43,
+    "cantor": "dueto",
+    "letra": "Você não vai mudar",
+    "alvoHz": 0
+  },
+  {
+    "inicio": 173.43,
+    "fim": 176.28,
+    "cantor": "dueto",
+    "letra": "Iê, infiel",
+    "alvoHz": 0
+  },
+  {
+    "inicio": 176.28,
+    "fim": 179.85,
+    "cantor": "dueto",
+    "letra": "Agora ela vai fazer o meu papel",
+    "alvoHz": 0
+  },
+  {
+    "inicio": 179.85,
+    "fim": 183.85,
+    "cantor": "dueto",
+    "letra": "Daqui um tempo, você vai se acostumar",
+    "alvoHz": 0
+  },
+  {
+    "inicio": 183.85,
+    "fim": 187.17,
+    "cantor": "dueto",
+    "letra": "E aí vai ser a ela a quem vai enganar",
+    "alvoHz": 0
+  },
+  {
+    "inicio": 187.17,
+    "fim": 189.02,
+    "cantor": "dueto",
+    "letra": "Você não vai mudar",
+    "alvoHz": 0
+  },
+  {
+    "inicio": 189.02,
+    "fim": 194.71,
+    "cantor": "dueto",
+    "letra": "Iê, infiel",
+    "alvoHz": 0
+  },
+  {
+    "inicio": 194.71,
+    "fim": 201.943946,
+    "cantor": "intro",
+    "letra": "♪ Final ♪",
+    "alvoHz": 0
+  }
+];

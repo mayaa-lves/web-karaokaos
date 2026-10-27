@@ -1,0 +1,324 @@
+[
+  {
+    "inicio": 0,
+    "fim": 11.63,
+    "letra": "♪ Introdução ♪",
+    "cantor": "intro",
+    "alvoHz": 0
+  },
+  {
+    "inicio": 11.63,
+    "fim": 14.7,
+    "letra": "Eu sei você sofreu demais",
+    "cantor": 1,
+    "alvoHz": 0
+  },
+  {
+    "inicio": 14.7,
+    "fim": 18.16,
+    "letra": "E sabe que eu não fui capaz, mas mas mas",
+    "cantor": 2,
+    "alvoHz": 0
+  },
+  {
+    "inicio": 18.16,
+    "fim": 21.23,
+    "letra": "Aquele sonho que era meu",
+    "cantor": 1,
+    "alvoHz": 0
+  },
+  {
+    "inicio": 21.23,
+    "fim": 24.73,
+    "letra": "Descobri não era seu, é não deu",
+    "cantor": 2,
+    "alvoHz": 0
+  },
+  {
+    "inicio": 24.73,
+    "fim": 29.82,
+    "letra": "Não deu certo quanto a gente planejou",
+    "cantor": 1,
+    "alvoHz": 0
+  },
+  {
+    "inicio": 29.82,
+    "fim": 33.84,
+    "letra": "Mas o amor nos deu mais uma chance",
+    "cantor": 2,
+    "alvoHz": 0
+  },
+  {
+    "inicio": 33.84,
+    "fim": 38.48,
+    "letra": "Volta e vem viver (joga a mão no céu e canta assim, vai)",
+    "cantor": 1,
+    "alvoHz": 0
+  },
+  {
+    "inicio": 38.48,
+    "fim": 42.46,
+    "letra": "Nega chega junto vem me amar, vem cá",
+    "cantor": "dueto",
+    "alvoHz": 0
+  },
+  {
+    "inicio": 42.46,
+    "fim": 45.04,
+    "letra": "Já 'tava arrumando a minha vida",
+    "cantor": "dueto",
+    "alvoHz": 0
+  },
+  {
+    "inicio": 45.04,
+    "fim": 48.3,
+    "letra": "Mas 'to doido pr'ocê bagunçar, nega",
+    "cantor": "dueto",
+    "alvoHz": 0
+  },
+  {
+    "inicio": 48.3,
+    "fim": 52.36,
+    "letra": "Nega a saudade não quer sossegar",
+    "cantor": "dueto",
+    "alvoHz": 0
+  },
+  {
+    "inicio": 52.36,
+    "fim": 53.85,
+    "letra": "Só 'tá aumentando",
+    "cantor": "dueto",
+    "alvoHz": 0
+  },
+  {
+    "inicio": 53.85,
+    "fim": 56.91,
+    "letra": "E o seu nego 'tá indo aí pra te buscar",
+    "cantor": "dueto",
+    "alvoHz": 0
+  },
+  {
+    "inicio": 56.91,
+    "fim": 61.8,
+    "letra": "Nega ai ai, eu 'to pronto pra te amar",
+    "cantor": "dueto",
+    "alvoHz": 0
+  },
+  {
+    "inicio": 61.8,
+    "fim": 65.06,
+    "letra": "♪ Instrumental ♪",
+    "cantor": "intro",
+    "alvoHz": 0
+  },
+  {
+    "inicio": 65.06,
+    "fim": 67.72,
+    "letra": "Eu sei você sofreu demais",
+    "cantor": 1,
+    "alvoHz": 0
+  },
+  {
+    "inicio": 67.72,
+    "fim": 71.08,
+    "letra": "E sabe que eu não fui capaz mas mas mas",
+    "cantor": 2,
+    "alvoHz": 0
+  },
+  {
+    "inicio": 71.08,
+    "fim": 74.29,
+    "letra": "Aquele sonho que era meu",
+    "cantor": 1,
+    "alvoHz": 0
+  },
+  {
+    "inicio": 74.29,
+    "fim": 77.67,
+    "letra": "Descobri não era seu, é não deu",
+    "cantor": 2,
+    "alvoHz": 0
+  },
+  {
+    "inicio": 77.67,
+    "fim": 82.78,
+    "letra": "Não deu certo quanto a gente planejou",
+    "cantor": 1,
+    "alvoHz": 0
+  },
+  {
+    "inicio": 82.78,
+    "fim": 86.73,
+    "letra": "Mas o amor nos deu mais uma chance",
+    "cantor": 2,
+    "alvoHz": 0
+  },
+  {
+    "inicio": 86.73,
+    "fim": 90.57,
+    "letra": "Volta e vem viver esse romance (e na palma da mão que eu quero ouvir)",
+    "cantor": 1,
+    "alvoHz": 0
+  },
+  {
+    "inicio": 90.57,
+    "fim": 95.37,
+    "letra": "Nega chega junto vem me amar, vem cá",
+    "cantor": "dueto",
+    "alvoHz": 0
+  },
+  {
+    "inicio": 95.37,
+    "fim": 97.86,
+    "letra": "Já 'tava arrumando a minha vida",
+    "cantor": "dueto",
+    "alvoHz": 0
+  },
+  {
+    "inicio": 97.86,
+    "fim": 101.21,
+    "letra": "Mas 'to doido pr'ocê bagunçar, nega",
+    "cantor": "dueto",
+    "alvoHz": 0
+  },
+  {
+    "inicio": 101.21,
+    "fim": 105.38,
+    "letra": "Nega a saudade não quer sossegar",
+    "cantor": "dueto",
+    "alvoHz": 0
+  },
+  {
+    "inicio": 105.38,
+    "fim": 106.88,
+    "letra": "Só 'tá aumentando",
+    "cantor": "dueto",
+    "alvoHz": 0
+  },
+  {
+    "inicio": 106.88,
+    "fim": 110.02,
+    "letra": "E o seu nego 'tá indo aí pra te buscar",
+    "cantor": "dueto",
+    "alvoHz": 0
+  },
+  {
+    "inicio": 110.02,
+    "fim": 115.5,
+    "letra": "Nega ai ai, eu 'to pronto pra te amar",
+    "cantor": "dueto",
+    "alvoHz": 0
+  },
+  {
+    "inicio": 115.5,
+    "fim": 119.0,
+    "letra": "♪ Instrumental ♪",
+    "cantor": "intro",
+    "alvoHz": 0
+  },
+  {
+    "inicio": 119.0,
+    "fim": 122.0,
+    "letra": "Joga na palma da mão assim, vai vai vai",
+    "cantor": 1,
+    "alvoHz": 0
+  },
+  {
+    "inicio": 122.0,
+    "fim": 124.0,
+    "letra": "♪ Instrumental ♪",
+    "cantor": "intro",
+    "alvoHz": 0
+  },
+  {
+    "inicio": 124.0,
+    "fim": 126.7,
+    "letra": "E canta assim Brasil",
+    "cantor": 2,
+    "alvoHz": 0
+  },
+  {
+    "inicio": 126.7,
+    "fim": 128.7,
+    "letra": "♪ Instrumental ♪",
+    "cantor": "intro",
+    "alvoHz": 0
+  },
+  {
+    "inicio": 128.7,
+    "fim": 131.78,
+    "letra": "Nega chega junto vem me amar, vem cá",
+    "cantor": "dueto",
+    "alvoHz": 0
+  },
+  {
+    "inicio": 131.78,
+    "fim": 134.19,
+    "letra": "Já 'tava arrumando a minha vida",
+    "cantor": "dueto",
+    "alvoHz": 0
+  },
+  {
+    "inicio": 134.19,
+    "fim": 137.54,
+    "letra": "Mas 'to doido pr'ocê bagunçar, nega",
+    "cantor": "dueto",
+    "alvoHz": 0
+  },
+  {
+    "inicio": 137.54,
+    "fim": 141.62,
+    "letra": "Nega a saudade não quer sossegar",
+    "cantor": "dueto",
+    "alvoHz": 0
+  },
+  {
+    "inicio": 141.62,
+    "fim": 143.2,
+    "letra": "Só 'tá aumentando",
+    "cantor": "dueto",
+    "alvoHz": 0
+  },
+  {
+    "inicio": 143.2,
+    "fim": 146.09,
+    "letra": "E o seu nego 'tá indo aí pra te buscar",
+    "cantor": "dueto",
+    "alvoHz": 0
+  },
+  {
+    "inicio": 146.09,
+    "fim": 156.03,
+    "letra": "Nega ai ai, eu 'to pronto pra te amar",
+    "cantor": "dueto",
+    "alvoHz": 0
+  },
+  {
+    "inicio": 156.03,
+    "fim": 159.5,
+    "letra": "Uh oh oh pronto pra te amar",
+    "cantor": "dueto",
+    "alvoHz": 0
+  },
+  {
+    "inicio": 159.5,
+    "fim": 160.4,
+    "letra": "♪ Instrumental ♪",
+    "cantor": "intro",
+    "alvoHz": 0
+  },
+  {
+    "inicio": 160.4,
+    "fim": 164.48,
+    "letra": "Eu 'to pronto pra amar vocês viu minhas nega",
+    "cantor": 1,
+    "alvoHz": 0
+  },
+  {
+    "inicio": 164.48,
+    "fim": 166.045896,
+    "letra": "♪ Final ♪",
+    "cantor": "intro",
+    "alvoHz": 0
+  }
+]

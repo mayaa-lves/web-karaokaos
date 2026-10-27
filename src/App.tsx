@@ -1,9 +1,21 @@
 import "./App.css";
 
-import { useEffect, useMemo, useRef, useState } from "react";
+import { useEffect, useMemo, useRef, useState, useSyncExternalStore } from "react";
 import { io } from "socket.io-client";
+import { BABY_TRECHOS, BABY_DURACAO } from "./baby";
+import { BarraEstrelas } from "./BarraEstrelas";
+import { FAIXAS_NOVAS } from "./faixasNovas";
+import { FIO_TRECHOS } from "./fioSincronizado";
+import { mensagemErroAudio } from "./erroAudio";
+import { META_PONTOS, duracaoDoJogador, novoEstadoParticipacao, pontuarParticipacao } from "./pontuacao";
 
-const socket = io("http://localhost:8000");
+const socket = io(import.meta.env.VITE_SERVER_URL || `http://${window.location.hostname}:8000`);
+function acompanharConexao(atualizar: () => void) {
+  socket.on("connect", atualizar);
+  socket.on("disconnect", atualizar);
+  return () => { socket.off("connect", atualizar); socket.off("disconnect", atualizar); };
+}
+const estadoConexao = () => socket.connected;
 
 type Jogador = {
   sid: string;
@@ -55,217 +67,16 @@ type EstadoVoz = {
   ultimoPonto: number;
 };
 
-const DURACAO_ARQUIVO = 180.14;
-
-// ======================================================
-// TRECHOS — NÃO ALTERADOS
-// ======================================================
-
-const TRECHOS: Trecho[] = [
-  // INTRODUÇÃO
-  {
-    inicio: 0,
-    fim: 14.5,
-    cantor: "intro",
-    letra: "♪ Introdução ♪",
-    alvoHz: 220,
-  },
-
-  // PRIMEIRA PARTE
-  {
-    inicio: 14.5,
-    fim: 23.5,
-    cantor: 1,
-    letra: "Quando a gente ama, qualquer coisa serve para relembrar",
-    alvoHz: 196,
-  },
-  {
-    inicio: 23.5,
-    fim: 32.5,
-    cantor: 2,
-    letra: "Um vestido velho da mulher amada tem muito valor",
-    alvoHz: 220,
-  },
-  {
-    inicio: 32.5,
-    fim: 41.5,
-    cantor: 1,
-    letra: "Aquele restinho do perfume dela que ficou no frasco",
-    alvoHz: 196,
-  },
-  {
-    inicio: 41.5,
-    fim: 47.5,
-    cantor: 2,
-    letra: "Sobre a penteadeira, mostrando que o quarto",
-    alvoHz: 220,
-  },
-  {
-    inicio: 47.5,
-    fim: 52.5,
-    cantor: 2,
-    letra: "Já foi o cenário de um grande amor",
-    alvoHz: 246.94,
-  },
-  {
-    inicio: 52.5,
-    fim: 58.5,
-    cantor: 1,
-    letra: "E hoje o que encontrei me deixou mais triste",
-    alvoHz: 220,
-  },
-  {
-    inicio: 58.5,
-    fim: 62.5,
-    cantor: 2,
-    letra: "Um pedacinho dela que existe",
-    alvoHz: 246.94,
-  },
-
-  // PRIMEIRO REFRÃO
-  {
-    inicio: 62.5,
-    fim: 68.5,
-    cantor: "dueto",
-    letra: "Um fio de cabelo no meu paletó",
-    alvoHz: 261.63,
-  },
-  {
-    inicio: 68.5,
-    fim: 73.5,
-    cantor: 1,
-    letra: "Lembrei de tudo entre nós",
-    alvoHz: 220,
-  },
-  {
-    inicio: 73.5,
-    fim: 77.5,
-    cantor: 2,
-    letra: "Do amor vivido",
-    alvoHz: 246.94,
-  },
-  {
-    inicio: 77.5,
-    fim: 83.5,
-    cantor: "dueto",
-    letra: "Aquele fio de cabelo comprido",
-    alvoHz: 261.63,
-  },
-  {
-    inicio: 83.5,
-    fim: 89.5,
-    cantor: "dueto",
-    letra: "Já esteve grudado em nosso suor",
-    alvoHz: 220,
-  },
-
-  // PAUSA INSTRUMENTAL ENTRE AS PARTES
-  {
-    inicio: 89.5,
-    fim: 97.5,
-    cantor: "intro",
-    letra: "♪ Instrumental ♪",
-    alvoHz: 220,
-  },
-
-  // SEGUNDA PARTE
-  {
-    inicio: 97.5,
-    fim: 106.5,
-    cantor: 1,
-    letra: "Quando a gente ama e não vive junto com a pessoa amada",
-    alvoHz: 196,
-  },
-  {
-    inicio: 106.5,
-    fim: 115.5,
-    cantor: 2,
-    letra: "Uma coisa à toa é um bom motivo pra gente chorar",
-    alvoHz: 220,
-  },
-  {
-    inicio: 115.5,
-    fim: 123.5,
-    cantor: 1,
-    letra: "Apagam-se as luzes ao chegar a hora de ir para a cama",
-    alvoHz: 196,
-  },
-  {
-    inicio: 123.5,
-    fim: 129.5,
-    cantor: 2,
-    letra: "A gente começa a esperar por quem ama",
-    alvoHz: 220,
-  },
-  {
-    inicio: 129.5,
-    fim: 134.5,
-    cantor: 2,
-    letra: "Na impressão de que ela venha se deitar",
-    alvoHz: 246.94,
-  },
-
-  // SEGUNDA ENTRADA
-  {
-    inicio: 134.5,
-    fim: 140.5,
-    cantor: 1,
-    letra: "E hoje o que encontrei me deixou mais triste",
-    alvoHz: 220,
-  },
-  {
-    inicio: 140.5,
-    fim: 145.5,
-    cantor: 2,
-    letra: "Um pedacinho dela que existe",
-    alvoHz: 246.94,
-  },
-
-  // REFRÃO FINAL
-  {
-    inicio: 145.5,
-    fim: 151.5,
-    cantor: "dueto",
-    letra: "Um fio de cabelo no meu paletó",
-    alvoHz: 261.63,
-  },
-  {
-    inicio: 151.5,
-    fim: 156.5,
-    cantor: 1,
-    letra: "Lembrei de tudo entre nós",
-    alvoHz: 220,
-  },
-  {
-    inicio: 156.5,
-    fim: 160.5,
-    cantor: 2,
-    letra: "Do amor vivido",
-    alvoHz: 246.94,
-  },
-  {
-    inicio: 160.5,
-    fim: 166.5,
-    cantor: "dueto",
-    letra: "Aquele fio de cabelo comprido",
-    alvoHz: 261.63,
-  },
-  {
-    inicio: 166.5,
-    fim: 173.5,
-    cantor: "dueto",
-    letra: "Já esteve grudado em nosso suor",
-    alvoHz: 220,
-  },
-
-  // FINAL INSTRUMENTAL
-  {
-    inicio: 173.5,
-    fim: 180.14,
-    cantor: "intro",
-    letra: "♪ Final ♪",
-    alvoHz: 220,
-  },
+type Musica = {
+  id: string; titulo: string; artista: string; arquivo: string;
+  duracao: number; trechos: Trecho[]; afinacao: boolean; letraSincronizada: boolean;
+};
+const CATALOGO: Musica[] = [
+  { id: "baby", titulo: "Baby", artista: "Justin Bieber", arquivo: "/musicas/baby-compativel.mp3",
+    duracao: BABY_DURACAO, trechos: BABY_TRECHOS, afinacao: false, letraSincronizada: true },
+  { id: "fio-de-cabelo", titulo: "Fio de Cabelo", artista: "Chitãozinho & Xororó", arquivo: "/musicas/fio-de-cabelo.mp3",
+    duracao: 180.1404, trechos: FIO_TRECHOS, afinacao: true, letraSincronizada: true },
+  ...FAIXAS_NOVAS,
 ];
 
 // ======================================================
@@ -350,14 +161,19 @@ function calcularCents(frequencia: number, alvo: number) {
 
 function App() {
   const [tela, setTela] = useState<Tela>("home");
+  const [musicaId, setMusicaId] = useState("baby");
+  const musica = CATALOGO.find((faixa) => faixa.id === musicaId) ?? CATALOGO[0];
+  const trechos = musica.trechos;
+  const tocandoRef = useRef(false);
+  const [erroAudio, setErroAudio] = useState("");
   const [pin, setPin] = useState("");
   const [jogadores, setJogadores] = useState<Jogador[]>([]);
-  const [conectadoServidor, setConectadoServidor] = useState(false);
+  const conectadoServidor = useSyncExternalStore(acompanharConexao, estadoConexao);
 
   const [contagem, setContagem] = useState(3);
 
   const [tempo, setTempo] = useState(0);
-  const [duracao, setDuracao] = useState(DURACAO_ARQUIVO);
+  const [duracao, setDuracao] = useState(musica.duracao);
 
   const [pontos1, setPontos1] = useState(0);
   const [pontos2, setPontos2] = useState(0);
@@ -377,10 +193,53 @@ function App() {
   const [pitchPosicao, setPitchPosicao] = useState(50);
 
   const audioRef = useRef<HTMLAudioElement | null>(null);
+  const recuperandoAudio = useRef(false);
+  const cancelarRecuperacao = useRef<(() => void) | null>(null);
+
+  function tentarNovamenteAudio() {
+    const audio = audioRef.current;
+    if (!audio || recuperandoAudio.current) return;
+    const posicao = tempoRef.current;
+    cancelarRecuperacao.current?.();
+    recuperandoAudio.current = true;
+    tocandoRef.current = false;
+    audio.pause();
+    setErroAudio("Recarregando o áudio…");
+
+    function limpar() {
+      audio!.removeEventListener("loadedmetadata", retomar);
+      audio!.removeEventListener("error", falhou);
+      cancelarRecuperacao.current = null;
+    }
+    function falhou() {
+      limpar();
+      recuperandoAudio.current = false;
+      if (audioRef.current === audio) setErroAudio(mensagemErroAudio(audio!.error?.code));
+    }
+    function retomar() {
+      limpar();
+      if (audioRef.current !== audio) return;
+      try {
+        audio!.currentTime = Math.max(0, Math.min(posicao, musica.duracao - 0.05));
+        recuperandoAudio.current = false;
+        void audio!.play().catch(() => setErroAudio("Clique em Reproduzir para continuar o áudio."));
+      } catch {
+        recuperandoAudio.current = false;
+        setErroAudio("Não foi possível retomar a faixa. Tente novamente.");
+      }
+    }
+    audio.addEventListener("loadedmetadata", retomar);
+    audio.addEventListener("error", falhou);
+    cancelarRecuperacao.current = limpar;
+    audio.load();
+  }
   const jogoFinalizado = useRef(false);
   const tempoRef = useRef(0);
   const telaRef = useRef<Tela>("home");
   const ultimoChaosRef = useRef<number | null>(null);
+
+  const participacao1 = useRef(novoEstadoParticipacao());
+  const participacao2 = useRef(novoEstadoParticipacao());
 
   const estado1 = useRef<EstadoVoz>({
     ultimaFrequencia: null,
@@ -398,38 +257,20 @@ function App() {
     telaRef.current = tela;
   }, [tela]);
 
-  useEffect(() => {
-    tempoRef.current = tempo;
-  }, [tempo]);
 
   // ====================================================
   // SOCKET
   // ====================================================
 
   useEffect(() => {
-    function conectar() {
-      setConectadoServidor(true);
-    }
-
-    function desconectar() {
-      setConectadoServidor(false);
-    }
-
     function atualizarJogadores(dados: { jogadores: Jogador[] }) {
       setJogadores(dados.jogadores);
     }
 
-    socket.on("connect", conectar);
-    socket.on("disconnect", desconectar);
     socket.on("jogadores_atualizados", atualizarJogadores);
 
-    if (socket.connected) {
-      setConectadoServidor(true);
-    }
 
     return () => {
-      socket.off("connect", conectar);
-      socket.off("disconnect", desconectar);
       socket.off("jogadores_atualizados", atualizarJogadores);
     };
   }, []);
@@ -465,6 +306,9 @@ function App() {
 
   function resetarJogo() {
     jogoFinalizado.current = false;
+    tocandoRef.current = false;
+    setErroAudio("");
+    setDuracao(musica.duracao);
     tempoRef.current = 0;
     ultimoChaosRef.current = null;
 
@@ -482,6 +326,8 @@ function App() {
 
     setTempo(0);
 
+    participacao1.current = novoEstadoParticipacao();
+    participacao2.current = novoEstadoParticipacao();
     setPontos1(0);
     setPontos2(0);
 
@@ -551,7 +397,7 @@ function App() {
       return;
     }
 
-    const audio = new Audio("/musicas/fio-de-cabelo.mp3");
+    const audio = new Audio(musica.arquivo);
 
     audio.preload = "auto";
     audioRef.current = audio;
@@ -559,17 +405,19 @@ function App() {
     let animationId = 0;
 
     function atualizarRelogio() {
-      const atual = audio.currentTime;
-
-      tempoRef.current = atual;
-      setTempo(atual);
-
+      // Preserva a última posição válida se o arquivo falhar ou estiver recarregando.
+      if (!audio.error && !recuperandoAudio.current) {
+        const atual = Math.min(audio.currentTime, musica.duracao);
+        if (audio.currentTime >= musica.duracao) { terminou(); return; }
+        tempoRef.current = atual;
+        setTempo(atual);
+      }
       animationId = requestAnimationFrame(atualizarRelogio);
     }
 
     function carregou() {
       if (Number.isFinite(audio.duration)) {
-        setDuracao(audio.duration);
+        setDuracao(Math.min(audio.duration, musica.duracao));
       }
     }
 
@@ -579,79 +427,84 @@ function App() {
       }
 
       jogoFinalizado.current = true;
+      tocandoRef.current = false;
+      audio.pause();
 
       if (pin) {
         socket.emit("finalizar_partida", {pin})
       }
 
-      setTempo(audio.duration || DURACAO_ARQUIVO);
+      setTempo(Math.min(audio.duration || musica.duracao, musica.duracao));
 
-      window.setTimeout(() => {
-        setTela("resultado");
-      }, 650);
+      setTela("resultado");
     }
 
+    function tocou() { tocandoRef.current = true; setErroAudio(""); }
+    function pausou() {
+      tocandoRef.current = false;
+      participacao1.current = novoEstadoParticipacao();
+      participacao2.current = novoEstadoParticipacao();
+    }
+    function reposicionou() { if (!audio.paused && !audio.ended) tocou(); }
+    function falhou() {
+      tocandoRef.current = false;
+      setErroAudio(mensagemErroAudio(audio.error?.code));
+    }
+    audio.addEventListener("playing", tocou);
+    audio.addEventListener("pause", pausou);
+    audio.addEventListener("waiting", pausou);
+    audio.addEventListener("seeking", pausou);
+    audio.addEventListener("seeked", reposicionou);
+    audio.addEventListener("error", falhou);
     audio.addEventListener("loadedmetadata", carregou);
     audio.addEventListener("ended", terminou);
 
-    audio
-      .play()
-      .then(() => {
-        animationId = requestAnimationFrame(atualizarRelogio);
-      })
-      .catch((erro) => {
-        console.error("Erro ao tocar música:", erro);
-      });
+    animationId = requestAnimationFrame(atualizarRelogio);
+    audio.play().catch(() => setErroAudio("Clique em Reproduzir para liberar o áudio."));
 
     return () => {
       cancelAnimationFrame(animationId);
-
+      cancelarRecuperacao.current?.();
+      recuperandoAudio.current = false;
       audio.pause();
 
+      tocandoRef.current = false;
+      audio.removeEventListener("playing", tocou);
+      audio.removeEventListener("pause", pausou);
+      audio.removeEventListener("waiting", pausou);
+      audio.removeEventListener("seeking", pausou);
+      audio.removeEventListener("seeked", reposicionou);
+      audio.removeEventListener("error", falhou);
       audio.removeEventListener("loadedmetadata", carregou);
       audio.removeEventListener("ended", terminou);
 
       audioRef.current = null;
     };
-  }, [tela]);
+  }, [tela, musica.arquivo, musica.duracao, pin]);
 
   // ====================================================
   // LETRA
   // ====================================================
 
-  const trechoAtual = useMemo(() => {
-    return (
-      TRECHOS.find(
-        (trecho) =>
-          tempo >= trecho.inicio &&
-          tempo < trecho.fim
-      ) ?? TRECHOS[TRECHOS.length - 1]
-    );
-  }, [tempo]);
-
-  const indiceTrecho = TRECHOS.findIndex(
-    (item) => item === trechoAtual
-  );
-
-  const trechoAnterior =
-    indiceTrecho > 0 ? TRECHOS[indiceTrecho - 1] : null;
-
-  const proximoTrecho =
-    indiceTrecho >= 0 && indiceTrecho < TRECHOS.length - 1
-      ? TRECHOS[indiceTrecho + 1]
-      : null;
+  const trechoAtual = useMemo(() => trechos.find((trecho) =>
+    tempo >= trecho.inicio && tempo < trecho.fim
+  ) ?? { inicio: tempo, fim: tempo, cantor: "intro" as Cantor, letra: "♪ Instrumental ♪", alvoHz: 0 }, [tempo, trechos]);
+  const indiceTrecho = trechos.indexOf(trechoAtual);
+  const trechoAnterior = indiceTrecho > 0 ? trechos[indiceTrecho - 1] : null;
+  const proximoTrecho = trechos.find((trecho) => trecho.inicio > tempo) ?? null;
 
   // ====================================================
   // CHAOS
   // ====================================================
 
   const chaosAtual = useMemo(() => {
+    if (tela !== "jogo") return undefined;
     return EVENTOS_CHAOS.find(
       (evento) =>
         tempo >= evento.inicio &&
         tempo < evento.fim
     );
-  }, [tempo]);
+  }, [tempo, tela]);
 
   const segundosChaos = chaosAtual
     ? Math.max(1, Math.ceil(chaosAtual.fim - tempo))
@@ -727,6 +580,7 @@ function App() {
 
   useEffect(() => {
     function receberMicrofone(dados: DadosMicrofone) {
+      if (dados.jogador !== 1 && dados.jogador !== 2) return;
       if (telaRef.current !== "jogo") {
         return;
       }
@@ -738,6 +592,32 @@ function App() {
 
       if (dados.jogador === 2) {
         setFrequencia2(dados.frequencia);
+      }
+
+      if (!musica.afinacao) {
+        const jogador = dados.jogador as 1 | 2;
+        const estado = jogador === 1 ? participacao1 : participacao2;
+        const trecho = trechos.find((t) => tempoRef.current >= t.inicio && tempoRef.current < t.fim);
+        const leitura = pontuarParticipacao(estado.current, {
+          tempo: tempoRef.current, recebido: performance.now(),
+          frequencia: dados.frequencia, volume: dados.volume,
+          tocando: tocandoRef.current && !jogoFinalizado.current,
+          jogador, trecho, duracaoElegivel: duracaoDoJogador(trechos, jogador),
+        });
+        estado.current = leitura.estado;
+        if (leitura.pontos > 0) {
+          if (jogador === 1) {
+            setPontos1((pontos) => Math.min(META_PONTOS, pontos + leitura.pontos));
+            setCombo1((combo) => combo + 1);
+          } else {
+            setPontos2((pontos) => Math.min(META_PONTOS, pontos + leitura.pontos));
+            setCombo2((combo) => combo + 1);
+          }
+          setFeedback(`VOZ DETECTADA +${leitura.pontos}`);
+        } else if (!leitura.estado.valido) {
+          if (jogador === 1) setCombo1(0); else setCombo2(0);
+        }
+        return;
       }
 
       // Sem frequência válida = sem pontuação.
@@ -754,15 +634,16 @@ function App() {
         return;
       }
 
+      if (!tocandoRef.current || jogoFinalizado.current) return;
       const agoraMusica = tempoRef.current;
 
-      const trecho = TRECHOS.find(
+      const trecho = trechos.find(
         (item) =>
           agoraMusica >= item.inicio &&
           agoraMusica < item.fim
       );
 
-      if (!trecho || trecho.cantor === "intro") {
+      if (!trecho || trecho.cantor === "intro" || trecho.alvoHz <= 0) {
         return;
       }
 
@@ -862,7 +743,7 @@ function App() {
       }
 
       let pontos = 0;
-      let mensagem = "";
+      let mensagem: string;
 
       /*
         Mais tolerante que antes,
@@ -918,7 +799,7 @@ function App() {
     return () => {
       socket.off("dados_microfone", receberMicrofone);
     };
-  }, []);
+  }, [trechos, musica.afinacao]);
 
   // ====================================================
   // FUNÇÕES VISUAIS
@@ -1125,40 +1006,23 @@ function App() {
             <h2>Preparados?</h2>
 
             <p>
-              Música preparada para a demonstração.
+              Escolha a música para a demonstração.
             </p>
           </div>
 
-          <div className="song-card">
-            <div className="album-art">
-              🎤
-            </div>
-
-            <div className="song-info">
-              <span className="demo-badge">
-                DEMO
-              </span>
-
-              <h3>Fio de Cabelo</h3>
-
-              <p>
-                Chitãozinho &amp; Xororó
-              </p>
-
-              <div className="song-meta">
-                <span>3:00</span>
-                <span>•</span>
-                <span>2 jogadores</span>
-                <span>•</span>
-                <span>7 desafios</span>
+          {CATALOGO.map((faixa) => (
+            <button type="button" key={faixa.id} className={`song-card song-choice ${musicaId === faixa.id ? "song-active" : ""}`}
+              aria-pressed={musicaId === faixa.id} onClick={() => setMusicaId(faixa.id)}>
+              <div className="album-art">🎤</div>
+              <div className="song-info">
+                <span className="demo-badge">{faixa.letraSincronizada ? "ÁUDIO LOCAL" : "INSTRUMENTAL · MODO LIVRE"}</span>
+                <h3>{faixa.titulo}</h3>
+                <p>{faixa.artista}</p>
+                <div className="song-meta"><span>{formatarTempo(faixa.duracao)}</span><span>•</span><span>2 jogadores</span></div>
               </div>
-            </div>
-
-            <div className="song-check">
-              ✓
-            </div>
-          </div>
-
+              <div className="song-check">{musicaId === faixa.id ? "✓" : ""}</div>
+            </button>
+          ))}
           <button
             className="big-primary"
             onClick={iniciarContagem}
@@ -1225,11 +1089,11 @@ function App() {
 
           <div className="song-playing">
             <strong>
-              Fio de Cabelo
+              {musica.titulo}
             </strong>
 
             <span>
-              Chitãozinho &amp; Xororó
+              {musica.artista}
             </span>
           </div>
 
@@ -1274,6 +1138,7 @@ function App() {
                 )}
               </div>
 
+              <BarraEstrelas pontos={pontos1} nome={nome1} />
               <small>
                 🔥 COMBO x{combo1}
               </small>
@@ -1299,6 +1164,7 @@ function App() {
                 )}
               </div>
 
+              <BarraEstrelas pontos={pontos2} nome={nome2} />
               <small>
                 🔥 COMBO x{combo2}
               </small>
@@ -1331,20 +1197,24 @@ function App() {
 
             <div className="lyrics">
               <p className="previous-lyric">
-                {trechoAnterior?.letra ?? "♪"}
+                {musica.letraSincronizada ? trechoAnterior?.letra ?? "♪" : "MODO INSTRUMENTAL"}
               </p>
 
               <h1>
-                {trechoAtual.letra}
+                {musica.letraSincronizada ? trechoAtual.letra : musica.titulo}
               </h1>
 
               <p className="next-lyric">
-                {proximoTrecho?.letra ??
-                  "♪ Fim ♪"}
+                {musica.letraSincronizada ? proximoTrecho?.letra ?? "♪ Fim ♪" : "Cante com o áudio • letra sincronizada ainda não cadastrada"}
               </p>
             </div>
 
-            {trechoAtual.cantor !== "intro" && (
+            {!musica.afinacao && <div className="voice-participation">
+              <strong>{trechoAtual.cantor === "intro" ? "PREPAREM OS MICROFONES" : feedback}</strong>
+              <small>PONTOS POR PARTICIPAÇÃO VOCAL</small>
+            </div>}
+
+            {trechoAtual.cantor !== "intro" && trechoAtual.alvoHz > 0 && (
               <div className="pitch-panel">
                 <div className="pitch-labels">
                   <span>GRAVE</span>
@@ -1375,6 +1245,18 @@ function App() {
           </section>
         </section>
 
+        <div className="local-audio-controls">
+          <button onClick={() => { void audioRef.current?.play().catch(() => setErroAudio("Não foi possível reproduzir o áudio.")); }}>Reproduzir</button>
+          <button onClick={() => audioRef.current?.pause()}>Pausar</button>
+          <button onClick={() => {
+            if (pin) socket.emit("finalizar_partida", { pin });
+            setTela("musicas");
+          }}>← Trocar música</button>
+          {erroAudio && <div className="audio-recovery" role="alert">
+            <p>{erroAudio}</p>
+            <button onClick={tentarNovamenteAudio}>Tentar novamente</button>
+          </div>}
+        </div>
         <footer className="game-progress">
           <div className="progress-track">
             <div
@@ -1428,7 +1310,7 @@ function App() {
           </h1>
 
           <p className="result-song">
-            Fio de Cabelo
+            {musica.titulo}
           </p>
 
           <div className="final-scores">
@@ -1444,6 +1326,7 @@ function App() {
               </b>
 
               <small>pontos</small>
+              <BarraEstrelas pontos={pontos1} nome={nome1} />
             </div>
 
             <div className="versus">
@@ -1462,6 +1345,7 @@ function App() {
               </b>
 
               <small>pontos</small>
+              <BarraEstrelas pontos={pontos2} nome={nome2} />
             </div>
           </div>
 

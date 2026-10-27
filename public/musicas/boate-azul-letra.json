@@ -1,0 +1,195 @@
+{
+  "musica": "boate-azul",
+  "metodo": "Marcação inicial por estrutura musical; sem alinhamento vocal confirmado",
+  "trechos": [
+    {
+      "inicio": 0,
+      "fim": 29.13,
+      "cantor": "intro",
+      "letra": "♪ Introdução ♪",
+      "alvoHz": 0
+    },
+    {
+      "inicio": 29.13,
+      "fim": 36.553,
+      "cantor": 1,
+      "letra": "Doente de amor, procurei remédio na vida noturna",
+      "alvoHz": 0
+    },
+    {
+      "inicio": 36.553,
+      "fim": 43.975,
+      "cantor": 2,
+      "letra": "Com a flor da noite em uma boate aqui na zona sul",
+      "alvoHz": 0
+    },
+    {
+      "inicio": 43.975,
+      "fim": 51.398,
+      "cantor": 1,
+      "letra": "A dor do amor é com outro amor que a gente cura",
+      "alvoHz": 0
+    },
+    {
+      "inicio": 51.398,
+      "fim": 58.821,
+      "cantor": 2,
+      "letra": "Vim curar a dor desse mal de amor na boate azul",
+      "alvoHz": 0
+    },
+    {
+      "inicio": 58.821,
+      "fim": 66.243,
+      "cantor": 1,
+      "letra": "E quando a noite vai se agonizando no clarão da aurora",
+      "alvoHz": 0
+    },
+    {
+      "inicio": 66.243,
+      "fim": 73.666,
+      "cantor": 2,
+      "letra": "Os integrantes da vida noturna se foram dormir",
+      "alvoHz": 0
+    },
+    {
+      "inicio": 73.666,
+      "fim": 81.089,
+      "cantor": 1,
+      "letra": "E a dama da noite que estava comigo também foi embora",
+      "alvoHz": 0
+    },
+    {
+      "inicio": 81.089,
+      "fim": 88.511,
+      "cantor": 2,
+      "letra": "Fecharam-se as portas, sozinho de novo tive que sair",
+      "alvoHz": 0
+    },
+    {
+      "inicio": 88.511,
+      "fim": 95.934,
+      "cantor": "dueto",
+      "letra": "Sair de que jeito se nem sei o rumo para onde vou",
+      "alvoHz": 0
+    },
+    {
+      "inicio": 95.934,
+      "fim": 99.645,
+      "cantor": "dueto",
+      "letra": "Muito vagamente me lembro que estou",
+      "alvoHz": 0
+    },
+    {
+      "inicio": 99.645,
+      "fim": 103.357,
+      "cantor": "dueto",
+      "letra": "Em uma boate aqui na zona sul",
+      "alvoHz": 0
+    },
+    {
+      "inicio": 103.357,
+      "fim": 110.779,
+      "cantor": "dueto",
+      "letra": "Eu bebi demais e não consigo me lembrar sequer",
+      "alvoHz": 0
+    },
+    {
+      "inicio": 110.779,
+      "fim": 114.491,
+      "cantor": "dueto",
+      "letra": "Qual era o nome daquela mulher",
+      "alvoHz": 0
+    },
+    {
+      "inicio": 114.491,
+      "fim": 118.202,
+      "cantor": "dueto",
+      "letra": "A flor da noite na boate azul",
+      "alvoHz": 0
+    },
+    {
+      "inicio": 118.202,
+      "fim": 133.048,
+      "cantor": "intro",
+      "letra": "♪ Instrumental ♪",
+      "alvoHz": 0
+    },
+    {
+      "inicio": 133.048,
+      "fim": 140.47,
+      "cantor": 1,
+      "letra": "E quando a noite vai se agonizando no clarão da aurora",
+      "alvoHz": 0
+    },
+    {
+      "inicio": 140.47,
+      "fim": 147.893,
+      "cantor": 2,
+      "letra": "Os integrantes da vida noturna se foram dormir",
+      "alvoHz": 0
+    },
+    {
+      "inicio": 147.893,
+      "fim": 155.316,
+      "cantor": 1,
+      "letra": "E a dama da noite que estava comigo também foi embora",
+      "alvoHz": 0
+    },
+    {
+      "inicio": 155.316,
+      "fim": 162.738,
+      "cantor": 2,
+      "letra": "Fecharam-se as portas, sozinho de novo tive que sair",
+      "alvoHz": 0
+    },
+    {
+      "inicio": 162.738,
+      "fim": 170.161,
+      "cantor": "dueto",
+      "letra": "Sair de que jeito se nem sei o rumo para onde vou",
+      "alvoHz": 0
+    },
+    {
+      "inicio": 170.161,
+      "fim": 173.872,
+      "cantor": "dueto",
+      "letra": "Muito vagamente me lembro que estou",
+      "alvoHz": 0
+    },
+    {
+      "inicio": 173.872,
+      "fim": 177.584,
+      "cantor": "dueto",
+      "letra": "Em uma boate aqui na zona sul",
+      "alvoHz": 0
+    },
+    {
+      "inicio": 177.584,
+      "fim": 185.006,
+      "cantor": "dueto",
+      "letra": "Eu bebi demais e não consigo me lembrar sequer",
+      "alvoHz": 0
+    },
+    {
+      "inicio": 185.006,
+      "fim": 188.718,
+      "cantor": "dueto",
+      "letra": "Qual era o nome daquela mulher",
+      "alvoHz": 0
+    },
+    {
+      "inicio": 188.718,
+      "fim": 192.429,
+      "cantor": "dueto",
+      "letra": "A flor da noite na boate azul",
+      "alvoHz": 0
+    },
+    {
+      "inicio": 192.429,
+      "fim": 200,
+      "cantor": "intro",
+      "letra": "♪ Final ♪",
+      "alvoHz": 0
+    }
+  ]
+}

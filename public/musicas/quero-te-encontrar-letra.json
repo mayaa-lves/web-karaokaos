@@ -1,0 +1,436 @@
+[
+  {
+    "inicio": 0,
+    "fim": 20.49,
+    "cantor": "intro",
+    "letra": "♪ Introdução ♪",
+    "alvoHz": 0
+  },
+  {
+    "inicio": 20.49,
+    "fim": 22.68,
+    "cantor": 1,
+    "letra": "Quando você vem",
+    "alvoHz": 0
+  },
+  {
+    "inicio": 22.68,
+    "fim": 24.9,
+    "cantor": 2,
+    "letra": "Pra passar o fim de semana",
+    "alvoHz": 0
+  },
+  {
+    "inicio": 24.9,
+    "fim": 27.99,
+    "cantor": 1,
+    "letra": "Eu finjo estar tudo bem",
+    "alvoHz": 0
+  },
+  {
+    "inicio": 27.99,
+    "fim": 30.06,
+    "cantor": 2,
+    "letra": "Mesmo duro ou com grana",
+    "alvoHz": 0
+  },
+  {
+    "inicio": 30.06,
+    "fim": 35.95,
+    "cantor": 1,
+    "letra": "É que você ignora tudo que eu faço",
+    "alvoHz": 0
+  },
+  {
+    "inicio": 35.95,
+    "fim": 38.09,
+    "cantor": 2,
+    "letra": "Depois vai embora",
+    "alvoHz": 0
+  },
+  {
+    "inicio": 38.09,
+    "fim": 40.69,
+    "cantor": 1,
+    "letra": "Desatando os nossos laços",
+    "alvoHz": 0
+  },
+  {
+    "inicio": 40.69,
+    "fim": 43.13,
+    "cantor": "dueto",
+    "letra": "Quero te encontrar",
+    "alvoHz": 0
+  },
+  {
+    "inicio": 43.13,
+    "fim": 45.3,
+    "cantor": "dueto",
+    "letra": "Quero te amar",
+    "alvoHz": 0
+  },
+  {
+    "inicio": 45.3,
+    "fim": 48.06,
+    "cantor": "dueto",
+    "letra": "Você pra mim é tudo",
+    "alvoHz": 0
+  },
+  {
+    "inicio": 48.06,
+    "fim": 50.89,
+    "cantor": "dueto",
+    "letra": "Minha terra, meu céu, meu mar",
+    "alvoHz": 0
+  },
+  {
+    "inicio": 50.89,
+    "fim": 53.27,
+    "cantor": "dueto",
+    "letra": "Quero te encontrar",
+    "alvoHz": 0
+  },
+  {
+    "inicio": 53.27,
+    "fim": 55.59,
+    "cantor": "dueto",
+    "letra": "Quero te amar",
+    "alvoHz": 0
+  },
+  {
+    "inicio": 55.59,
+    "fim": 58.24,
+    "cantor": "dueto",
+    "letra": "Você pra mim é tudo",
+    "alvoHz": 0
+  },
+  {
+    "inicio": 58.24,
+    "fim": 62.83,
+    "cantor": "dueto",
+    "letra": "Minha terra, meu céu, meu mar",
+    "alvoHz": 0
+  },
+  {
+    "inicio": 62.83,
+    "fim": 71.01,
+    "cantor": "intro",
+    "letra": "♪ Instrumental ♪",
+    "alvoHz": 0
+  },
+  {
+    "inicio": 71.01,
+    "fim": 73.01,
+    "cantor": 2,
+    "letra": "Quando você vem",
+    "alvoHz": 0
+  },
+  {
+    "inicio": 73.01,
+    "fim": 75.39,
+    "cantor": 1,
+    "letra": "Pra passar o fim de semana",
+    "alvoHz": 0
+  },
+  {
+    "inicio": 75.39,
+    "fim": 78.31,
+    "cantor": 2,
+    "letra": "Eu finjo estar tudo bem",
+    "alvoHz": 0
+  },
+  {
+    "inicio": 78.31,
+    "fim": 80.52,
+    "cantor": 1,
+    "letra": "Mesmo duro ou com grana",
+    "alvoHz": 0
+  },
+  {
+    "inicio": 80.52,
+    "fim": 86.6,
+    "cantor": 2,
+    "letra": "É que você ignora tudo que eu faço",
+    "alvoHz": 0
+  },
+  {
+    "inicio": 86.6,
+    "fim": 88.63,
+    "cantor": 1,
+    "letra": "Depois vai embora",
+    "alvoHz": 0
+  },
+  {
+    "inicio": 88.63,
+    "fim": 91.15,
+    "cantor": 2,
+    "letra": "Desatando os nossos laços",
+    "alvoHz": 0
+  },
+  {
+    "inicio": 91.15,
+    "fim": 93.6,
+    "cantor": "dueto",
+    "letra": "Quero te encontrar",
+    "alvoHz": 0
+  },
+  {
+    "inicio": 93.6,
+    "fim": 95.92,
+    "cantor": "dueto",
+    "letra": "Quero te amar",
+    "alvoHz": 0
+  },
+  {
+    "inicio": 95.92,
+    "fim": 98.62,
+    "cantor": "dueto",
+    "letra": "Você pra mim é tudo",
+    "alvoHz": 0
+  },
+  {
+    "inicio": 98.62,
+    "fim": 101.35,
+    "cantor": "dueto",
+    "letra": "Minha terra, meu céu, meu mar",
+    "alvoHz": 0
+  },
+  {
+    "inicio": 101.35,
+    "fim": 103.62,
+    "cantor": "dueto",
+    "letra": "Quero te encontrar",
+    "alvoHz": 0
+  },
+  {
+    "inicio": 103.62,
+    "fim": 105.86,
+    "cantor": "dueto",
+    "letra": "Quero te amar",
+    "alvoHz": 0
+  },
+  {
+    "inicio": 105.86,
+    "fim": 108.6,
+    "cantor": "dueto",
+    "letra": "Você pra mim é tudo",
+    "alvoHz": 0
+  },
+  {
+    "inicio": 108.6,
+    "fim": 111.89,
+    "cantor": "dueto",
+    "letra": "Minha terra, meu céu, meu mar",
+    "alvoHz": 0
+  },
+  {
+    "inicio": 111.89,
+    "fim": 114.45,
+    "cantor": 1,
+    "letra": "É muita ousadia ter que percorrer",
+    "alvoHz": 0
+  },
+  {
+    "inicio": 114.45,
+    "fim": 117.08,
+    "cantor": 2,
+    "letra": "O país inteiro pra achar você",
+    "alvoHz": 0
+  },
+  {
+    "inicio": 117.08,
+    "fim": 119.69,
+    "cantor": 1,
+    "letra": "Mas tudo que eu faço tem um bom motivo",
+    "alvoHz": 0
+  },
+  {
+    "inicio": 119.69,
+    "fim": 121.95,
+    "cantor": 2,
+    "letra": "Linda, eu te amo, vem ficar comigo",
+    "alvoHz": 0
+  },
+  {
+    "inicio": 121.95,
+    "fim": 124.44,
+    "cantor": 1,
+    "letra": "Tô alucinado pelo seu olhar",
+    "alvoHz": 0
+  },
+  {
+    "inicio": 124.44,
+    "fim": 126.94,
+    "cantor": 2,
+    "letra": "Vou aonde for até te encontrar",
+    "alvoHz": 0
+  },
+  {
+    "inicio": 126.94,
+    "fim": 129.54,
+    "cantor": 1,
+    "letra": "Eu te amo demais, você é minha paz",
+    "alvoHz": 0
+  },
+  {
+    "inicio": 129.54,
+    "fim": 134.64,
+    "cantor": 2,
+    "letra": "Faz amor gostoso de novo comigo, faz",
+    "alvoHz": 0
+  },
+  {
+    "inicio": 134.64,
+    "fim": 137.38,
+    "cantor": 1,
+    "letra": "Faz",
+    "alvoHz": 0
+  },
+  {
+    "inicio": 137.38,
+    "fim": 139.54,
+    "cantor": "dueto",
+    "letra": "Quero te encontrar",
+    "alvoHz": 0
+  },
+  {
+    "inicio": 139.54,
+    "fim": 141.91,
+    "cantor": "dueto",
+    "letra": "Quero te amar",
+    "alvoHz": 0
+  },
+  {
+    "inicio": 141.91,
+    "fim": 144.87,
+    "cantor": "dueto",
+    "letra": "Você pra mim é tudo",
+    "alvoHz": 0
+  },
+  {
+    "inicio": 144.87,
+    "fim": 147.42000000000002,
+    "cantor": "dueto",
+    "letra": "Minha terra, meu céu, meu mar",
+    "alvoHz": 0
+  },
+  {
+    "inicio": 147.42000000000002,
+    "fim": 149.92000000000002,
+    "cantor": "dueto",
+    "letra": "Quero te encontrar (ooh-ooh)",
+    "alvoHz": 0
+  },
+  {
+    "inicio": 149.92000000000002,
+    "fim": 152.24,
+    "cantor": "dueto",
+    "letra": "Quero te amar",
+    "alvoHz": 0
+  },
+  {
+    "inicio": 152.24,
+    "fim": 155.06,
+    "cantor": "dueto",
+    "letra": "Você pra mim é tudo",
+    "alvoHz": 0
+  },
+  {
+    "inicio": 155.06,
+    "fim": 157.57,
+    "cantor": "dueto",
+    "letra": "Minha terra, meu céu, meu mar",
+    "alvoHz": 0
+  },
+  {
+    "inicio": 157.57,
+    "fim": 159.99,
+    "cantor": "dueto",
+    "letra": "Quero te encontrar",
+    "alvoHz": 0
+  },
+  {
+    "inicio": 159.99,
+    "fim": 162.28,
+    "cantor": "dueto",
+    "letra": "Quero te amar",
+    "alvoHz": 0
+  },
+  {
+    "inicio": 162.28,
+    "fim": 165.12,
+    "cantor": "dueto",
+    "letra": "Você pra mim é tudo",
+    "alvoHz": 0
+  },
+  {
+    "inicio": 165.12,
+    "fim": 167.72,
+    "cantor": "dueto",
+    "letra": "Minha terra, meu céu, meu mar",
+    "alvoHz": 0
+  },
+  {
+    "inicio": 167.72,
+    "fim": 170.18,
+    "cantor": "dueto",
+    "letra": "Quero te encontrar (ooh-ooh)",
+    "alvoHz": 0
+  },
+  {
+    "inicio": 170.18,
+    "fim": 172.48,
+    "cantor": "dueto",
+    "letra": "Quero te amar",
+    "alvoHz": 0
+  },
+  {
+    "inicio": 172.48,
+    "fim": 175.1,
+    "cantor": "dueto",
+    "letra": "Você pra mim é tudo",
+    "alvoHz": 0
+  },
+  {
+    "inicio": 175.1,
+    "fim": 177.6,
+    "cantor": "dueto",
+    "letra": "Minha terra, meu céu, meu mar",
+    "alvoHz": 0
+  },
+  {
+    "inicio": 177.6,
+    "fim": 182.66,
+    "cantor": "dueto",
+    "letra": "Quero te-te encontrar",
+    "alvoHz": 0
+  },
+  {
+    "inicio": 182.66,
+    "fim": 187.93,
+    "cantor": "dueto",
+    "letra": "Quero te-te encontrar",
+    "alvoHz": 0
+  },
+  {
+    "inicio": 187.93,
+    "fim": 192.86,
+    "cantor": "dueto",
+    "letra": "Quero te-te encontrar",
+    "alvoHz": 0
+  },
+  {
+    "inicio": 192.86,
+    "fim": 195.24,
+    "cantor": "dueto",
+    "letra": "Quero te encontrar",
+    "alvoHz": 0
+  },
+  {
+    "inicio": 195.24,
+    "fim": 227.989002,
+    "cantor": "intro",
+    "letra": "♪ Final ♪",
+    "alvoHz": 0
+  }
+]

@@ -1,0 +1,303 @@
+[
+  {
+    "inicio": 0,
+    "fim": 20.34,
+    "letra": "♪ Introdução ♪",
+    "cantor": "intro",
+    "alvoHz": 0
+  },
+  {
+    "inicio": 20.34,
+    "fim": 25.5,
+    "letra": "Foi bonito, foi, foi intenso, foi verdadeiro",
+    "cantor": 1,
+    "alvoHz": 0
+  },
+  {
+    "inicio": 25.5,
+    "fim": 27.38,
+    "letra": "Mas sincero",
+    "cantor": 2,
+    "alvoHz": 0
+  },
+  {
+    "inicio": 27.38,
+    "fim": 32.1,
+    "letra": "Sei que fui capaz, fiz até demais, te quis",
+    "cantor": 1,
+    "alvoHz": 0
+  },
+  {
+    "inicio": 32.1,
+    "fim": 34.51,
+    "letra": "Do seu jeito",
+    "cantor": 2,
+    "alvoHz": 0
+  },
+  {
+    "inicio": 34.51,
+    "fim": 38.04,
+    "letra": "Te amei, te mostrei",
+    "cantor": 1,
+    "alvoHz": 0
+  },
+  {
+    "inicio": 38.04,
+    "fim": 41.57,
+    "letra": "Que o meu amor foi o mais profundo",
+    "cantor": 2,
+    "alvoHz": 0
+  },
+  {
+    "inicio": 41.57,
+    "fim": 45.82,
+    "letra": "Me doei, me entreguei, fui fiel",
+    "cantor": 1,
+    "alvoHz": 0
+  },
+  {
+    "inicio": 45.82,
+    "fim": 48.03,
+    "letra": "Chorei, chorei",
+    "cantor": 2,
+    "alvoHz": 0
+  },
+  {
+    "inicio": 48.03,
+    "fim": 51.63,
+    "letra": "Hoje eu acordei, me veio a falta de você",
+    "cantor": "dueto",
+    "alvoHz": 0
+  },
+  {
+    "inicio": 51.63,
+    "fim": 55.01,
+    "letra": "Saudade de você, saudade de você",
+    "cantor": "dueto",
+    "alvoHz": 0
+  },
+  {
+    "inicio": 55.01,
+    "fim": 58.45,
+    "letra": "Lembrei que me acordava de manhã só pra dizer",
+    "cantor": "dueto",
+    "alvoHz": 0
+  },
+  {
+    "inicio": 58.45,
+    "fim": 62.147647,
+    "letra": "Bom dia, meu bebê, te amo, meu bebê",
+    "cantor": "dueto",
+    "alvoHz": 0
+  },
+  {
+    "inicio": 62.147647,
+    "fim": 65.747647,
+    "letra": "Hoje eu acordei, me veio a falta de você",
+    "cantor": "dueto",
+    "alvoHz": 0
+  },
+  {
+    "inicio": 65.747647,
+    "fim": 69.127647,
+    "letra": "Saudade de você, saudade de você",
+    "cantor": "dueto",
+    "alvoHz": 0
+  },
+  {
+    "inicio": 69.127647,
+    "fim": 72.567647,
+    "letra": "Lembrei que me acordava de manhã só pra dizer",
+    "cantor": "dueto",
+    "alvoHz": 0
+  },
+  {
+    "inicio": 72.567647,
+    "fim": 76.265,
+    "letra": "Bom dia, meu bebê, te amo, meu bebê",
+    "cantor": "dueto",
+    "alvoHz": 0
+  },
+  {
+    "inicio": 76.265,
+    "fim": 90.928235,
+    "letra": "♪ Instrumental ♪",
+    "cantor": "intro",
+    "alvoHz": 0
+  },
+  {
+    "inicio": 90.928235,
+    "fim": 96.088235,
+    "letra": "Foi bonito, foi, foi intenso, foi verdadeiro",
+    "cantor": 1,
+    "alvoHz": 0
+  },
+  {
+    "inicio": 96.088235,
+    "fim": 97.968235,
+    "letra": "Mas sincero",
+    "cantor": 2,
+    "alvoHz": 0
+  },
+  {
+    "inicio": 97.968235,
+    "fim": 102.688235,
+    "letra": "Sei que fui capaz, fiz até demais, te quis",
+    "cantor": 1,
+    "alvoHz": 0
+  },
+  {
+    "inicio": 102.688235,
+    "fim": 105.098235,
+    "letra": "Do seu jeito",
+    "cantor": 2,
+    "alvoHz": 0
+  },
+  {
+    "inicio": 105.098235,
+    "fim": 108.628235,
+    "letra": "Te amei, te mostrei",
+    "cantor": 1,
+    "alvoHz": 0
+  },
+  {
+    "inicio": 108.628235,
+    "fim": 112.158235,
+    "letra": "Que o meu amor foi o mais profundo",
+    "cantor": 2,
+    "alvoHz": 0
+  },
+  {
+    "inicio": 112.158235,
+    "fim": 116.408235,
+    "letra": "Me doei, me entreguei, fui fiel",
+    "cantor": 1,
+    "alvoHz": 0
+  },
+  {
+    "inicio": 116.408235,
+    "fim": 118.618235,
+    "letra": "Chorei, chorei",
+    "cantor": 2,
+    "alvoHz": 0
+  },
+  {
+    "inicio": 118.618235,
+    "fim": 122.218235,
+    "letra": "Hoje eu acordei, me veio a falta de você",
+    "cantor": "dueto",
+    "alvoHz": 0
+  },
+  {
+    "inicio": 122.218235,
+    "fim": 125.598235,
+    "letra": "Saudade de você, saudade de você",
+    "cantor": "dueto",
+    "alvoHz": 0
+  },
+  {
+    "inicio": 125.598235,
+    "fim": 129.038235,
+    "letra": "Lembrei que me acordava de manhã só pra dizer",
+    "cantor": "dueto",
+    "alvoHz": 0
+  },
+  {
+    "inicio": 129.038235,
+    "fim": 132.735882,
+    "letra": "Bom dia, meu bebê, te amo, meu bebê",
+    "cantor": "dueto",
+    "alvoHz": 0
+  },
+  {
+    "inicio": 132.735882,
+    "fim": 136.335882,
+    "letra": "Hoje eu acordei, me veio a falta de você",
+    "cantor": "dueto",
+    "alvoHz": 0
+  },
+  {
+    "inicio": 136.335882,
+    "fim": 139.715882,
+    "letra": "Saudade de você, saudade de você",
+    "cantor": "dueto",
+    "alvoHz": 0
+  },
+  {
+    "inicio": 139.715882,
+    "fim": 143.155882,
+    "letra": "Lembrei que me acordava de manhã só pra dizer",
+    "cantor": "dueto",
+    "alvoHz": 0
+  },
+  {
+    "inicio": 143.155882,
+    "fim": 146.853529,
+    "letra": "Bom dia, meu bebê, te amo, meu bebê",
+    "cantor": "dueto",
+    "alvoHz": 0
+  },
+  {
+    "inicio": 146.853529,
+    "fim": 150.453529,
+    "letra": "Hoje eu acordei, me veio a falta de você",
+    "cantor": "dueto",
+    "alvoHz": 0
+  },
+  {
+    "inicio": 150.453529,
+    "fim": 153.833529,
+    "letra": "Saudade de você, saudade de você",
+    "cantor": "dueto",
+    "alvoHz": 0
+  },
+  {
+    "inicio": 153.833529,
+    "fim": 157.273529,
+    "letra": "Lembrei que me acordava de manhã só pra dizer",
+    "cantor": "dueto",
+    "alvoHz": 0
+  },
+  {
+    "inicio": 157.273529,
+    "fim": 160.971176,
+    "letra": "Bom dia, meu bebê, te amo, meu bebê",
+    "cantor": "dueto",
+    "alvoHz": 0
+  },
+  {
+    "inicio": 160.971176,
+    "fim": 164.571176,
+    "letra": "Hoje eu acordei, me veio a falta de você",
+    "cantor": "dueto",
+    "alvoHz": 0
+  },
+  {
+    "inicio": 164.571176,
+    "fim": 167.951176,
+    "letra": "Saudade de você, saudade de você",
+    "cantor": "dueto",
+    "alvoHz": 0
+  },
+  {
+    "inicio": 167.951176,
+    "fim": 171.391176,
+    "letra": "Lembrei que me acordava de manhã só pra dizer",
+    "cantor": "dueto",
+    "alvoHz": 0
+  },
+  {
+    "inicio": 171.391176,
+    "fim": 175.089,
+    "letra": "Bom dia, meu bebê, te amo, meu bebê",
+    "cantor": "dueto",
+    "alvoHz": 0
+  },
+  {
+    "inicio": 175.089,
+    "fim": 202.385125,
+    "letra": "♪ Final ♪",
+    "cantor": "intro",
+    "alvoHz": 0
+  }
+]

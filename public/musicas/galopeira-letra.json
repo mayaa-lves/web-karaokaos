@@ -1,0 +1,202 @@
+{
+  "musica": "galopeira",
+  "metodo": "Marcação inicial por estrutura musical; sem alinhamento vocal confirmado",
+  "trechos": [
+    {
+      "inicio": 0,
+      "fim": 18.549,
+      "cantor": "intro",
+      "letra": "♪ Introdução ♪",
+      "alvoHz": 0
+    },
+    {
+      "inicio": 18.549,
+      "fim": 21.373,
+      "cantor": 1,
+      "letra": "Foi num baile em Assunción",
+      "alvoHz": 0
+    },
+    {
+      "inicio": 21.373,
+      "fim": 24.196,
+      "cantor": 2,
+      "letra": "Capital do Paraguai",
+      "alvoHz": 0
+    },
+    {
+      "inicio": 24.196,
+      "fim": 27.02,
+      "cantor": 1,
+      "letra": "Onde eu vi as paraguaias",
+      "alvoHz": 0
+    },
+    {
+      "inicio": 27.02,
+      "fim": 29.843,
+      "cantor": 2,
+      "letra": "Sorridentes a bailar",
+      "alvoHz": 0
+    },
+    {
+      "inicio": 29.843,
+      "fim": 32.667,
+      "cantor": 1,
+      "letra": "E ao som de suas guitarras",
+      "alvoHz": 0
+    },
+    {
+      "inicio": 32.667,
+      "fim": 35.49,
+      "cantor": 2,
+      "letra": "Quatro guapos a cantar",
+      "alvoHz": 0
+    },
+    {
+      "inicio": 35.49,
+      "fim": 38.314,
+      "cantor": 1,
+      "letra": "Galopeira, galopeira",
+      "alvoHz": 0
+    },
+    {
+      "inicio": 38.314,
+      "fim": 41.137,
+      "cantor": 2,
+      "letra": "Eu também entrei a dançar",
+      "alvoHz": 0
+    },
+    {
+      "inicio": 41.137,
+      "fim": 43.961,
+      "cantor": 1,
+      "letra": "Foi num baile em Assunción",
+      "alvoHz": 0
+    },
+    {
+      "inicio": 43.961,
+      "fim": 46.784,
+      "cantor": 2,
+      "letra": "Capital do Paraguai",
+      "alvoHz": 0
+    },
+    {
+      "inicio": 46.784,
+      "fim": 49.608,
+      "cantor": 1,
+      "letra": "Onde eu vi as paraguaias",
+      "alvoHz": 0
+    },
+    {
+      "inicio": 49.608,
+      "fim": 52.431,
+      "cantor": 2,
+      "letra": "Sorridentes a bailar",
+      "alvoHz": 0
+    },
+    {
+      "inicio": 52.431,
+      "fim": 55.255,
+      "cantor": 1,
+      "letra": "E ao som de suas guitarras",
+      "alvoHz": 0
+    },
+    {
+      "inicio": 55.255,
+      "fim": 58.078,
+      "cantor": 2,
+      "letra": "Quatro guapos a cantar",
+      "alvoHz": 0
+    },
+    {
+      "inicio": 58.078,
+      "fim": 60.902,
+      "cantor": 1,
+      "letra": "Galopeira, galopeira",
+      "alvoHz": 0
+    },
+    {
+      "inicio": 60.902,
+      "fim": 63.726,
+      "cantor": 2,
+      "letra": "Eu também entrei a dançar",
+      "alvoHz": 0
+    },
+    {
+      "inicio": 63.726,
+      "fim": 65.137,
+      "cantor": "intro",
+      "letra": "♪ Instrumental ♪",
+      "alvoHz": 0
+    },
+    {
+      "inicio": 65.137,
+      "fim": 85.255,
+      "cantor": "dueto",
+      "letra": "Galopeira, nunca mais te esquecerei",
+      "alvoHz": 0
+    },
+    {
+      "inicio": 85.255,
+      "fim": 93.725,
+      "cantor": "dueto",
+      "letra": "Galopeira, pra matar minha saudade",
+      "alvoHz": 0
+    },
+    {
+      "inicio": 93.725,
+      "fim": 102.196,
+      "cantor": "dueto",
+      "letra": "Pra minha felicidade, Paraguai, eu voltarei",
+      "alvoHz": 0
+    },
+    {
+      "inicio": 102.196,
+      "fim": 110.667,
+      "cantor": "dueto",
+      "letra": "Pra minha felicidade, Paraguai, eu voltarei",
+      "alvoHz": 0
+    },
+    {
+      "inicio": 110.667,
+      "fim": 126.549,
+      "cantor": "intro",
+      "letra": "♪ Instrumental ♪",
+      "alvoHz": 0
+    },
+    {
+      "inicio": 126.549,
+      "fim": 146.667,
+      "cantor": "dueto",
+      "letra": "Galopeira, nunca mais te esquecerei",
+      "alvoHz": 0
+    },
+    {
+      "inicio": 146.667,
+      "fim": 155.137,
+      "cantor": "dueto",
+      "letra": "Galopeira, pra matar minha saudade",
+      "alvoHz": 0
+    },
+    {
+      "inicio": 155.137,
+      "fim": 163.608,
+      "cantor": "dueto",
+      "letra": "Pra minha felicidade Paraguai, eu voltarei",
+      "alvoHz": 0
+    },
+    {
+      "inicio": 163.608,
+      "fim": 172.078,
+      "cantor": "dueto",
+      "letra": "Pra minha felicidade Paraguai, eu voltarei",
+      "alvoHz": 0
+    },
+    {
+      "inicio": 172.078,
+      "fim": 178.143492,
+      "cantor": "intro",
+      "letra": "♪ Final ♪",
+      "alvoHz": 0
+    }
+  ]
+}

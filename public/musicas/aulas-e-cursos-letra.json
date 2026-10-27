@@ -1,0 +1,492 @@
+[
+  {
+    "inicio": 0,
+    "fim": 2.98,
+    "letra": "♪ Introdução ♪",
+    "cantor": "intro",
+    "alvoHz": 0
+  },
+  {
+    "inicio": 2.98,
+    "fim": 7.17,
+    "letra": "É Thiérre no beat, porra",
+    "cantor": 1,
+    "alvoHz": 0
+  },
+  {
+    "inicio": 7.17,
+    "fim": 16.27,
+    "letra": "♪ Instrumental ♪",
+    "cantor": "intro",
+    "alvoHz": 0
+  },
+  {
+    "inicio": 16.27,
+    "fim": 18.42,
+    "letra": "Gasto dinheiro em espécie, não confio em nenhum banco",
+    "cantor": 2,
+    "alvoHz": 0
+  },
+  {
+    "inicio": 18.42,
+    "fim": 20.53,
+    "letra": "Ela senta em mim, não confia em nenhum banco",
+    "cantor": 1,
+    "alvoHz": 0
+  },
+  {
+    "inicio": 20.53,
+    "fim": 22.42,
+    "letra": "Tô de Nike vestindo o meu manto",
+    "cantor": 2,
+    "alvoHz": 0
+  },
+  {
+    "inicio": 22.42,
+    "fim": 24.71,
+    "letra": "Bebendo uísque de canto",
+    "cantor": 1,
+    "alvoHz": 0
+  },
+  {
+    "inicio": 24.71,
+    "fim": 26.79,
+    "letra": "As pedras no caminho coloquei nas minhas joias",
+    "cantor": 2,
+    "alvoHz": 0
+  },
+  {
+    "inicio": 26.79,
+    "fim": 29.21,
+    "letra": "Tô brilhando tanto, é impossível de ignorar",
+    "cantor": 1,
+    "alvoHz": 0
+  },
+  {
+    "inicio": 29.21,
+    "fim": 31.23,
+    "letra": "Ay, do palco agitando a party",
+    "cantor": 2,
+    "alvoHz": 0
+  },
+  {
+    "inicio": 31.23,
+    "fim": 33.28,
+    "letra": "Dreads balançando tipo um rastafari",
+    "cantor": 1,
+    "alvoHz": 0
+  },
+  {
+    "inicio": 33.28,
+    "fim": 35.15,
+    "letra": "E eu tava na pior, aflito (alright)",
+    "cantor": 2,
+    "alvoHz": 0
+  },
+  {
+    "inicio": 35.15,
+    "fim": 37.42,
+    "letra": "No corre suando litros (alright)",
+    "cantor": 1,
+    "alvoHz": 0
+  },
+  {
+    "inicio": 37.42,
+    "fim": 39.73,
+    "letra": "Hoje ela me liga falando que eu tô",
+    "cantor": 2,
+    "alvoHz": 0
+  },
+  {
+    "inicio": 39.73,
+    "fim": 41.68,
+    "letra": "Cada dia mais bonito, lindo",
+    "cantor": 1,
+    "alvoHz": 0
+  },
+  {
+    "inicio": 41.68,
+    "fim": 43.69,
+    "letra": "Yeah, agora chegou a minha vez",
+    "cantor": 2,
+    "alvoHz": 0
+  },
+  {
+    "inicio": 43.69,
+    "fim": 46.4,
+    "letra": "Porque esse boy virou uma estrela",
+    "cantor": 1,
+    "alvoHz": 0
+  },
+  {
+    "inicio": 46.4,
+    "fim": 47.93,
+    "letra": "Falei pra ela esquecer o ex",
+    "cantor": 2,
+    "alvoHz": 0
+  },
+  {
+    "inicio": 47.93,
+    "fim": 50.56,
+    "letra": "Que de bundão já basta o dela",
+    "cantor": 1,
+    "alvoHz": 0
+  },
+  {
+    "inicio": 50.56,
+    "fim": 54.76,
+    "letra": "Woah, é fogo na party, gelo no pulso",
+    "cantor": "dueto",
+    "alvoHz": 0
+  },
+  {
+    "inicio": 54.76,
+    "fim": 59.29,
+    "letra": "Woah, sentando essa mami, dá aulas e cursos",
+    "cantor": "dueto",
+    "alvoHz": 0
+  },
+  {
+    "inicio": 59.29,
+    "fim": 63.12,
+    "letra": "Woah, é fogo na party, gelo no pulso",
+    "cantor": "dueto",
+    "alvoHz": 0
+  },
+  {
+    "inicio": 63.12,
+    "fim": 67.78,
+    "letra": "Woah, sentando essa mami, dá aulas e cursos",
+    "cantor": "dueto",
+    "alvoHz": 0
+  },
+  {
+    "inicio": 67.78,
+    "fim": 69.08,
+    "letra": "Yeah, fazer grana é o hobby",
+    "cantor": 2,
+    "alvoHz": 0
+  },
+  {
+    "inicio": 69.08,
+    "fim": 71.26,
+    "letra": "E o deles é falar de nóis, não é de hoje",
+    "cantor": 1,
+    "alvoHz": 0
+  },
+  {
+    "inicio": 71.26,
+    "fim": 73.24,
+    "letra": "Mas se eu piar com o meu bonde",
+    "cantor": 2,
+    "alvoHz": 0
+  },
+  {
+    "inicio": 73.24,
+    "fim": 75.23,
+    "letra": "Cês vão amarelar tipo emojis",
+    "cantor": 1,
+    "alvoHz": 0
+  },
+  {
+    "inicio": 75.23,
+    "fim": 76.94,
+    "letra": "Se eu lançar a nova onda são vários clones",
+    "cantor": 2,
+    "alvoHz": 0
+  },
+  {
+    "inicio": 76.94,
+    "fim": 79.08,
+    "letra": "E quem mais fala mal é quem mais consome",
+    "cantor": 1,
+    "alvoHz": 0
+  },
+  {
+    "inicio": 79.08,
+    "fim": 81.15,
+    "letra": "Tá ligado que a inveja é o pior mal do homem?",
+    "cantor": 2,
+    "alvoHz": 0
+  },
+  {
+    "inicio": 81.15,
+    "fim": 83.49,
+    "letra": "Tá com o meu nome na boca e o meu som no fone",
+    "cantor": 1,
+    "alvoHz": 0
+  },
+  {
+    "inicio": 83.49,
+    "fim": 85.38,
+    "letra": "Esses manos sempre testam minha paz",
+    "cantor": 2,
+    "alvoHz": 0
+  },
+  {
+    "inicio": 85.38,
+    "fim": 87.83,
+    "letra": "Esses manos sempre testam minha paz",
+    "cantor": 1,
+    "alvoHz": 0
+  },
+  {
+    "inicio": 87.83,
+    "fim": 89.76,
+    "letra": "Cê tem zero fundamento e quer tretar comigo?",
+    "cantor": 2,
+    "alvoHz": 0
+  },
+  {
+    "inicio": 89.76,
+    "fim": 91.6,
+    "letra": "Se depender de mim você vai tretar sozinho",
+    "cantor": 1,
+    "alvoHz": 0
+  },
+  {
+    "inicio": 91.6,
+    "fim": 95.97,
+    "letra": "Porque eu, woah, só sei correr atrás do money",
+    "cantor": 2,
+    "alvoHz": 0
+  },
+  {
+    "inicio": 95.97,
+    "fim": 100.88,
+    "letra": "Fiz um show ontem, taquei fogo na party, yeah",
+    "cantor": 1,
+    "alvoHz": 0
+  },
+  {
+    "inicio": 100.88,
+    "fim": 105.11,
+    "letra": "Woah, é fogo na party, gelo no pulso",
+    "cantor": "dueto",
+    "alvoHz": 0
+  },
+  {
+    "inicio": 105.11,
+    "fim": 109.27,
+    "letra": "Woah, sentando essa mami, dá aulas e cursos",
+    "cantor": "dueto",
+    "alvoHz": 0
+  },
+  {
+    "inicio": 109.27,
+    "fim": 113.6,
+    "letra": "Woah, é fogo na party, gelo no pulso",
+    "cantor": "dueto",
+    "alvoHz": 0
+  },
+  {
+    "inicio": 113.6,
+    "fim": 117.95,
+    "letra": "Woah, sentando essa mami, dá aulas e cursos",
+    "cantor": "dueto",
+    "alvoHz": 0
+  },
+  {
+    "inicio": 117.95,
+    "fim": 119.74,
+    "letra": "Manos sem sal nunca curti",
+    "cantor": 2,
+    "alvoHz": 0
+  },
+  {
+    "inicio": 119.74,
+    "fim": 121.95,
+    "letra": "Baby só quer me seduzir",
+    "cantor": 1,
+    "alvoHz": 0
+  },
+  {
+    "inicio": 121.95,
+    "fim": 123.57,
+    "letra": "Ela tipo use e abuse",
+    "cantor": 2,
+    "alvoHz": 0
+  },
+  {
+    "inicio": 123.57,
+    "fim": 126.17,
+    "letra": "Sujou de batom minha peita da Gucci",
+    "cantor": 1,
+    "alvoHz": 0
+  },
+  {
+    "inicio": 126.17,
+    "fim": 128.74,
+    "letra": "Matando a cena, sem rastros",
+    "cantor": 2,
+    "alvoHz": 0
+  },
+  {
+    "inicio": 128.74,
+    "fim": 130.48,
+    "letra": "Fiz 10 mil sem gastos",
+    "cantor": 1,
+    "alvoHz": 0
+  },
+  {
+    "inicio": 130.48,
+    "fim": 132.07,
+    "letra": "Falo três línguas, apenas",
+    "cantor": 2,
+    "alvoHz": 0
+  },
+  {
+    "inicio": 132.07,
+    "fim": 134.48,
+    "letra": "Português, inglês e fatos",
+    "cantor": 1,
+    "alvoHz": 0
+  },
+  {
+    "inicio": 134.48,
+    "fim": 136.33,
+    "letra": "E eu digo fé em Deus",
+    "cantor": 2,
+    "alvoHz": 0
+  },
+  {
+    "inicio": 136.33,
+    "fim": 139.13,
+    "letra": "Grana na conta",
+    "cantor": 1,
+    "alvoHz": 0
+  },
+  {
+    "inicio": 139.13,
+    "fim": 141.28,
+    "letra": "Pra mim e pros meus",
+    "cantor": 2,
+    "alvoHz": 0
+  },
+  {
+    "inicio": 141.28,
+    "fim": 143.16,
+    "letra": "Nada me assombra",
+    "cantor": 1,
+    "alvoHz": 0
+  },
+  {
+    "inicio": 143.16,
+    "fim": 145.13,
+    "letra": "E eles dizem: Evan, se eu duvidei",
+    "cantor": 2,
+    "alvoHz": 0
+  },
+  {
+    "inicio": 145.13,
+    "fim": 147.27,
+    "letra": "Cê pode acreditar, não duvido mais",
+    "cantor": 1,
+    "alvoHz": 0
+  },
+  {
+    "inicio": 147.27,
+    "fim": 148.92,
+    "letra": "Hoje a vida já sorri pra nóis",
+    "cantor": 2,
+    "alvoHz": 0
+  },
+  {
+    "inicio": 148.92,
+    "fim": 151.06,
+    "letra": "Mas nunca vou esquecer que há um tempo atrás",
+    "cantor": 1,
+    "alvoHz": 0
+  },
+  {
+    "inicio": 151.06,
+    "fim": 153.3,
+    "letra": "Tava na pior, aflito (alright)",
+    "cantor": 2,
+    "alvoHz": 0
+  },
+  {
+    "inicio": 153.3,
+    "fim": 155.18,
+    "letra": "No corre suando litros (alright)",
+    "cantor": 1,
+    "alvoHz": 0
+  },
+  {
+    "inicio": 155.18,
+    "fim": 157.33,
+    "letra": "Hoje ela me liga falando que eu tô",
+    "cantor": 2,
+    "alvoHz": 0
+  },
+  {
+    "inicio": 157.33,
+    "fim": 159.56,
+    "letra": "Cada dia mais bonito, lindo",
+    "cantor": 1,
+    "alvoHz": 0
+  },
+  {
+    "inicio": 159.56,
+    "fim": 161.26,
+    "letra": "Yeah, agora chegou a minha vez",
+    "cantor": 2,
+    "alvoHz": 0
+  },
+  {
+    "inicio": 161.26,
+    "fim": 163.81,
+    "letra": "Porque esse boy virou uma estrela",
+    "cantor": 1,
+    "alvoHz": 0
+  },
+  {
+    "inicio": 163.81,
+    "fim": 165.59,
+    "letra": "Falei pra ela esquecer o ex",
+    "cantor": 2,
+    "alvoHz": 0
+  },
+  {
+    "inicio": 165.59,
+    "fim": 168.23,
+    "letra": "Que de bundão já basta o dela",
+    "cantor": 1,
+    "alvoHz": 0
+  },
+  {
+    "inicio": 168.23,
+    "fim": 172.32,
+    "letra": "Woah, é fogo na party, gelo no pulso",
+    "cantor": "dueto",
+    "alvoHz": 0
+  },
+  {
+    "inicio": 172.32,
+    "fim": 176.87,
+    "letra": "Woah, sentando essa mami, dá aulas e cursos",
+    "cantor": "dueto",
+    "alvoHz": 0
+  },
+  {
+    "inicio": 176.87,
+    "fim": 181.02,
+    "letra": "Woah, é fogo na party, gelo no pulso",
+    "cantor": "dueto",
+    "alvoHz": 0
+  },
+  {
+    "inicio": 181.02,
+    "fim": 185.99,
+    "letra": "Woah, sentando essa mami, dá aulas e cursos, yeah",
+    "cantor": "dueto",
+    "alvoHz": 0
+  },
+  {
+    "inicio": 185.99,
+    "fim": 215.205011,
+    "letra": "♪ Final ♪",
+    "cantor": "intro",
+    "alvoHz": 0
+  }
+]
