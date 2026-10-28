@@ -1,3 +1,6 @@
+import { FAIXAS_RECENTES } from "./faixasRecentes.ts";
+import { MEIGA_TRECHOS } from "./meigaEAbusada.ts";
+import { VAGALUMES_TRECHOS } from "./vagalumes.ts";
 import { FAIXAS_ADICIONAIS } from "./faixasAdicionais.ts";
 import { INFIEL_TRECHOS } from "./infiel.ts";
 import { QUERO_TRECHOS } from "./queroTeEncontrar.ts";
@@ -800,6 +803,9 @@ export const BALADA_TRECHOS: TrechoFaixa[] = [
   }
 ];
 export const FAIXAS_NOVAS = [
+  ...FAIXAS_RECENTES,
+  { id: "meiga-e-abusada", titulo: "Meiga e Abusada", artista: "Anitta", arquivo: "/musicas/meiga-e-abusada.webm", duracao: 238.221, trechos: MEIGA_TRECHOS, afinacao: false, letraSincronizada: true },
+  { id: "vagalumes", titulo: "Vagalumes", artista: "Pollo feat. Ivo Mozart", arquivo: "/musicas/vagalumes.webm", duracao: 169.901, trechos: VAGALUMES_TRECHOS, afinacao: false, letraSincronizada: true },
   ...FAIXAS_ADICIONAIS,
   { id: "quero-te-encontrar", titulo: "Quero Te Encontrar", artista: "Claudinho & Buchecha", arquivo: "/musicas/quero-te-encontrar.m4a", duracao: 227.989002, trechos: QUERO_TRECHOS, afinacao: false, letraSincronizada: true },
   { id: "infiel", titulo: "Infiel", artista: "Marília Mendonça", arquivo: "/musicas/infiel.m4a", duracao: 201.943946, trechos: INFIEL_TRECHOS, afinacao: false, letraSincronizada: true },

@@ -7,6 +7,7 @@ import { BarraEstrelas } from "./BarraEstrelas";
 import { FAIXAS_NOVAS } from "./faixasNovas";
 import { FIO_TRECHOS } from "./fioSincronizado";
 import { mensagemErroAudio } from "./erroAudio";
+import { criarPreviaMusical } from "./previaMusical";
 import { META_PONTOS, duracaoDoJogador, novoEstadoParticipacao, pontuarParticipacao } from "./pontuacao";
 
 const socket = io(import.meta.env.VITE_SERVER_URL || `http://${window.location.hostname}:8000`);
@@ -161,6 +162,8 @@ function calcularCents(frequencia: number, alvo: number) {
 
 function App() {
   const [tela, setTela] = useState<Tela>("home");
+  const previa = useMemo(() => criarPreviaMusical(), []);
+  useEffect(() => () => previa.parar(), [tela, previa]);
   const [musicaId, setMusicaId] = useState("baby");
   const musica = CATALOGO.find((faixa) => faixa.id === musicaId) ?? CATALOGO[0];
   const trechos = musica.trechos;
@@ -354,6 +357,7 @@ function App() {
   }
 
   function iniciarContagem() {
+    previa.parar();
     resetarJogo();
 
     if (pin) {
@@ -1012,7 +1016,10 @@ function App() {
 
           {CATALOGO.map((faixa) => (
             <button type="button" key={faixa.id} className={`song-card song-choice ${musicaId === faixa.id ? "song-active" : ""}`}
-              aria-pressed={musicaId === faixa.id} onClick={() => setMusicaId(faixa.id)}>
+              aria-pressed={musicaId === faixa.id}
+              onMouseEnter={() => previa.agendar(faixa.arquivo)}
+              onMouseLeave={() => previa.parar()}
+              onClick={() => { previa.parar(); setMusicaId(faixa.id); }}>
               <div className="album-art">🎤</div>
               <div className="song-info">
                 <span className="demo-badge">{faixa.letraSincronizada ? "ÁUDIO LOCAL" : "INSTRUMENTAL · MODO LIVRE"}</span>

@@ -1513,3 +1513,74 @@ button {
 @media (prefers-reduced-motion: reduce) { .star-stop.star-earned { animation: none; } .star-meter-fill { transition: none; } }
 .audio-recovery { width: 100%; display: flex; align-items: center; justify-content: center; gap: 12px; flex-wrap: wrap; }
 .audio-recovery p { width: auto; margin: 6px 0; }
+
+/* Ajustes visuais: cards compactos em grade. */
+.song-selection {
+  width: min(92%, 1120px);
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  align-items: stretch;
+  gap: 16px;
+}
+
+.song-selection > .selection-heading,
+.song-selection > .big-primary,
+.song-selection > .dev-note {
+  grid-column: 1 / -1;
+}
+
+.song-selection > .big-primary {
+  width: min(100%, 720px);
+  justify-self: center;
+}
+
+.song-selection > .dev-note {
+  text-align: center;
+}
+
+.song-selection > .song-card {
+  min-width: 0;
+  min-height: 126px;
+  padding: 14px;
+  gap: 12px;
+  align-items: center;
+}
+
+.song-selection .album-art {
+  width: 56px;
+  height: 56px;
+  font-size: 27px;
+}
+
+.song-selection .song-info h3 {
+  font-size: 18px;
+  overflow-wrap: anywhere;
+}
+
+.song-selection .song-check {
+  width: 26px;
+  height: 26px;
+}
+
+
+
+
+@media (max-width: 1000px) {
+  .song-selection {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+}
+
+
+
+@media (max-width: 620px) {
+  .song-selection {
+    grid-template-columns: 1fr;
+  }
+}
+
+.next-lyric {
+  font-size: clamp(19px, 1.8vw, 24px);
+  line-height: 1.35;
+  text-wrap: pretty;
+}

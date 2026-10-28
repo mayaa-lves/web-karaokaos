@@ -1,0 +1,312 @@
+type Trecho = { inicio: number; fim: number; cantor: 1 | 2 | "intro" | "dueto"; letra: string; alvoHz: number };
+// Letra fornecida pela Maya; LRC 10733995; deslocamento 7.9211s. Precisão vocal completa não validada; K.O. tem deslocamento inicial estimado pelo início do acompanhamento.
+export const KO_TRECHOS: Trecho[] = [
+  {
+    "inicio": 0,
+    "fim": 20.9311,
+    "cantor": "intro",
+    "letra": "♪ Introdução ♪",
+    "alvoHz": 0
+  },
+  {
+    "inicio": 20.9311,
+    "fim": 23.9811,
+    "cantor": "dueto",
+    "letra": "Seu amor, me pegou",
+    "alvoHz": 0
+  },
+  {
+    "inicio": 23.9811,
+    "fim": 26.7311,
+    "cantor": "dueto",
+    "letra": "Cê bateu tão forte com o teu amor",
+    "alvoHz": 0
+  },
+  {
+    "inicio": 26.7311,
+    "fim": 30.0011,
+    "cantor": "dueto",
+    "letra": "Nocauteou, me tonteou",
+    "alvoHz": 0
+  },
+  {
+    "inicio": 30.0011,
+    "fim": 33.8911,
+    "cantor": "dueto",
+    "letra": "Veio à tona, fui a lona, foi K.O.",
+    "alvoHz": 0
+  },
+  {
+    "inicio": 33.8911,
+    "fim": 44.6811,
+    "cantor": "intro",
+    "letra": "♪ Instrumental ♪",
+    "alvoHz": 0
+  },
+  {
+    "inicio": 44.6811,
+    "fim": 47.3111,
+    "cantor": 1,
+    "letra": "Sempre fui guerreira, mas foi de primeira",
+    "alvoHz": 0
+  },
+  {
+    "inicio": 47.3111,
+    "fim": 50.4611,
+    "cantor": 2,
+    "letra": "Me vi indefesa, coração perdeu a luta, sim",
+    "alvoHz": 0
+  },
+  {
+    "inicio": 50.4611,
+    "fim": 52.9011,
+    "cantor": 1,
+    "letra": "Adeus bebedeira, vida de solteira",
+    "alvoHz": 0
+  },
+  {
+    "inicio": 52.9011,
+    "fim": 54.4411,
+    "cantor": 2,
+    "letra": "Quero sexta-feira estar contigo",
+    "alvoHz": 0
+  },
+  {
+    "inicio": 54.4411,
+    "fim": 56.8711,
+    "cantor": 1,
+    "letra": "Na minha cama juntos coladin",
+    "alvoHz": 0
+  },
+  {
+    "inicio": 56.8711,
+    "fim": 59.6811,
+    "cantor": 2,
+    "letra": "Me beija a noite inteira, sexy na banheira",
+    "alvoHz": 0
+  },
+  {
+    "inicio": 59.6811,
+    "fim": 63.0311,
+    "cantor": 1,
+    "letra": "Vou te dar canseira, quero do início até o fim",
+    "alvoHz": 0
+  },
+  {
+    "inicio": 63.0311,
+    "fim": 66.6711,
+    "cantor": 2,
+    "letra": "E fixa o olhar, fico a te olhar",
+    "alvoHz": 0
+  },
+  {
+    "inicio": 66.6711,
+    "fim": 70.6711,
+    "cantor": 1,
+    "letra": "Vou te falar, fui a lona com o seu",
+    "alvoHz": 0
+  },
+  {
+    "inicio": 70.6711,
+    "fim": 73.4511,
+    "cantor": "dueto",
+    "letra": "Seu amor, me pegou",
+    "alvoHz": 0
+  },
+  {
+    "inicio": 73.4511,
+    "fim": 76.5111,
+    "cantor": "dueto",
+    "letra": "Cê bateu tão forte com o teu amor",
+    "alvoHz": 0
+  },
+  {
+    "inicio": 76.5111,
+    "fim": 79.7611,
+    "cantor": "dueto",
+    "letra": "Nocauteou, me tonteou",
+    "alvoHz": 0
+  },
+  {
+    "inicio": 79.7611,
+    "fim": 83.1111,
+    "cantor": "dueto",
+    "letra": "Veio à tona, fui a lona, foi K.O.",
+    "alvoHz": 0
+  },
+  {
+    "inicio": 83.1111,
+    "fim": 85.8411,
+    "cantor": "dueto",
+    "letra": "Seu amor, me pegou",
+    "alvoHz": 0
+  },
+  {
+    "inicio": 85.8411,
+    "fim": 88.8611,
+    "cantor": "dueto",
+    "letra": "Cê bateu tão forte com o teu amor",
+    "alvoHz": 0
+  },
+  {
+    "inicio": 88.8611,
+    "fim": 92.1011,
+    "cantor": "dueto",
+    "letra": "Nocauteou, me tonteou",
+    "alvoHz": 0
+  },
+  {
+    "inicio": 92.1011,
+    "fim": 94.3711,
+    "cantor": "dueto",
+    "letra": "Veio à tona, fui a lona, foi K.O.",
+    "alvoHz": 0
+  },
+  {
+    "inicio": 94.3711,
+    "fim": 96.7511,
+    "cantor": 2,
+    "letra": "Sempre fui guerreira, mas foi de primeira",
+    "alvoHz": 0
+  },
+  {
+    "inicio": 96.7511,
+    "fim": 99.9511,
+    "cantor": 1,
+    "letra": "Me vi indefesa, coração perdeu a luta, sim",
+    "alvoHz": 0
+  },
+  {
+    "inicio": 99.9511,
+    "fim": 102.3011,
+    "cantor": 2,
+    "letra": "Adeus bebedeira, vida de solteira",
+    "alvoHz": 0
+  },
+  {
+    "inicio": 102.3011,
+    "fim": 104.1711,
+    "cantor": 1,
+    "letra": "Quero sexta-feira estar contigo",
+    "alvoHz": 0
+  },
+  {
+    "inicio": 104.1711,
+    "fim": 106.3711,
+    "cantor": 2,
+    "letra": "Na minha cama juntos coladin",
+    "alvoHz": 0
+  },
+  {
+    "inicio": 106.3711,
+    "fim": 109.3911,
+    "cantor": 1,
+    "letra": "Me beija a noite inteira, sexy na banheira",
+    "alvoHz": 0
+  },
+  {
+    "inicio": 109.3911,
+    "fim": 112.7411,
+    "cantor": 2,
+    "letra": "Vou te dar canseira, quero do inicio até o fim",
+    "alvoHz": 0
+  },
+  {
+    "inicio": 112.7411,
+    "fim": 116.1311,
+    "cantor": 1,
+    "letra": "E fixa o olhar, fico a te olhar",
+    "alvoHz": 0
+  },
+  {
+    "inicio": 116.1311,
+    "fim": 120.1311,
+    "cantor": 2,
+    "letra": "Vou te falar, fui a lona com o seu",
+    "alvoHz": 0
+  },
+  {
+    "inicio": 120.1311,
+    "fim": 123.1611,
+    "cantor": "dueto",
+    "letra": "Seu amor, me pegou",
+    "alvoHz": 0
+  },
+  {
+    "inicio": 123.1611,
+    "fim": 125.9811,
+    "cantor": "dueto",
+    "letra": "Cê bateu tão forte com o teu amor",
+    "alvoHz": 0
+  },
+  {
+    "inicio": 125.9811,
+    "fim": 129.3411,
+    "cantor": "dueto",
+    "letra": "Nocauteou, me tonteou",
+    "alvoHz": 0
+  },
+  {
+    "inicio": 129.3411,
+    "fim": 132.7411,
+    "cantor": "dueto",
+    "letra": "Veio à tona, fui a lona, foi K.O.",
+    "alvoHz": 0
+  },
+  {
+    "inicio": 132.7411,
+    "fim": 135.5511,
+    "cantor": "dueto",
+    "letra": "Seu amor, me pegou",
+    "alvoHz": 0
+  },
+  {
+    "inicio": 135.5511,
+    "fim": 138.3311,
+    "cantor": "dueto",
+    "letra": "Cê bateu tão forte com o teu amor",
+    "alvoHz": 0
+  },
+  {
+    "inicio": 138.3311,
+    "fim": 141.6011,
+    "cantor": "dueto",
+    "letra": "Nocauteou, me tonteou",
+    "alvoHz": 0
+  },
+  {
+    "inicio": 141.6011,
+    "fim": 145.4511,
+    "cantor": "dueto",
+    "letra": "Veio à tona, fui a lona, foi K.O.",
+    "alvoHz": 0
+  },
+  {
+    "inicio": 145.4511,
+    "fim": 147.9411,
+    "cantor": "intro",
+    "letra": "♪ Instrumental ♪",
+    "alvoHz": 0
+  },
+  {
+    "inicio": 147.9411,
+    "fim": 153.0511,
+    "cantor": "dueto",
+    "letra": "Eu me entreguei e decretei K.O.",
+    "alvoHz": 0
+  },
+  {
+    "inicio": 153.0511,
+    "fim": 154.9911,
+    "cantor": "dueto",
+    "letra": "Eu me entreguei e decretei K.O.",
+    "alvoHz": 0
+  },
+  {
+    "inicio": 154.9911,
+    "fim": 181.561,
+    "cantor": "intro",
+    "letra": "♪ Final ♪",
+    "alvoHz": 0
+  }
+];
