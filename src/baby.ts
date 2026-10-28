@@ -1,7 +1,7 @@
 // Letra fornecida pela Maya, marcada na grade musical do MP3 local.
 // O áudio não contém voz principal: não há referência vocal para medir afinação.
 export type TrechoBaby = { inicio: number; fim: number; cantor: 1 | 2 | "dueto" | "intro"; letra: string; alvoHz: number };
-export const BABY_DURACAO = 237.244075;
+export const BABY_DURACAO = 150;
 export const BABY_BPM = 130;
 export const BABY_TRECHOS: TrechoBaby[] = [
   {
@@ -272,142 +272,9 @@ export const BABY_TRECHOS: TrechoBaby[] = [
   },
   {
     "inicio": 147.745,
-    "fim": 151.438,
+    "fim": 150,
     "cantor": 2,
     "letra": "But sometimes it won't be enough",
-    "alvoHz": 0
-  },
-  {
-    "inicio": 151.438,
-    "fim": 155.13,
-    "cantor": 1,
-    "letra": "Nobody told me this day would come",
-    "alvoHz": 0
-  },
-  {
-    "inicio": 155.13,
-    "fim": 158.822,
-    "cantor": 2,
-    "letra": "Now I'm all gone",
-    "alvoHz": 0
-  },
-  {
-    "inicio": 158.822,
-    "fim": 162.515,
-    "cantor": 1,
-    "letra": "You can give all of your love",
-    "alvoHz": 0
-  },
-  {
-    "inicio": 162.515,
-    "fim": 166.207,
-    "cantor": 2,
-    "letra": "But sometimes it just ain't enough",
-    "alvoHz": 0
-  },
-  {
-    "inicio": 166.207,
-    "fim": 169.899,
-    "cantor": 1,
-    "letra": "Never told me this day would come",
-    "alvoHz": 0
-  },
-  {
-    "inicio": 169.899,
-    "fim": 173.592,
-    "cantor": 2,
-    "letra": "Now I'm all gone",
-    "alvoHz": 0
-  },
-  {
-    "inicio": 173.592,
-    "fim": 177.284,
-    "cantor": "dueto",
-    "letra": "Baby, baby, baby, oh",
-    "alvoHz": 0
-  },
-  {
-    "inicio": 177.284,
-    "fim": 180.976,
-    "cantor": "dueto",
-    "letra": "Like baby, baby, baby, no",
-    "alvoHz": 0
-  },
-  {
-    "inicio": 180.976,
-    "fim": 184.668,
-    "cantor": "dueto",
-    "letra": "Like baby, baby, baby, oh",
-    "alvoHz": 0
-  },
-  {
-    "inicio": 184.668,
-    "fim": 188.361,
-    "cantor": "dueto",
-    "letra": "I thought you'd always be mine, mine",
-    "alvoHz": 0
-  },
-  {
-    "inicio": 188.361,
-    "fim": 192.053,
-    "cantor": "dueto",
-    "letra": "Baby, baby, baby, oh",
-    "alvoHz": 0
-  },
-  {
-    "inicio": 192.053,
-    "fim": 195.745,
-    "cantor": "dueto",
-    "letra": "Like baby, baby, baby, no",
-    "alvoHz": 0
-  },
-  {
-    "inicio": 195.745,
-    "fim": 199.438,
-    "cantor": "dueto",
-    "letra": "Like baby, baby, baby, oh",
-    "alvoHz": 0
-  },
-  {
-    "inicio": 199.438,
-    "fim": 203.13,
-    "cantor": "dueto",
-    "letra": "I thought you'd always be mine, mine",
-    "alvoHz": 0
-  },
-  {
-    "inicio": 203.13,
-    "fim": 206.822,
-    "cantor": "dueto",
-    "letra": "I'm gone (yeah-yeah-yeah, yeah-yeah-yeah)",
-    "alvoHz": 0
-  },
-  {
-    "inicio": 206.822,
-    "fim": 210.515,
-    "cantor": "dueto",
-    "letra": "Now I'm all gone (yeah-yeah-yeah, yeah-yeah-yeah)",
-    "alvoHz": 0
-  },
-  {
-    "inicio": 210.515,
-    "fim": 214.207,
-    "cantor": "dueto",
-    "letra": "Now I'm all gone (yeah-yeah-yeah, yeah-yeah-yeah)",
-    "alvoHz": 0
-  },
-  {
-    "inicio": 214.207,
-    "fim": 217.899,
-    "cantor": "dueto",
-    "letra": "Now I'm all gone (gone, gone, gone, gone), I'm gone",
-    "alvoHz": 0
-  },
-  {
-    "inicio": 217.899,
-    "fim": 237.244075,
-    "cantor": "intro",
-    "letra": "♪ Final ♪",
     "alvoHz": 0
   }
 ];
