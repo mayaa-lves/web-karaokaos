@@ -1,538 +1,538 @@
 [
   {
     "inicio": 0,
-    "fim": 33.845551,
+    "fim": 34.695551,
     "cantor": "intro",
     "letra": "♪ Introdução ♪",
     "alvoHz": 0
   },
   {
-    "inicio": 33.845551,
-    "fim": 39.195551,
+    "inicio": 34.695551,
+    "fim": 40.045551,
     "cantor": 1,
     "letra": "Yo te miro y se me corta la respiración",
     "alvoHz": 0
   },
   {
-    "inicio": 39.195551,
-    "fim": 42.015551,
+    "inicio": 40.045551,
+    "fim": 42.865551,
     "cantor": 2,
     "letra": "Cuando tú me miras, se me sube el corazón",
     "alvoHz": 0
   },
   {
-    "inicio": 42.015551,
-    "fim": 44.515551,
+    "inicio": 42.865551,
+    "fim": 45.365551,
     "cantor": 1,
     "letra": "(Me palpita lento el corazón)",
     "alvoHz": 0
   },
   {
-    "inicio": 44.515551,
-    "fim": 49.645551,
+    "inicio": 45.365551,
+    "fim": 50.495551,
     "cantor": 2,
     "letra": "Y en un silencio, tu mirada dice mil palabras",
     "alvoHz": 0
   },
   {
-    "inicio": 49.645551,
-    "fim": 54.415551,
+    "inicio": 50.495551,
+    "fim": 55.265551,
     "cantor": 1,
     "letra": "La noche en la que te suplico que no salga el Sol",
     "alvoHz": 0
   },
   {
-    "inicio": 54.415551,
-    "fim": 57.055551,
+    "inicio": 55.265551,
+    "fim": 57.905551,
     "cantor": "dueto",
     "letra": "Bailando (bailando)",
     "alvoHz": 0
   },
   {
-    "inicio": 57.055551,
-    "fim": 59.195551,
+    "inicio": 57.905551,
+    "fim": 60.045551,
     "cantor": "dueto",
     "letra": "Bailando (bailando)",
     "alvoHz": 0
   },
   {
-    "inicio": 59.195551,
-    "fim": 61.685551,
+    "inicio": 60.045551,
+    "fim": 62.535551,
     "cantor": "dueto",
     "letra": "Tu cuerpo y el mío, llenando el vacío",
     "alvoHz": 0
   },
   {
-    "inicio": 61.685551,
-    "fim": 64.845551,
+    "inicio": 62.535551,
+    "fim": 65.695551,
     "cantor": "dueto",
     "letra": "Subiendo y bajando (subiendo y bajando)",
     "alvoHz": 0
   },
   {
-    "inicio": 64.845551,
-    "fim": 67.475551,
+    "inicio": 65.695551,
+    "fim": 68.325551,
     "cantor": "dueto",
     "letra": "Bailando (bailando)",
     "alvoHz": 0
   },
   {
-    "inicio": 67.475551,
-    "fim": 69.685551,
+    "inicio": 68.325551,
+    "fim": 70.535551,
     "cantor": "dueto",
     "letra": "Bailando (bailando)",
     "alvoHz": 0
   },
   {
-    "inicio": 69.685551,
-    "fim": 72.255551,
+    "inicio": 70.535551,
+    "fim": 73.105551,
     "cantor": "dueto",
     "letra": "Ese fuego por dentro me va enloqueciendo",
     "alvoHz": 0
   },
   {
-    "inicio": 72.255551,
-    "fim": 74.735551,
+    "inicio": 73.105551,
+    "fim": 75.585551,
     "cantor": "dueto",
     "letra": "Me va saturando",
     "alvoHz": 0
   },
   {
-    "inicio": 74.735551,
-    "fim": 77.535551,
+    "inicio": 75.585551,
+    "fim": 78.385551,
     "cantor": 2,
     "letra": "Con tu física y tu química, también tu anatomía",
     "alvoHz": 0
   },
   {
-    "inicio": 77.535551,
-    "fim": 80.235551,
+    "inicio": 78.385551,
+    "fim": 81.085551,
     "cantor": 1,
     "letra": "La cerveza y el tequila, y tu boca con la mía",
     "alvoHz": 0
   },
   {
-    "inicio": 80.235551,
-    "fim": 82.645551,
+    "inicio": 81.085551,
+    "fim": 83.495551,
     "cantor": 2,
     "letra": "Y ya no puedo más (ya no puedo más)",
     "alvoHz": 0
   },
   {
-    "inicio": 82.645551,
-    "fim": 85.675551,
+    "inicio": 83.495551,
+    "fim": 86.525551,
     "cantor": 1,
     "letra": "Ya no puedo más (ya no puedo más)",
     "alvoHz": 0
   },
   {
-    "inicio": 85.675551,
-    "fim": 88.245551,
+    "inicio": 86.525551,
+    "fim": 89.095551,
     "cantor": 2,
     "letra": "Con esta melodía, tu color, tu fantasía",
     "alvoHz": 0
   },
   {
-    "inicio": 88.245551,
-    "fim": 90.405551,
+    "inicio": 89.095551,
+    "fim": 91.255551,
     "cantor": 1,
     "letra": "Con tu filosofía, mi cabeza está vacía",
     "alvoHz": 0
   },
   {
-    "inicio": 90.405551,
-    "fim": 93.465551,
+    "inicio": 91.255551,
+    "fim": 94.315551,
     "cantor": 2,
     "letra": "Y ya no puedo más (ya no puedo más)",
     "alvoHz": 0
   },
   {
-    "inicio": 93.465551,
-    "fim": 95.815551,
+    "inicio": 94.315551,
+    "fim": 96.665551,
     "cantor": 1,
     "letra": "Ya no puedo más (ya no puedo más)",
     "alvoHz": 0
   },
   {
-    "inicio": 95.815551,
-    "fim": 98.925551,
+    "inicio": 96.665551,
+    "fim": 99.775551,
     "cantor": "dueto",
     "letra": "Yo quiero estar contigo, vivir contigo",
     "alvoHz": 0
   },
   {
-    "inicio": 98.925551,
-    "fim": 101.375551,
+    "inicio": 99.775551,
+    "fim": 102.225551,
     "cantor": "dueto",
     "letra": "Bailar contigo, tener contigo",
     "alvoHz": 0
   },
   {
-    "inicio": 101.375551,
-    "fim": 103.855551,
+    "inicio": 102.225551,
+    "fim": 104.705551,
     "cantor": "dueto",
     "letra": "Una noche loca (una noche loca)",
     "alvoHz": 0
   },
   {
-    "inicio": 103.855551,
-    "fim": 106.465551,
+    "inicio": 104.705551,
+    "fim": 107.315551,
     "cantor": "dueto",
     "letra": "Ay, besar tu boca (y besar tu boca)",
     "alvoHz": 0
   },
   {
-    "inicio": 106.465551,
-    "fim": 109.530551,
+    "inicio": 107.315551,
+    "fim": 110.380551,
     "cantor": "dueto",
     "letra": "Yo quiero estar contigo, vivir contigo",
     "alvoHz": 0
   },
   {
-    "inicio": 109.530551,
-    "fim": 111.955551,
+    "inicio": 110.380551,
+    "fim": 112.805551,
     "cantor": "dueto",
     "letra": "Bailar contigo, tener contigo",
     "alvoHz": 0
   },
   {
-    "inicio": 111.955551,
-    "fim": 114.115551,
+    "inicio": 112.805551,
+    "fim": 114.965551,
     "cantor": "dueto",
     "letra": "Una noche loca",
     "alvoHz": 0
   },
   {
-    "inicio": 114.115551,
-    "fim": 117.115551,
+    "inicio": 114.965551,
+    "fim": 117.965551,
     "cantor": "dueto",
     "letra": "Con tremenda nota",
     "alvoHz": 0
   },
   {
-    "inicio": 117.115551,
-    "fim": 119.575551,
+    "inicio": 117.965551,
+    "fim": 120.425551,
     "cantor": "dueto",
     "letra": "(Oh, oh, oh, ooh)",
     "alvoHz": 0
   },
   {
-    "inicio": 119.575551,
-    "fim": 122.275551,
+    "inicio": 120.425551,
+    "fim": 123.125551,
     "cantor": "dueto",
     "letra": "(Oh, oh, oh, ooh)",
     "alvoHz": 0
   },
   {
-    "inicio": 122.275551,
-    "fim": 124.895551,
+    "inicio": 123.125551,
+    "fim": 125.745551,
     "cantor": "dueto",
     "letra": "(Oh, oh, ooh, oh)",
     "alvoHz": 0
   },
   {
-    "inicio": 124.895551,
-    "fim": 128.895551,
+    "inicio": 125.745551,
+    "fim": 129.745551,
     "cantor": "dueto",
     "letra": "(Oh, oh, oh, ooh)",
     "alvoHz": 0
   },
   {
-    "inicio": 128.895551,
-    "fim": 131.855551,
+    "inicio": 129.745551,
+    "fim": 132.705551,
     "cantor": 2,
     "letra": "Tú me miras y me llevas a otra dimensión",
     "alvoHz": 0
   },
   {
-    "inicio": 131.855551,
-    "fim": 134.025551,
+    "inicio": 132.705551,
+    "fim": 134.875551,
     "cantor": 1,
     "letra": "(Estoy en otra dimensión)",
     "alvoHz": 0
   },
   {
-    "inicio": 134.025551,
-    "fim": 137.055551,
+    "inicio": 134.875551,
+    "fim": 137.905551,
     "cantor": 2,
     "letra": "Tus latidos aceleran a mi corazón",
     "alvoHz": 0
   },
   {
-    "inicio": 137.055551,
-    "fim": 139.425551,
+    "inicio": 137.905551,
+    "fim": 140.275551,
     "cantor": 1,
     "letra": "(Tus latidos aceleran a mi corazón)",
     "alvoHz": 0
   },
   {
-    "inicio": 139.425551,
-    "fim": 143.545551,
+    "inicio": 140.275551,
+    "fim": 144.395551,
     "cantor": 2,
     "letra": "Qué ironía del destino no poder tocarte",
     "alvoHz": 0
   },
   {
-    "inicio": 143.545551,
-    "fim": 149.345551,
+    "inicio": 144.395551,
+    "fim": 150.195551,
     "cantor": 1,
     "letra": "Abrazarte y sentir la magia de tu olor",
     "alvoHz": 0
   },
   {
-    "inicio": 149.345551,
-    "fim": 151.985551,
+    "inicio": 150.195551,
+    "fim": 152.835551,
     "cantor": "dueto",
     "letra": "Bailando (bailando)",
     "alvoHz": 0
   },
   {
-    "inicio": 151.985551,
-    "fim": 154.175551,
+    "inicio": 152.835551,
+    "fim": 155.025551,
     "cantor": "dueto",
     "letra": "Bailando (bailando)",
     "alvoHz": 0
   },
   {
-    "inicio": 154.175551,
-    "fim": 156.855551,
+    "inicio": 155.025551,
+    "fim": 157.705551,
     "cantor": "dueto",
     "letra": "Tu cuerpo y el mío, llenando el vacío",
     "alvoHz": 0
   },
   {
-    "inicio": 156.855551,
-    "fim": 159.775551,
+    "inicio": 157.705551,
+    "fim": 160.625551,
     "cantor": "dueto",
     "letra": "Subiendo y bajando (subiendo y bajando)",
     "alvoHz": 0
   },
   {
-    "inicio": 159.775551,
-    "fim": 162.465551,
+    "inicio": 160.625551,
+    "fim": 163.315551,
     "cantor": "dueto",
     "letra": "Bailando (bailando)",
     "alvoHz": 0
   },
   {
-    "inicio": 162.465551,
-    "fim": 164.525551,
+    "inicio": 163.315551,
+    "fim": 165.375551,
     "cantor": "dueto",
     "letra": "Bailando (bailando)",
     "alvoHz": 0
   },
   {
-    "inicio": 164.525551,
-    "fim": 167.105551,
+    "inicio": 165.375551,
+    "fim": 167.955551,
     "cantor": "dueto",
     "letra": "Ese fuego por dentro me va enloqueciendo",
     "alvoHz": 0
   },
   {
-    "inicio": 167.105551,
-    "fim": 169.755551,
+    "inicio": 167.955551,
+    "fim": 170.605551,
     "cantor": "dueto",
     "letra": "Me va saturando",
     "alvoHz": 0
   },
   {
-    "inicio": 169.755551,
-    "fim": 172.535551,
+    "inicio": 170.605551,
+    "fim": 173.385551,
     "cantor": 2,
     "letra": "Con tu física y tu química, también tu anatomía",
     "alvoHz": 0
   },
   {
-    "inicio": 172.535551,
-    "fim": 175.375551,
+    "inicio": 173.385551,
+    "fim": 176.225551,
     "cantor": 1,
     "letra": "La cerveza y el tequila, y tu boca con la mía",
     "alvoHz": 0
   },
   {
-    "inicio": 175.375551,
-    "fim": 177.845551,
+    "inicio": 176.225551,
+    "fim": 178.695551,
     "cantor": 2,
     "letra": "Y ya no puedo más (ya no puedo más)",
     "alvoHz": 0
   },
   {
-    "inicio": 177.845551,
-    "fim": 180.585551,
+    "inicio": 178.695551,
+    "fim": 181.435551,
     "cantor": 1,
     "letra": "Ya no puedo más (ya no puedo más)",
     "alvoHz": 0
   },
   {
-    "inicio": 180.585551,
-    "fim": 183.215551,
+    "inicio": 181.435551,
+    "fim": 184.065551,
     "cantor": 2,
     "letra": "Con esta melodía, tu color, tu fantasía",
     "alvoHz": 0
   },
   {
-    "inicio": 183.215551,
-    "fim": 185.675551,
+    "inicio": 184.065551,
+    "fim": 186.525551,
     "cantor": 1,
     "letra": "Con tu filosofía, mi cabeza está vacía",
     "alvoHz": 0
   },
   {
-    "inicio": 185.675551,
-    "fim": 188.325551,
+    "inicio": 186.525551,
+    "fim": 189.175551,
     "cantor": 2,
     "letra": "Y ya no puedo más (ya no puedo más)",
     "alvoHz": 0
   },
   {
-    "inicio": 188.325551,
-    "fim": 190.975551,
+    "inicio": 189.175551,
+    "fim": 191.825551,
     "cantor": 1,
     "letra": "Ya no puedo más (ya no puedo más)",
     "alvoHz": 0
   },
   {
-    "inicio": 190.975551,
-    "fim": 193.785551,
+    "inicio": 191.825551,
+    "fim": 194.635551,
     "cantor": "dueto",
     "letra": "Yo quiero estar contigo, vivir contigo",
     "alvoHz": 0
   },
   {
-    "inicio": 193.785551,
-    "fim": 196.305551,
+    "inicio": 194.635551,
+    "fim": 197.155551,
     "cantor": "dueto",
     "letra": "Bailar contigo, tener contigo",
     "alvoHz": 0
   },
   {
-    "inicio": 196.305551,
-    "fim": 198.665551,
+    "inicio": 197.155551,
+    "fim": 199.515551,
     "cantor": "dueto",
     "letra": "Una noche loca (una noche loca)",
     "alvoHz": 0
   },
   {
-    "inicio": 198.665551,
-    "fim": 201.365551,
+    "inicio": 199.515551,
+    "fim": 202.215551,
     "cantor": "dueto",
     "letra": "Ay, besar tu boca (y besar tu boca)",
     "alvoHz": 0
   },
   {
-    "inicio": 201.365551,
-    "fim": 204.300551,
+    "inicio": 202.215551,
+    "fim": 205.150551,
     "cantor": "dueto",
     "letra": "Yo quiero estar contigo, vivir contigo",
     "alvoHz": 0
   },
   {
-    "inicio": 204.300551,
-    "fim": 206.855551,
+    "inicio": 205.150551,
+    "fim": 207.705551,
     "cantor": "dueto",
     "letra": "Bailar contigo, tener contigo",
     "alvoHz": 0
   },
   {
-    "inicio": 206.855551,
-    "fim": 209.255551,
+    "inicio": 207.705551,
+    "fim": 210.105551,
     "cantor": "dueto",
     "letra": "Una noche loca",
     "alvoHz": 0
   },
   {
-    "inicio": 209.255551,
-    "fim": 212.145551,
+    "inicio": 210.105551,
+    "fim": 212.995551,
     "cantor": "dueto",
     "letra": "Con tremenda nota",
     "alvoHz": 0
   },
   {
-    "inicio": 212.145551,
-    "fim": 214.555551,
+    "inicio": 212.995551,
+    "fim": 215.405551,
     "cantor": "dueto",
     "letra": "(Oh, oh, oh, ooh)",
     "alvoHz": 0
   },
   {
-    "inicio": 214.555551,
-    "fim": 217.215551,
+    "inicio": 215.405551,
+    "fim": 218.065551,
     "cantor": "dueto",
     "letra": "(Oh, oh, oh, ooh)",
     "alvoHz": 0
   },
   {
-    "inicio": 217.215551,
-    "fim": 219.985551,
+    "inicio": 218.065551,
+    "fim": 220.835551,
     "cantor": "dueto",
     "letra": "(Oh, oh, ooh, oh)",
     "alvoHz": 0
   },
   {
-    "inicio": 219.985551,
-    "fim": 222.625551,
+    "inicio": 220.835551,
+    "fim": 223.475551,
     "cantor": "dueto",
     "letra": "(Oh, oh, oh, ooh)",
     "alvoHz": 0
   },
   {
-    "inicio": 222.625551,
-    "fim": 225.045551,
+    "inicio": 223.475551,
+    "fim": 225.895551,
     "cantor": "dueto",
     "letra": "(Oh, oh, oh, ooh)",
     "alvoHz": 0
   },
   {
-    "inicio": 225.045551,
-    "fim": 227.735551,
+    "inicio": 225.895551,
+    "fim": 228.585551,
     "cantor": "dueto",
     "letra": "(Oh, oh, oh, ooh)",
     "alvoHz": 0
   },
   {
-    "inicio": 227.735551,
-    "fim": 230.475551,
+    "inicio": 228.585551,
+    "fim": 231.325551,
     "cantor": "dueto",
     "letra": "(Oh, oh, ooh, oh)",
     "alvoHz": 0
   },
   {
-    "inicio": 230.475551,
-    "fim": 233.125551,
+    "inicio": 231.325551,
+    "fim": 233.975551,
     "cantor": "dueto",
     "letra": "(Oh, oh, oh, ooh)",
     "alvoHz": 0
   },
   {
-    "inicio": 233.125551,
-    "fim": 235.615551,
+    "inicio": 233.975551,
+    "fim": 236.465551,
     "cantor": "dueto",
     "letra": "(Oh, oh, oh, ooh) bailando, amor",
     "alvoHz": 0
   },
   {
-    "inicio": 235.615551,
-    "fim": 238.335551,
+    "inicio": 236.465551,
+    "fim": 239.185551,
     "cantor": "dueto",
     "letra": "(Oh, oh, oh, ooh) bailando, amor",
     "alvoHz": 0
   },
   {
-    "inicio": 238.335551,
-    "fim": 241.295551,
+    "inicio": 239.185551,
+    "fim": 242.145551,
     "cantor": "dueto",
     "letra": "(Oh, oh, ooh, oh) es que se me va el dolor",
     "alvoHz": 0
   },
   {
-    "inicio": 241.295551,
-    "fim": 242.475551,
+    "inicio": 242.145551,
+    "fim": 243.325551,
     "cantor": "dueto",
     "letra": "(Oh, oh, oh, ooh)",
     "alvoHz": 0
   },
   {
-    "inicio": 242.475551,
+    "inicio": 243.325551,
     "fim": 259.065034,
     "cantor": "intro",
     "letra": "♪ Final ♪",
