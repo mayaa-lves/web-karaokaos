@@ -1,0 +1,373 @@
+[
+  {
+    "inicio": 0,
+    "fim": 3.01,
+    "cantor": "intro",
+    "letra": "♪ Introdução ♪",
+    "alvoHz": 0
+  },
+  {
+    "inicio": 3.01,
+    "fim": 6.55,
+    "cantor": 1,
+    "letra": "Tu gosta, né? De correr perigo",
+    "alvoHz": 0
+  },
+  {
+    "inicio": 6.55,
+    "fim": 9.23,
+    "cantor": 1,
+    "letra": "Gosta, né? De um sexo proibido",
+    "alvoHz": 0
+  },
+  {
+    "inicio": 9.23,
+    "fim": 12.68,
+    "cantor": 2,
+    "letra": "Só quem vai ver sou eu e os golfinho",
+    "alvoHz": 0
+  },
+  {
+    "inicio": 12.68,
+    "fim": 15.82,
+    "cantor": 2,
+    "letra": "As onda batendo, ai, que delícia o barulhinho",
+    "alvoHz": 0
+  },
+  {
+    "inicio": 15.82,
+    "fim": 17.36,
+    "cantor": "dueto",
+    "letra": "Em cima (em cima)",
+    "alvoHz": 0
+  },
+  {
+    "inicio": 17.36,
+    "fim": 19.19,
+    "cantor": "dueto",
+    "letra": "Em cima do jet-ski",
+    "alvoHz": 0
+  },
+  {
+    "inicio": 19.19,
+    "fim": 23.44,
+    "cantor": "dueto",
+    "letra": "Vou rebolar pra tu (oh-oh-oh)",
+    "alvoHz": 0
+  },
+  {
+    "inicio": 23.44,
+    "fim": 25.3,
+    "cantor": "dueto",
+    "letra": "Nessa onda sexy",
+    "alvoHz": 0
+  },
+  {
+    "inicio": 25.3,
+    "fim": 29.86,
+    "cantor": "dueto",
+    "letra": "Te deixo maluco (oh-oh-oh)",
+    "alvoHz": 0
+  },
+  {
+    "inicio": 29.86,
+    "fim": 31.47,
+    "cantor": "dueto",
+    "letra": "Em cima do jet-ski",
+    "alvoHz": 0
+  },
+  {
+    "inicio": 31.47,
+    "fim": 35.92,
+    "cantor": "dueto",
+    "letra": "Vou rebolar pra tu (oh-oh-oh)",
+    "alvoHz": 0
+  },
+  {
+    "inicio": 35.92,
+    "fim": 37.69,
+    "cantor": "dueto",
+    "letra": "Nessa onda sexy",
+    "alvoHz": 0
+  },
+  {
+    "inicio": 37.69,
+    "fim": 44.0,
+    "cantor": "dueto",
+    "letra": "Te deixo maluco (deixa, sim, haha, deixa, sim) (oh-oh-oh)",
+    "alvoHz": 0
+  },
+  {
+    "inicio": 44.0,
+    "fim": 47.1,
+    "cantor": "dueto",
+    "letra": "(Ah)",
+    "alvoHz": 0
+  },
+  {
+    "inicio": 47.1,
+    "fim": 50.2,
+    "cantor": "dueto",
+    "letra": "(Ah)",
+    "alvoHz": 0
+  },
+  {
+    "inicio": 50.2,
+    "fim": 55.28,
+    "cantor": "dueto",
+    "letra": "(Ah)",
+    "alvoHz": 0
+  },
+  {
+    "inicio": 55.28,
+    "fim": 58.19,
+    "cantor": 1,
+    "letra": "Barulho do mar, o tempo voa por aqui",
+    "alvoHz": 0
+  },
+  {
+    "inicio": 58.19,
+    "fim": 61.6175,
+    "cantor": 1,
+    "letra": "Confesso, se eu precisar, te levo de novo pra mim",
+    "alvoHz": 0
+  },
+  {
+    "inicio": 61.6175,
+    "fim": 64.4,
+    "cantor": 2,
+    "letra": "Pa ver você dançar nessa brisa da praia",
+    "alvoHz": 0
+  },
+  {
+    "inicio": 64.4,
+    "fim": 67.12,
+    "cantor": 2,
+    "letra": "Vendo o Sol raiar, então vai, moça, baila",
+    "alvoHz": 0
+  },
+  {
+    "inicio": 67.12,
+    "fim": 70.47,
+    "cantor": 1,
+    "letra": "Se tu vai, eu também vou, não vou ficar sozinho aqui",
+    "alvoHz": 0
+  },
+  {
+    "inicio": 70.47,
+    "fim": 73.44,
+    "cantor": 1,
+    "letra": "O verão chegou, vem montar no meu jet-ski (aham)",
+    "alvoHz": 0
+  },
+  {
+    "inicio": 73.44,
+    "fim": 76.61,
+    "cantor": 2,
+    "letra": "Se tu vai, eu também vou, pa mim, fico melhor assim",
+    "alvoHz": 0
+  },
+  {
+    "inicio": 76.61,
+    "fim": 79.24,
+    "cantor": 2,
+    "letra": "Solteiro e ser feliz, solteiro e ser feliz",
+    "alvoHz": 0
+  },
+  {
+    "inicio": 79.24,
+    "fim": 80.8,
+    "cantor": "dueto",
+    "letra": "Em cima (em cima)",
+    "alvoHz": 0
+  },
+  {
+    "inicio": 80.8,
+    "fim": 82.65,
+    "cantor": "dueto",
+    "letra": "Em cima do jet-ski (uh-uh)",
+    "alvoHz": 0
+  },
+  {
+    "inicio": 82.65,
+    "fim": 86.93,
+    "cantor": "dueto",
+    "letra": "Vou rebolar pra tu (ah) (oh-oh-oh)",
+    "alvoHz": 0
+  },
+  {
+    "inicio": 86.93,
+    "fim": 88.78,
+    "cantor": "dueto",
+    "letra": "Nessa onda sexy (ahn)",
+    "alvoHz": 0
+  },
+  {
+    "inicio": 88.78,
+    "fim": 92.81,
+    "cantor": "dueto",
+    "letra": "Te deixo maluco (deixa, sim, haha, deixa, sim)",
+    "alvoHz": 0
+  },
+  {
+    "inicio": 92.81,
+    "fim": 94.93,
+    "cantor": "dueto",
+    "letra": "Em cima do jet-ski",
+    "alvoHz": 0
+  },
+  {
+    "inicio": 94.93,
+    "fim": 99.43,
+    "cantor": "dueto",
+    "letra": "Vou rebolar pra tu (oh-oh-oh)",
+    "alvoHz": 0
+  },
+  {
+    "inicio": 99.43,
+    "fim": 101.14,
+    "cantor": "dueto",
+    "letra": "Nessa onda sexy",
+    "alvoHz": 0
+  },
+  {
+    "inicio": 101.14,
+    "fim": 108.8,
+    "cantor": "dueto",
+    "letra": "Te deixo maluco (hahaha, Melody, PEDRO SAMPAIO, vai)",
+    "alvoHz": 0
+  },
+  {
+    "inicio": 108.8,
+    "fim": 113.45,
+    "cantor": "dueto",
+    "letra": "(Ahn-ahn-ahn-uh-oh)",
+    "alvoHz": 0
+  },
+  {
+    "inicio": 113.45,
+    "fim": 117.59,
+    "cantor": "dueto",
+    "letra": "(É o K na voz) (ah)",
+    "alvoHz": 0
+  },
+  {
+    "inicio": 117.59,
+    "fim": 119.694286,
+    "cantor": 2,
+    "letra": "Então vai (vai)",
+    "alvoHz": 0
+  },
+  {
+    "inicio": 119.694286,
+    "fim": 122.5,
+    "cantor": 1,
+    "letra": "Rebolo e tu pede mais (mais)",
+    "alvoHz": 0
+  },
+  {
+    "inicio": 122.5,
+    "fim": 125.99,
+    "cantor": 1,
+    "letra": "Nós dois suando sozinho, a onda subindo",
+    "alvoHz": 0
+  },
+  {
+    "inicio": 125.99,
+    "fim": 128.99,
+    "cantor": 2,
+    "letra": "O biquíni caindo, o corpo molhadinho",
+    "alvoHz": 0
+  },
+  {
+    "inicio": 128.99,
+    "fim": 129.905,
+    "cantor": "intro",
+    "letra": "♪ Instrumental ♪",
+    "alvoHz": 0
+  },
+  {
+    "inicio": 129.905,
+    "fim": 130.82,
+    "cantor": 2,
+    "letra": "E você faz",
+    "alvoHz": 0
+  },
+  {
+    "inicio": 130.82,
+    "fim": 132.65,
+    "cantor": 1,
+    "letra": "(Em cima do jet)",
+    "alvoHz": 0
+  },
+  {
+    "inicio": 132.65,
+    "fim": 133.85,
+    "cantor": "dueto",
+    "letra": "Vem e me maceta",
+    "alvoHz": 0
+  },
+  {
+    "inicio": 133.85,
+    "fim": 135.5,
+    "cantor": "dueto",
+    "letra": "Vem, vem e me maceta",
+    "alvoHz": 0
+  },
+  {
+    "inicio": 135.5,
+    "fim": 137.05,
+    "cantor": "dueto",
+    "letra": "Vem, vem e me maceta",
+    "alvoHz": 0
+  },
+  {
+    "inicio": 137.05,
+    "fim": 138.92,
+    "cantor": "dueto",
+    "letra": "Em cima do, em cima do jet",
+    "alvoHz": 0
+  },
+  {
+    "inicio": 138.92,
+    "fim": 140.09,
+    "cantor": "dueto",
+    "letra": "Vem e me maceta",
+    "alvoHz": 0
+  },
+  {
+    "inicio": 140.09,
+    "fim": 141.66,
+    "cantor": "dueto",
+    "letra": "Vem, vem e me maceta",
+    "alvoHz": 0
+  },
+  {
+    "inicio": 141.66,
+    "fim": 142.93,
+    "cantor": "dueto",
+    "letra": "Vem, vem e me maceta",
+    "alvoHz": 0
+  },
+  {
+    "inicio": 142.93,
+    "fim": 144.33,
+    "cantor": "dueto",
+    "letra": "Em cima do, em cima do",
+    "alvoHz": 0
+  },
+  {
+    "inicio": 144.33,
+    "fim": 147.15,
+    "cantor": "dueto",
+    "letra": "Em cima do jet-ski",
+    "alvoHz": 0
+  },
+  {
+    "inicio": 147.15,
+    "fim": 155.550476,
+    "cantor": "intro",
+    "letra": "♪ Final ♪",
+    "alvoHz": 0
+  }
+]

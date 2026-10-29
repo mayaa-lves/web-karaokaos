@@ -1,0 +1,268 @@
+[
+  {
+    "inicio": 0,
+    "fim": 3.83,
+    "cantor": "intro",
+    "letra": "♪ Introdução ♪",
+    "alvoHz": 0
+  },
+  {
+    "inicio": 3.83,
+    "fim": 8.59,
+    "cantor": 1,
+    "letra": "Se quer saber de mim",
+    "alvoHz": 0
+  },
+  {
+    "inicio": 8.59,
+    "fim": 12.15,
+    "cantor": 1,
+    "letra": "Pergunte para mim",
+    "alvoHz": 0
+  },
+  {
+    "inicio": 12.15,
+    "fim": 16.13,
+    "cantor": 2,
+    "letra": "Se for falar do que passou",
+    "alvoHz": 0
+  },
+  {
+    "inicio": 16.13,
+    "fim": 19.77,
+    "cantor": 2,
+    "letra": "Conta a parte que você errou",
+    "alvoHz": 0
+  },
+  {
+    "inicio": 19.77,
+    "fim": 22.97,
+    "cantor": 1,
+    "letra": "Não pergunte se estou bem",
+    "alvoHz": 0
+  },
+  {
+    "inicio": 22.97,
+    "fim": 27.55,
+    "cantor": 1,
+    "letra": "Não quero ser assunto seu pra mais ninguém",
+    "alvoHz": 0
+  },
+  {
+    "inicio": 27.55,
+    "fim": 31.06,
+    "cantor": 2,
+    "letra": "Não estrague as minhas canções",
+    "alvoHz": 0
+  },
+  {
+    "inicio": 31.06,
+    "fim": 35.56,
+    "cantor": 2,
+    "letra": "Vá pro inferno com suas recordações",
+    "alvoHz": 0
+  },
+  {
+    "inicio": 35.56,
+    "fim": 38.85,
+    "cantor": "dueto",
+    "letra": "Quem me deixou no mar",
+    "alvoHz": 0
+  },
+  {
+    "inicio": 38.85,
+    "fim": 42.76,
+    "cantor": "dueto",
+    "letra": "Não tem direito de me perguntar",
+    "alvoHz": 0
+  },
+  {
+    "inicio": 42.76,
+    "fim": 46.72,
+    "cantor": "dueto",
+    "letra": "O que rolou comigo e os tubarões",
+    "alvoHz": 0
+  },
+  {
+    "inicio": 46.72,
+    "fim": 49.055,
+    "cantor": "dueto",
+    "letra": "Cê não me deve amor",
+    "alvoHz": 0
+  },
+  {
+    "inicio": 49.055,
+    "fim": 51.39,
+    "cantor": "dueto",
+    "letra": "Eu não te devo explicações",
+    "alvoHz": 0
+  },
+  {
+    "inicio": 51.39,
+    "fim": 54.03,
+    "cantor": "dueto",
+    "letra": "Cê me deixou voar",
+    "alvoHz": 0
+  },
+  {
+    "inicio": 54.03,
+    "fim": 58.35,
+    "cantor": "dueto",
+    "letra": "Agora quer saber aonde eu vou pousar",
+    "alvoHz": 0
+  },
+  {
+    "inicio": 58.35,
+    "fim": 62.14,
+    "cantor": "dueto",
+    "letra": "Cancela as suas investigações",
+    "alvoHz": 0
+  },
+  {
+    "inicio": 62.14,
+    "fim": 65.41,
+    "cantor": "dueto",
+    "letra": "Cê não me deve amor",
+    "alvoHz": 0
+  },
+  {
+    "inicio": 65.41,
+    "fim": 68.68,
+    "cantor": "dueto",
+    "letra": "Eu não te devo explicações",
+    "alvoHz": 0
+  },
+  {
+    "inicio": 68.68,
+    "fim": 81.98,
+    "cantor": "intro",
+    "letra": "♪ Instrumental ♪",
+    "alvoHz": 0
+  },
+  {
+    "inicio": 81.98,
+    "fim": 84.97,
+    "cantor": 2,
+    "letra": "Não pergunte se estou bem",
+    "alvoHz": 0
+  },
+  {
+    "inicio": 84.97,
+    "fim": 89.32,
+    "cantor": 2,
+    "letra": "Não quero ser assunto seu pra mais ninguém",
+    "alvoHz": 0
+  },
+  {
+    "inicio": 89.32,
+    "fim": 93.03,
+    "cantor": 1,
+    "letra": "Não estrague as minhas canções",
+    "alvoHz": 0
+  },
+  {
+    "inicio": 93.03,
+    "fim": 97.42,
+    "cantor": 1,
+    "letra": "Vá pro inferno com suas recordações",
+    "alvoHz": 0
+  },
+  {
+    "inicio": 97.42,
+    "fim": 100.81,
+    "cantor": "dueto",
+    "letra": "Quem me deixou no mar",
+    "alvoHz": 0
+  },
+  {
+    "inicio": 100.81,
+    "fim": 104.59,
+    "cantor": "dueto",
+    "letra": "Não tem direito de me perguntar",
+    "alvoHz": 0
+  },
+  {
+    "inicio": 104.59,
+    "fim": 108.51,
+    "cantor": "dueto",
+    "letra": "O que rolou comigo e os tubarões",
+    "alvoHz": 0
+  },
+  {
+    "inicio": 108.51,
+    "fim": 110.87,
+    "cantor": "dueto",
+    "letra": "Cê não me deve amor",
+    "alvoHz": 0
+  },
+  {
+    "inicio": 110.87,
+    "fim": 113.23,
+    "cantor": "dueto",
+    "letra": "Eu não te devo explicações",
+    "alvoHz": 0
+  },
+  {
+    "inicio": 113.23,
+    "fim": 115.97,
+    "cantor": "dueto",
+    "letra": "Cê me deixou voar",
+    "alvoHz": 0
+  },
+  {
+    "inicio": 115.97,
+    "fim": 120.35,
+    "cantor": "dueto",
+    "letra": "Agora quer saber aonde eu vou pousar",
+    "alvoHz": 0
+  },
+  {
+    "inicio": 120.35,
+    "fim": 124.12,
+    "cantor": "dueto",
+    "letra": "Cancela as suas investigações",
+    "alvoHz": 0
+  },
+  {
+    "inicio": 124.12,
+    "fim": 128.22,
+    "cantor": "dueto",
+    "letra": "Cê não me deve amor",
+    "alvoHz": 0
+  },
+  {
+    "inicio": 128.22,
+    "fim": 132.32,
+    "cantor": "dueto",
+    "letra": "Eu não te devo explicações",
+    "alvoHz": 0
+  },
+  {
+    "inicio": 132.32,
+    "fim": 139.58,
+    "cantor": "intro",
+    "letra": "♪ Instrumental ♪",
+    "alvoHz": 0
+  },
+  {
+    "inicio": 139.58,
+    "fim": 144.435,
+    "cantor": "dueto",
+    "letra": "Cê não me deve amor",
+    "alvoHz": 0
+  },
+  {
+    "inicio": 144.435,
+    "fim": 149.29,
+    "cantor": "dueto",
+    "letra": "Eu não te devo explicações",
+    "alvoHz": 0
+  },
+  {
+    "inicio": 149.29,
+    "fim": 155.550476,
+    "cantor": "intro",
+    "letra": "♪ Final ♪",
+    "alvoHz": 0
+  }
+]

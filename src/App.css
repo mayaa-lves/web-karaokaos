@@ -1579,8 +1579,59 @@ button {
   }
 }
 
-.next-lyric {
-  font-size: clamp(19px, 1.8vw, 24px);
-  line-height: 1.35;
-  text-wrap: pretty;
+/* Revisão de leitura e acabamento: preserva roxo, coral e fundo claro. */
+.song-choice { transition: border-color .16s ease, box-shadow .16s ease, transform .16s ease; }
+.song-choice:hover { border-color: #c5b6ff; box-shadow: 0 10px 28px #633cff12; transform: translateY(-2px); }
+.song-choice.song-active { border-color: #633cff; box-shadow: 0 0 0 1px #633cff, 0 10px 28px #633cff12; }
+.song-choice .album-art { background: linear-gradient(145deg, #f0eaff, #ffece3); border: 1px solid #ffffff; border-radius: 15px; }
+.song-choice .song-info { min-width: 0; }
+.song-choice .song-info p { overflow-wrap: anywhere; }
+.song-selection .song-meta { flex-wrap: wrap; }
+button:focus-visible, summary:focus-visible, input:focus-visible { outline: 3px solid #633cff; outline-offset: 4px; }
+.local-audio-controls > button:hover, .sync-panel button:hover { background: #f2edff; border-color: #ad97ff; }
+.previous-lyric { color: #a39ba7; line-height: 1.35; }
+.next-lyric { color: #8c8393; font-size: clamp(19px, 1.8vw, 24px); line-height: 1.35; text-wrap: pretty; }
+.lyrics h1 { text-wrap: balance; overflow-wrap: anywhere; }
+.current-turn { max-width: 100%; overflow-wrap: anywhere; }
+.game-time { font-variant-numeric: tabular-nums; white-space: nowrap; }
+.sync-settings { flex-basis: 100%; width: min(100%, 640px); max-width: 640px; margin: 3px auto; }
+.sync-settings summary { width: fit-content; margin: 0 auto; padding: 8px 12px; cursor: pointer; color: #776b87; font-size: 12px; border-radius: 8px; }
+.sync-settings[open] summary { color: #633cff; }
+.sync-panel { padding: 20px; border-radius: 18px; border: 1px solid #e4dbf4; background: #ffffffed; box-shadow: 0 8px 30px #45325008; text-align: left; }
+.sync-heading { display: flex; flex-wrap: wrap; align-items: baseline; justify-content: space-between; gap: 6px 16px; }
+.sync-heading strong { color: #32273d; font-size: 15px; }
+.sync-heading span { color: #633cff; font-size: 12px; }
+.sync-panel p { width: auto; margin: 12px 0; color: #776b87; font-size: 13px; line-height: 1.5; }
+.sync-row { display: flex; align-items: center; justify-content: center; gap: 10px; flex-wrap: wrap; }
+.sync-row button { min-height: 42px; font-size: 12px; }
+.sync-row output { min-width: 66px; text-align: center; font-size: 16px; font-weight: 800; font-variant-numeric: tabular-nums; color: #32273d; }
+.sync-scale { display: grid; gap: 10px; margin: 18px 0; color: #776b87; font-size: 12px; line-height: 1.5; }
+.sync-scale > span { display: flex; align-items: center; gap: 16px; }
+.sync-scale input { flex: 1; min-width: 0; accent-color: #633cff; cursor: pointer; }
+.sync-scale output { width: 50px; color: #633cff; font-variant-numeric: tabular-nums; }
+.sync-panel .sync-reset { padding: 8px 12px; font-size: 12px; }
+.sync-panel small { display: block; color: #776b87; margin-top: 12px; font-size: 11px; }
+.local-audio-controls .connection-warning { color: #875520; font-size: 12px; margin: 5px 0; }
+@media (max-width: 760px) {
+  .game-topbar { gap: 12px; flex-wrap: wrap; }
+  .game-topbar .song-playing { min-width: 0; }
+  .game-content { padding: 18px 16px; gap: 24px; }
+  .lyrics { max-width: 100%; }
+  .next-lyric { font-size: clamp(19px, 4.4vw, 22px); }
+  .local-audio-controls { padding-inline: 16px; }
+}
+@media (prefers-reduced-motion: reduce) {
+  .song-choice { transition: none; }
+  .song-choice:hover { transform: none; }
+}
+/* Ajustes observados na conferência visual. */
+.song-choice:not(.song-active) .song-check { background: #f0ebfa; box-shadow: inset 0 0 0 1px #e5ddf2; }
+.album-art svg { width: 26px; height: 26px; color: #633cff; }
+.sync-settings { flex: 0 0 100%; max-width: none; }
+.sync-panel { width: min(100%, 640px); margin: 0 auto; }
+@media (max-width: 760px) {
+  .game-content { grid-template-rows: auto 1fr; }
+  .score-column { align-self: start; }
+  .live-player { min-width: 0; }
+  .song-playing { display: flex; grid-column: 1 / -1; grid-row: 2; }
 }

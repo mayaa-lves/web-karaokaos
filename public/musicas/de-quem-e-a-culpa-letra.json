@@ -1,0 +1,310 @@
+[
+  {
+    "inicio": 0,
+    "fim": 16.22,
+    "cantor": "intro",
+    "letra": "♪ Introdução ♪",
+    "alvoHz": 0
+  },
+  {
+    "inicio": 16.22,
+    "fim": 19.52,
+    "cantor": 1,
+    "letra": "Exagerado, sim",
+    "alvoHz": 0
+  },
+  {
+    "inicio": 19.52,
+    "fim": 22.91,
+    "cantor": 1,
+    "letra": "Sou mais você que eu",
+    "alvoHz": 0
+  },
+  {
+    "inicio": 22.91,
+    "fim": 26.44,
+    "cantor": 2,
+    "letra": "Sobrevivo de olhares",
+    "alvoHz": 0
+  },
+  {
+    "inicio": 26.44,
+    "fim": 29.96,
+    "cantor": 2,
+    "letra": "E alguns abraços que me deu",
+    "alvoHz": 0
+  },
+  {
+    "inicio": 29.96,
+    "fim": 33.22,
+    "cantor": 1,
+    "letra": "E o que vai ser de mim",
+    "alvoHz": 0
+  },
+  {
+    "inicio": 33.22,
+    "fim": 36.92,
+    "cantor": 1,
+    "letra": "E o meu assunto que não muda?",
+    "alvoHz": 0
+  },
+  {
+    "inicio": 36.92,
+    "fim": 41.26,
+    "cantor": 2,
+    "letra": "Minha cabeça não ajuda",
+    "alvoHz": 0
+  },
+  {
+    "inicio": 41.26,
+    "fim": 43.43,
+    "cantor": 2,
+    "letra": "Loucura, tortura",
+    "alvoHz": 0
+  },
+  {
+    "inicio": 43.43,
+    "fim": 47.11,
+    "cantor": 1,
+    "letra": "E que se dane a minha postura",
+    "alvoHz": 0
+  },
+  {
+    "inicio": 47.11,
+    "fim": 50.37,
+    "cantor": 1,
+    "letra": "Se eu mudei, você não viu",
+    "alvoHz": 0
+  },
+  {
+    "inicio": 50.37,
+    "fim": 54.82,
+    "cantor": 2,
+    "letra": "Eu só queria ter você por perto",
+    "alvoHz": 0
+  },
+  {
+    "inicio": 54.82,
+    "fim": 56.93,
+    "cantor": 2,
+    "letra": "Mas você sumiu",
+    "alvoHz": 0
+  },
+  {
+    "inicio": 56.93,
+    "fim": 60.63,
+    "cantor": 1,
+    "letra": "É tipo um vício que não tem mais cura",
+    "alvoHz": 0
+  },
+  {
+    "inicio": 60.63,
+    "fim": 65.68,
+    "cantor": 1,
+    "letra": "E agora, de quem é a culpa?",
+    "alvoHz": 0
+  },
+  {
+    "inicio": 65.68,
+    "fim": 72.45,
+    "cantor": 2,
+    "letra": "A culpa é sua por ter esse sorriso",
+    "alvoHz": 0
+  },
+  {
+    "inicio": 72.45,
+    "fim": 79.19,
+    "cantor": 2,
+    "letra": "Ou a culpa é minha por me apaixonar por ele?",
+    "alvoHz": 0
+  },
+  {
+    "inicio": 79.19,
+    "fim": 80.95,
+    "cantor": 1,
+    "letra": "Só isso",
+    "alvoHz": 0
+  },
+  {
+    "inicio": 80.95,
+    "fim": 84.49,
+    "cantor": "dueto",
+    "letra": "Não finja que eu não tô falando com você",
+    "alvoHz": 0
+  },
+  {
+    "inicio": 84.49,
+    "fim": 87.77,
+    "cantor": "dueto",
+    "letra": "Eu tô parado no meio da rua",
+    "alvoHz": 0
+  },
+  {
+    "inicio": 87.77,
+    "fim": 91.38,
+    "cantor": "dueto",
+    "letra": "Eu tô entrando no meio dos carros",
+    "alvoHz": 0
+  },
+  {
+    "inicio": 91.38,
+    "fim": 94.88,
+    "cantor": "dueto",
+    "letra": "Sem você, a vida não continua",
+    "alvoHz": 0
+  },
+  {
+    "inicio": 94.88,
+    "fim": 98.0,
+    "cantor": "dueto",
+    "letra": "Não finja que eu não tô falando com você",
+    "alvoHz": 0
+  },
+  {
+    "inicio": 98.0,
+    "fim": 101.43,
+    "cantor": "dueto",
+    "letra": "Ninguém entende o que eu tô passando",
+    "alvoHz": 0
+  },
+  {
+    "inicio": 101.43,
+    "fim": 107.27,
+    "cantor": "dueto",
+    "letra": "Quem é você, que eu não conheço mais?",
+    "alvoHz": 0
+  },
+  {
+    "inicio": 107.27,
+    "fim": 114.21,
+    "cantor": "dueto",
+    "letra": "Me apaixonei pelo que eu inventei de você",
+    "alvoHz": 0
+  },
+  {
+    "inicio": 114.21,
+    "fim": 123.06,
+    "cantor": "intro",
+    "letra": "♪ Instrumental ♪",
+    "alvoHz": 0
+  },
+  {
+    "inicio": 123.06,
+    "fim": 125.66,
+    "cantor": 1,
+    "letra": "Mas você sumiu",
+    "alvoHz": 0
+  },
+  {
+    "inicio": 125.66,
+    "fim": 129.61,
+    "cantor": 2,
+    "letra": "É tipo um vício que não tem mais cura",
+    "alvoHz": 0
+  },
+  {
+    "inicio": 129.61,
+    "fim": 134.15,
+    "cantor": 2,
+    "letra": "E agora, de quem é a culpa?",
+    "alvoHz": 0
+  },
+  {
+    "inicio": 134.15,
+    "fim": 140.72,
+    "cantor": 1,
+    "letra": "A culpa é sua por ter esse sorriso",
+    "alvoHz": 0
+  },
+  {
+    "inicio": 140.72,
+    "fim": 147.67,
+    "cantor": 1,
+    "letra": "Ou a culpa é minha por me apaixonar por ele?",
+    "alvoHz": 0
+  },
+  {
+    "inicio": 147.67,
+    "fim": 149.51,
+    "cantor": 2,
+    "letra": "Só isso",
+    "alvoHz": 0
+  },
+  {
+    "inicio": 149.51,
+    "fim": 153.25,
+    "cantor": "dueto",
+    "letra": "Não finja que eu não tô falando com você",
+    "alvoHz": 0
+  },
+  {
+    "inicio": 153.25,
+    "fim": 156.49,
+    "cantor": "dueto",
+    "letra": "Eu tô parado no meio da rua",
+    "alvoHz": 0
+  },
+  {
+    "inicio": 156.49,
+    "fim": 159.83,
+    "cantor": "dueto",
+    "letra": "Eu tô entrando no meio dos carros",
+    "alvoHz": 0
+  },
+  {
+    "inicio": 159.83,
+    "fim": 163.39,
+    "cantor": "dueto",
+    "letra": "Sem você, a vida não continua",
+    "alvoHz": 0
+  },
+  {
+    "inicio": 163.39,
+    "fim": 166.95,
+    "cantor": "dueto",
+    "letra": "Não finja que eu não tô falando com você",
+    "alvoHz": 0
+  },
+  {
+    "inicio": 166.95,
+    "fim": 170.46,
+    "cantor": "dueto",
+    "letra": "Ninguém entende o que eu tô passando",
+    "alvoHz": 0
+  },
+  {
+    "inicio": 170.46,
+    "fim": 175.81,
+    "cantor": "dueto",
+    "letra": "Quem é você, que eu não conheço mais?",
+    "alvoHz": 0
+  },
+  {
+    "inicio": 175.81,
+    "fim": 182.48,
+    "cantor": "dueto",
+    "letra": "Me apaixonei pelo que eu inventei de você",
+    "alvoHz": 0
+  },
+  {
+    "inicio": 182.48,
+    "fim": 189.59,
+    "cantor": "dueto",
+    "letra": "Iê-iê, iê-iê",
+    "alvoHz": 0
+  },
+  {
+    "inicio": 189.59,
+    "fim": 196.61,
+    "cantor": "dueto",
+    "letra": "Me apaixonei pelo que eu inventei de você",
+    "alvoHz": 0
+  },
+  {
+    "inicio": 196.61,
+    "fim": 205.287619,
+    "cantor": "intro",
+    "letra": "♪ Final ♪",
+    "alvoHz": 0
+  }
+]

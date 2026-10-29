@@ -1,0 +1,233 @@
+[
+  {
+    "inicio": 0,
+    "fim": 4.36,
+    "cantor": "intro",
+    "letra": "♪ Introdução ♪",
+    "alvoHz": 0
+  },
+  {
+    "inicio": 4.36,
+    "fim": 7.72,
+    "cantor": 1,
+    "letra": "Postei uma foto todo traiadão",
+    "alvoHz": 0
+  },
+  {
+    "inicio": 7.72,
+    "fim": 10.61,
+    "cantor": 1,
+    "letra": "Ela mandou olhinho e coração",
+    "alvoHz": 0
+  },
+  {
+    "inicio": 10.61,
+    "fim": 13.92,
+    "cantor": 2,
+    "letra": "Perguntou se eu vou pra festa de peão",
+    "alvoHz": 0
+  },
+  {
+    "inicio": 13.92,
+    "fim": 16.79,
+    "cantor": 2,
+    "letra": "Oh, novinha, já peguei a sua intenção",
+    "alvoHz": 0
+  },
+  {
+    "inicio": 16.79,
+    "fim": 19.58,
+    "cantor": 1,
+    "letra": "(Oh, novinha, já peguei a sua intenção)",
+    "alvoHz": 0
+  },
+  {
+    "inicio": 19.58,
+    "fim": 23.35,
+    "cantor": "dueto",
+    "letra": "Nossa, um peão desse, eu até mudava pra roça",
+    "alvoHz": 0
+  },
+  {
+    "inicio": 23.35,
+    "fim": 26.24,
+    "cantor": "dueto",
+    "letra": "Usava bota e comprava uma caminhonete",
+    "alvoHz": 0
+  },
+  {
+    "inicio": 26.24,
+    "fim": 31.51,
+    "cantor": "dueto",
+    "letra": "A pegada, a voz grossa me enlouquece",
+    "alvoHz": 0
+  },
+  {
+    "inicio": 31.51,
+    "fim": 35.65,
+    "cantor": "dueto",
+    "letra": "Nossa, um peão desse, eu até mudava pra roça",
+    "alvoHz": 0
+  },
+  {
+    "inicio": 35.65,
+    "fim": 38.7,
+    "cantor": "dueto",
+    "letra": "Usava bota e comprava uma caminhonete",
+    "alvoHz": 0
+  },
+  {
+    "inicio": 38.7,
+    "fim": 44.68,
+    "cantor": "dueto",
+    "letra": "A pegada, a voz grossa me enlouquece",
+    "alvoHz": 0
+  },
+  {
+    "inicio": 44.68,
+    "fim": 47.66,
+    "cantor": 2,
+    "letra": "Os cara que elas ama é os de chapéu e bota",
+    "alvoHz": 0
+  },
+  {
+    "inicio": 47.66,
+    "fim": 50.68,
+    "cantor": 1,
+    "letra": "Por isso que tá da hora, chovendo na minha horta",
+    "alvoHz": 0
+  },
+  {
+    "inicio": 50.68,
+    "fim": 53.74,
+    "cantor": 1,
+    "letra": "Os cara que elas ama é os de chapéu e bota",
+    "alvoHz": 0
+  },
+  {
+    "inicio": 53.74,
+    "fim": 56.28,
+    "cantor": 2,
+    "letra": "Por isso que tá da hora, chovendo na minha horta",
+    "alvoHz": 0
+  },
+  {
+    "inicio": 56.28,
+    "fim": 69.25,
+    "cantor": "intro",
+    "letra": "♪ Instrumental ♪",
+    "alvoHz": 0
+  },
+  {
+    "inicio": 69.25,
+    "fim": 72.55,
+    "cantor": 2,
+    "letra": "Postei uma foto todo traiadão",
+    "alvoHz": 0
+  },
+  {
+    "inicio": 72.55,
+    "fim": 75.44,
+    "cantor": 1,
+    "letra": "Ela mandou olhinho e coração",
+    "alvoHz": 0
+  },
+  {
+    "inicio": 75.44,
+    "fim": 78.78,
+    "cantor": 1,
+    "letra": "Perguntou se eu vou pra festa de peão",
+    "alvoHz": 0
+  },
+  {
+    "inicio": 78.78,
+    "fim": 81.75,
+    "cantor": 2,
+    "letra": "Oh, novinha, já peguei a sua intenção",
+    "alvoHz": 0
+  },
+  {
+    "inicio": 81.75,
+    "fim": 84.49,
+    "cantor": 2,
+    "letra": "(Oh, novinha, já peguei a sua intenção)",
+    "alvoHz": 0
+  },
+  {
+    "inicio": 84.49,
+    "fim": 88.32,
+    "cantor": "dueto",
+    "letra": "Nossa, um peão desse, eu até mudava pra roça",
+    "alvoHz": 0
+  },
+  {
+    "inicio": 88.32,
+    "fim": 91.54,
+    "cantor": "dueto",
+    "letra": "Usava bota e comprava uma caminhonete",
+    "alvoHz": 0
+  },
+  {
+    "inicio": 91.54,
+    "fim": 96.58,
+    "cantor": "dueto",
+    "letra": "A pegada, a voz grossa me enlouquece",
+    "alvoHz": 0
+  },
+  {
+    "inicio": 96.58,
+    "fim": 100.85,
+    "cantor": "dueto",
+    "letra": "Nossa, um peão desse, eu até mudava pra roça",
+    "alvoHz": 0
+  },
+  {
+    "inicio": 100.85,
+    "fim": 103.53,
+    "cantor": "dueto",
+    "letra": "Usava bota e comprava uma caminhonete",
+    "alvoHz": 0
+  },
+  {
+    "inicio": 103.53,
+    "fim": 109.73,
+    "cantor": "dueto",
+    "letra": "A pegada, a voz grossa me enlouquece",
+    "alvoHz": 0
+  },
+  {
+    "inicio": 109.73,
+    "fim": 112.48,
+    "cantor": 2,
+    "letra": "Os cara que elas ama é os de chapéu e bota",
+    "alvoHz": 0
+  },
+  {
+    "inicio": 112.48,
+    "fim": 115.85,
+    "cantor": 2,
+    "letra": "Por isso que tá da hora, chovendo na minha horta",
+    "alvoHz": 0
+  },
+  {
+    "inicio": 115.85,
+    "fim": 118.65,
+    "cantor": 1,
+    "letra": "Os cara que elas ama é os de chapéu e bota",
+    "alvoHz": 0
+  },
+  {
+    "inicio": 118.65,
+    "fim": 122.07,
+    "cantor": 1,
+    "letra": "Por isso que tá da hora, chovendo na minha horta",
+    "alvoHz": 0
+  },
+  {
+    "inicio": 122.07,
+    "fim": 134.234558,
+    "cantor": "intro",
+    "letra": "♪ Final ♪",
+    "alvoHz": 0
+  }
+]

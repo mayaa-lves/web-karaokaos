@@ -1,0 +1,373 @@
+[
+  {
+    "inicio": 0,
+    "fim": 9.06,
+    "cantor": "intro",
+    "letra": "♪ Introdução ♪",
+    "alvoHz": 0
+  },
+  {
+    "inicio": 9.06,
+    "fim": 12.08,
+    "cantor": 1,
+    "letra": "Poxa, como ela tava linda",
+    "alvoHz": 0
+  },
+  {
+    "inicio": 12.08,
+    "fim": 17.35,
+    "cantor": 1,
+    "letra": "O tempo não passou mesmo pra ela",
+    "alvoHz": 0
+  },
+  {
+    "inicio": 17.35,
+    "fim": 20.27,
+    "cantor": 2,
+    "letra": "Mudou o corte do cabelo",
+    "alvoHz": 0
+  },
+  {
+    "inicio": 20.27,
+    "fim": 26.01,
+    "cantor": 2,
+    "letra": "Mas as covinhas do sorriso continua o charme dela",
+    "alvoHz": 0
+  },
+  {
+    "inicio": 26.01,
+    "fim": 31.07,
+    "cantor": 1,
+    "letra": "Só aquele cara estranho no lugar que era meu",
+    "alvoHz": 0
+  },
+  {
+    "inicio": 31.07,
+    "fim": 34.74,
+    "cantor": 1,
+    "letra": "Beijando a boca que era minha, foi aí que aconteceu",
+    "alvoHz": 0
+  },
+  {
+    "inicio": 34.74,
+    "fim": 38.5,
+    "cantor": 2,
+    "letra": "Minha mão congelou, coração disparou",
+    "alvoHz": 0
+  },
+  {
+    "inicio": 38.5,
+    "fim": 43.27,
+    "cantor": 2,
+    "letra": "Quando com um beijo de amigo me cumprimentou",
+    "alvoHz": 0
+  },
+  {
+    "inicio": 43.27,
+    "fim": 45.95,
+    "cantor": "dueto",
+    "letra": "Foi de raspão, mas valeu",
+    "alvoHz": 0
+  },
+  {
+    "inicio": 45.95,
+    "fim": 48.427143,
+    "cantor": "dueto",
+    "letra": "Ô, se valeu",
+    "alvoHz": 0
+  },
+  {
+    "inicio": 48.427143,
+    "fim": 51.73,
+    "cantor": "dueto",
+    "letra": "Sentir um beijo seu",
+    "alvoHz": 0
+  },
+  {
+    "inicio": 51.73,
+    "fim": 53.9,
+    "cantor": "dueto",
+    "letra": "Foi de raspão, mas valeu",
+    "alvoHz": 0
+  },
+  {
+    "inicio": 53.9,
+    "fim": 55.95,
+    "cantor": "dueto",
+    "letra": "Foi no canto da boca",
+    "alvoHz": 0
+  },
+  {
+    "inicio": 55.95,
+    "fim": 59.206,
+    "cantor": "dueto",
+    "letra": "Voltei no tempo em que eu era seu",
+    "alvoHz": 0
+  },
+  {
+    "inicio": 59.206,
+    "fim": 60.02,
+    "cantor": "dueto",
+    "letra": "Só seu",
+    "alvoHz": 0
+  },
+  {
+    "inicio": 60.02,
+    "fim": 62.88,
+    "cantor": "dueto",
+    "letra": "Foi de raspão, mas valeu",
+    "alvoHz": 0
+  },
+  {
+    "inicio": 62.88,
+    "fim": 65.125714,
+    "cantor": "dueto",
+    "letra": "Ô, se valeu",
+    "alvoHz": 0
+  },
+  {
+    "inicio": 65.125714,
+    "fim": 68.12,
+    "cantor": "dueto",
+    "letra": "Sentir um beijo seu",
+    "alvoHz": 0
+  },
+  {
+    "inicio": 68.12,
+    "fim": 70.77,
+    "cantor": "dueto",
+    "letra": "Foi de raspão, mas valeu",
+    "alvoHz": 0
+  },
+  {
+    "inicio": 70.77,
+    "fim": 72.89,
+    "cantor": "dueto",
+    "letra": "Foi no canto da boca",
+    "alvoHz": 0
+  },
+  {
+    "inicio": 72.89,
+    "fim": 76.842,
+    "cantor": "dueto",
+    "letra": "Voltei no tempo em que eu era seu",
+    "alvoHz": 0
+  },
+  {
+    "inicio": 76.842,
+    "fim": 77.83,
+    "cantor": "dueto",
+    "letra": "Só seu",
+    "alvoHz": 0
+  },
+  {
+    "inicio": 77.83,
+    "fim": 91.09,
+    "cantor": "intro",
+    "letra": "♪ Instrumental ♪",
+    "alvoHz": 0
+  },
+  {
+    "inicio": 91.09,
+    "fim": 94.07,
+    "cantor": 2,
+    "letra": "Poxa, como ela tava linda",
+    "alvoHz": 0
+  },
+  {
+    "inicio": 94.07,
+    "fim": 98.91,
+    "cantor": 2,
+    "letra": "O tempo não passou mesmo pra ela",
+    "alvoHz": 0
+  },
+  {
+    "inicio": 98.91,
+    "fim": 102.53,
+    "cantor": 1,
+    "letra": "Mudou o corte do cabelo",
+    "alvoHz": 0
+  },
+  {
+    "inicio": 102.53,
+    "fim": 108.31,
+    "cantor": 1,
+    "letra": "Mas as covinhas do sorriso continua o charme dela",
+    "alvoHz": 0
+  },
+  {
+    "inicio": 108.31,
+    "fim": 112.72,
+    "cantor": 2,
+    "letra": "Só aquele cara estranho no lugar que era meu",
+    "alvoHz": 0
+  },
+  {
+    "inicio": 112.72,
+    "fim": 116.68,
+    "cantor": 2,
+    "letra": "Beijando a boca que era minha, foi aí que aconteceu",
+    "alvoHz": 0
+  },
+  {
+    "inicio": 116.68,
+    "fim": 120.8,
+    "cantor": 1,
+    "letra": "Minha mão congelou, coração disparou",
+    "alvoHz": 0
+  },
+  {
+    "inicio": 120.8,
+    "fim": 125.05,
+    "cantor": 1,
+    "letra": "Quando com um beijo de amigo me cumprimentou",
+    "alvoHz": 0
+  },
+  {
+    "inicio": 125.05,
+    "fim": 127.85,
+    "cantor": "dueto",
+    "letra": "Foi de raspão, mas valeu",
+    "alvoHz": 0
+  },
+  {
+    "inicio": 127.85,
+    "fim": 130.468571,
+    "cantor": "dueto",
+    "letra": "Ô, se valeu",
+    "alvoHz": 0
+  },
+  {
+    "inicio": 130.468571,
+    "fim": 133.96,
+    "cantor": "dueto",
+    "letra": "Sentir um beijo seu",
+    "alvoHz": 0
+  },
+  {
+    "inicio": 133.96,
+    "fim": 136.16,
+    "cantor": "dueto",
+    "letra": "Foi de raspão, mas valeu",
+    "alvoHz": 0
+  },
+  {
+    "inicio": 136.16,
+    "fim": 138.08,
+    "cantor": "dueto",
+    "letra": "Foi no canto da boca",
+    "alvoHz": 0
+  },
+  {
+    "inicio": 138.08,
+    "fim": 141.472,
+    "cantor": "dueto",
+    "letra": "Voltei no tempo em que eu era seu",
+    "alvoHz": 0
+  },
+  {
+    "inicio": 141.472,
+    "fim": 142.32,
+    "cantor": "dueto",
+    "letra": "Só seu",
+    "alvoHz": 0
+  },
+  {
+    "inicio": 142.32,
+    "fim": 144.93,
+    "cantor": "dueto",
+    "letra": "Foi de raspão, mas valeu",
+    "alvoHz": 0
+  },
+  {
+    "inicio": 144.93,
+    "fim": 145.688571,
+    "cantor": "intro",
+    "letra": "♪ Instrumental ♪",
+    "alvoHz": 0
+  },
+  {
+    "inicio": 145.688571,
+    "fim": 147.205714,
+    "cantor": "dueto",
+    "letra": "Ô, se valeu",
+    "alvoHz": 0
+  },
+  {
+    "inicio": 147.205714,
+    "fim": 150.24,
+    "cantor": "dueto",
+    "letra": "Sentir um beijo seu",
+    "alvoHz": 0
+  },
+  {
+    "inicio": 150.24,
+    "fim": 152.99,
+    "cantor": "dueto",
+    "letra": "Foi de raspão, mas valeu",
+    "alvoHz": 0
+  },
+  {
+    "inicio": 152.99,
+    "fim": 154.74,
+    "cantor": "dueto",
+    "letra": "Foi no canto da boca",
+    "alvoHz": 0
+  },
+  {
+    "inicio": 154.74,
+    "fim": 159.81,
+    "cantor": "dueto",
+    "letra": "Voltei no tempo em que eu era seu",
+    "alvoHz": 0
+  },
+  {
+    "inicio": 159.81,
+    "fim": 161.53,
+    "cantor": "dueto",
+    "letra": "Foi de raspão, mas valeu",
+    "alvoHz": 0
+  },
+  {
+    "inicio": 161.53,
+    "fim": 163.977143,
+    "cantor": "dueto",
+    "letra": "Ô, se valeu",
+    "alvoHz": 0
+  },
+  {
+    "inicio": 163.977143,
+    "fim": 167.24,
+    "cantor": "dueto",
+    "letra": "Sentir um beijo seu",
+    "alvoHz": 0
+  },
+  {
+    "inicio": 167.24,
+    "fim": 169.68,
+    "cantor": "dueto",
+    "letra": "Foi de raspão, mas valeu",
+    "alvoHz": 0
+  },
+  {
+    "inicio": 169.68,
+    "fim": 171.78,
+    "cantor": "dueto",
+    "letra": "Foi no canto da boca",
+    "alvoHz": 0
+  },
+  {
+    "inicio": 171.78,
+    "fim": 173.1,
+    "cantor": "dueto",
+    "letra": "Voltei no tempo em que eu era seu",
+    "alvoHz": 0
+  },
+  {
+    "inicio": 173.1,
+    "fim": 182.021224,
+    "cantor": "intro",
+    "letra": "♪ Final ♪",
+    "alvoHz": 0
+  }
+]

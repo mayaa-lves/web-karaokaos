@@ -1,0 +1,268 @@
+[
+  {
+    "inicio": 0,
+    "fim": 3.55,
+    "cantor": "intro",
+    "letra": "♪ Introdução ♪",
+    "alvoHz": 0
+  },
+  {
+    "inicio": 3.55,
+    "fim": 6.85,
+    "cantor": 1,
+    "letra": "Ela não vai pro rodeio pra ver montaria",
+    "alvoHz": 0
+  },
+  {
+    "inicio": 6.85,
+    "fim": 10.51,
+    "cantor": 1,
+    "letra": "Ela não vai pro rodeio pra beber cachaça",
+    "alvoHz": 0
+  },
+  {
+    "inicio": 10.51,
+    "fim": 13.56,
+    "cantor": 2,
+    "letra": "Sabe o que que ela tá interessada?",
+    "alvoHz": 0
+  },
+  {
+    "inicio": 13.56,
+    "fim": 17.5,
+    "cantor": 2,
+    "letra": "Sabe o que que ela quer? Ha-ha-ha",
+    "alvoHz": 0
+  },
+  {
+    "inicio": 17.5,
+    "fim": 21.59,
+    "cantor": "dueto",
+    "letra": "Peão todo tatuado",
+    "alvoHz": 0
+  },
+  {
+    "inicio": 21.59,
+    "fim": 24.76,
+    "cantor": "dueto",
+    "letra": "Beijo de paieiro, perfume de mato",
+    "alvoHz": 0
+  },
+  {
+    "inicio": 24.76,
+    "fim": 28.08,
+    "cantor": "dueto",
+    "letra": "Me pega de jeito, me prende no laço",
+    "alvoHz": 0
+  },
+  {
+    "inicio": 28.08,
+    "fim": 30.17,
+    "cantor": "dueto",
+    "letra": "Eu adoro",
+    "alvoHz": 0
+  },
+  {
+    "inicio": 30.17,
+    "fim": 34.12,
+    "cantor": "dueto",
+    "letra": "Peão todo tatuado",
+    "alvoHz": 0
+  },
+  {
+    "inicio": 34.12,
+    "fim": 37.22,
+    "cantor": "dueto",
+    "letra": "Beijo de paieiro, perfume do mato",
+    "alvoHz": 0
+  },
+  {
+    "inicio": 37.22,
+    "fim": 40.67,
+    "cantor": "dueto",
+    "letra": "Me pega de jeito, me prende no laço",
+    "alvoHz": 0
+  },
+  {
+    "inicio": 40.67,
+    "fim": 43.06,
+    "cantor": "dueto",
+    "letra": "Eu adoro",
+    "alvoHz": 0
+  },
+  {
+    "inicio": 43.06,
+    "fim": 46.64,
+    "cantor": 1,
+    "letra": "Dentro da caminhonete, embaixo do chapéu de palha",
+    "alvoHz": 0
+  },
+  {
+    "inicio": 46.64,
+    "fim": 49.36,
+    "cantor": 1,
+    "letra": "O chicote estrala, e chicote estrala",
+    "alvoHz": 0
+  },
+  {
+    "inicio": 49.36,
+    "fim": 52.91,
+    "cantor": 2,
+    "letra": "Quando acaba o rodeio, aí começa a cavalgada",
+    "alvoHz": 0
+  },
+  {
+    "inicio": 52.91,
+    "fim": 55.16,
+    "cantor": 2,
+    "letra": "O chicote estrala, o chicote estrala",
+    "alvoHz": 0
+  },
+  {
+    "inicio": 55.16,
+    "fim": 59.19,
+    "cantor": 1,
+    "letra": "Peão todo tatuado",
+    "alvoHz": 0
+  },
+  {
+    "inicio": 59.19,
+    "fim": 71.33,
+    "cantor": "intro",
+    "letra": "♪ Instrumental ♪",
+    "alvoHz": 0
+  },
+  {
+    "inicio": 71.33,
+    "fim": 74.54,
+    "cantor": 1,
+    "letra": "Ela não vai pro rodeio pra ver montaria",
+    "alvoHz": 0
+  },
+  {
+    "inicio": 74.54,
+    "fim": 78.0,
+    "cantor": 2,
+    "letra": "Ela não vai pro rodeio pra beber cachaça",
+    "alvoHz": 0
+  },
+  {
+    "inicio": 78.0,
+    "fim": 81.28,
+    "cantor": 2,
+    "letra": "Sabe o que que ela tá interessada?",
+    "alvoHz": 0
+  },
+  {
+    "inicio": 81.28,
+    "fim": 85.04,
+    "cantor": 1,
+    "letra": "Sabe o que que ela quer? Ha-ha-ha",
+    "alvoHz": 0
+  },
+  {
+    "inicio": 85.04,
+    "fim": 89.09,
+    "cantor": "dueto",
+    "letra": "Peão todo tatuado",
+    "alvoHz": 0
+  },
+  {
+    "inicio": 89.09,
+    "fim": 92.03,
+    "cantor": "dueto",
+    "letra": "Beijo de paieiro, perfume de mato",
+    "alvoHz": 0
+  },
+  {
+    "inicio": 92.03,
+    "fim": 95.48,
+    "cantor": "dueto",
+    "letra": "Me pega de jeito, me prende no laço",
+    "alvoHz": 0
+  },
+  {
+    "inicio": 95.48,
+    "fim": 96.51,
+    "cantor": "dueto",
+    "letra": "Eu adoro",
+    "alvoHz": 0
+  },
+  {
+    "inicio": 96.51,
+    "fim": 97.57,
+    "cantor": "intro",
+    "letra": "♪ Instrumental ♪",
+    "alvoHz": 0
+  },
+  {
+    "inicio": 97.57,
+    "fim": 101.65,
+    "cantor": "dueto",
+    "letra": "Peão todo tatuado",
+    "alvoHz": 0
+  },
+  {
+    "inicio": 101.65,
+    "fim": 104.66,
+    "cantor": "dueto",
+    "letra": "Beijo de paieiro, perfume do mato",
+    "alvoHz": 0
+  },
+  {
+    "inicio": 104.66,
+    "fim": 107.93,
+    "cantor": "dueto",
+    "letra": "Me pega de jeito, me pega de laço",
+    "alvoHz": 0
+  },
+  {
+    "inicio": 107.93,
+    "fim": 110.26,
+    "cantor": "dueto",
+    "letra": "Eu adoro",
+    "alvoHz": 0
+  },
+  {
+    "inicio": 110.26,
+    "fim": 114.13,
+    "cantor": 1,
+    "letra": "Dentro da caminhonete, embaixo do chapéu de palha",
+    "alvoHz": 0
+  },
+  {
+    "inicio": 114.13,
+    "fim": 116.82,
+    "cantor": 2,
+    "letra": "O chicote estrala, e chicote estrala",
+    "alvoHz": 0
+  },
+  {
+    "inicio": 116.82,
+    "fim": 119.9,
+    "cantor": 2,
+    "letra": "Quando acaba o rodeio, aí começa a cavalgada (e aí?)",
+    "alvoHz": 0
+  },
+  {
+    "inicio": 119.9,
+    "fim": 123.21,
+    "cantor": 1,
+    "letra": "O chicote estrala, o chicote estrala",
+    "alvoHz": 0
+  },
+  {
+    "inicio": 123.21,
+    "fim": 127.81,
+    "cantor": 1,
+    "letra": "Peão todo tatuado",
+    "alvoHz": 0
+  },
+  {
+    "inicio": 127.81,
+    "fim": 137.485351,
+    "cantor": "intro",
+    "letra": "♪ Final ♪",
+    "alvoHz": 0
+  }
+]

@@ -4,9 +4,11 @@ import { useEffect, useMemo, useRef, useState, useSyncExternalStore } from "reac
 import { io } from "socket.io-client";
 import { BABY_TRECHOS, BABY_DURACAO } from "./baby";
 import { BarraEstrelas } from "./BarraEstrelas";
+import { FAIXAS_FEIRA } from "./faixasFeira";
 import { FAIXAS_NOVAS } from "./faixasNovas";
 import { FIO_TRECHOS } from "./fioSincronizado";
 import { mensagemErroAudio } from "./erroAudio";
+import { ajustarTrechos, carregarAjustes, salvarAjustes, ajusteInicial, normalizarAjuste, type AjusteSincronia } from "./sincronia";
 import { criarPreviaMusical } from "./previaMusical";
 import { META_PONTOS, duracaoDoJogador, novoEstadoParticipacao, pontuarParticipacao } from "./pontuacao";
 
@@ -78,6 +80,7 @@ const CATALOGO: Musica[] = [
   { id: "fio-de-cabelo", titulo: "Fio de Cabelo", artista: "Chitãozinho & Xororó", arquivo: "/musicas/fio-de-cabelo.mp3",
     duracao: 180.1404, trechos: FIO_TRECHOS, afinacao: true, letraSincronizada: true },
   ...FAIXAS_NOVAS,
+  ...FAIXAS_FEIRA,
 ];
 
 // ======================================================
@@ -164,9 +167,28 @@ function App() {
   const [tela, setTela] = useState<Tela>("home");
   const previa = useMemo(() => criarPreviaMusical(), []);
   useEffect(() => () => previa.parar(), [tela, previa]);
+  useEffect(() => {
+    const parar = () => previa.parar();
+    window.addEventListener("blur", parar);
+    document.addEventListener("visibilitychange", parar);
+    return () => { window.removeEventListener("blur", parar); document.removeEventListener("visibilitychange", parar); };
+  }, [previa]);
   const [musicaId, setMusicaId] = useState("baby");
   const musica = CATALOGO.find((faixa) => faixa.id === musicaId) ?? CATALOGO[0];
-  const trechos = musica.trechos;
+  const [ajustes, setAjustes] = useState(carregarAjustes);
+  const [avisoSincronia, setAvisoSincronia] = useState("");
+  const ajuste = ajustes[musicaId] ?? ajusteInicial(musicaId);
+  const trechos = useMemo(() => ajustarTrechos(musica.trechos, musica.duracao, ajuste), [musica, ajuste]);
+
+  function mudarSincronia(proximo: AjusteSincronia) {
+    const novos = { ...ajustes, [musicaId]: normalizarAjuste(proximo) };
+    setAjustes(novos);
+    setAvisoSincronia(salvarAjustes(novos) ? "Ajuste salvo neste navegador." : "Ajuste aplicado nesta sessão; o navegador não permitiu salvar.");
+    participacao1.current = novoEstadoParticipacao();
+    participacao2.current = novoEstadoParticipacao();
+    estado1.current = { ultimaFrequencia: null, leiturasValidas: 0, ultimoPonto: 0 };
+    estado2.current = { ultimaFrequencia: null, leiturasValidas: 0, ultimoPonto: 0 };
+  }
   const tocandoRef = useRef(false);
   const [erroAudio, setErroAudio] = useState("");
   const [pin, setPin] = useState("");
@@ -408,7 +430,8 @@ function App() {
 
     let animationId = 0;
 
-    function atualizarRelogio() {
+    function sincronizarRelogio() {
+      if (jogoFinalizado.current) return;
       // Preserva a última posição válida se o arquivo falhar ou estiver recarregando.
       if (!audio.error && !recuperandoAudio.current) {
         const atual = Math.min(audio.currentTime, musica.duracao);
@@ -416,7 +439,11 @@ function App() {
         tempoRef.current = atual;
         setTempo(atual);
       }
-      animationId = requestAnimationFrame(atualizarRelogio);
+    }
+
+    function atualizarRelogio() {
+      sincronizarRelogio();
+      if (!jogoFinalizado.current) animationId = requestAnimationFrame(atualizarRelogio);
     }
 
     function carregou() {
@@ -448,6 +475,8 @@ function App() {
       tocandoRef.current = false;
       participacao1.current = novoEstadoParticipacao();
       participacao2.current = novoEstadoParticipacao();
+      estado1.current = { ultimaFrequencia: null, leiturasValidas: 0, ultimoPonto: 0 };
+      estado2.current = { ultimaFrequencia: null, leiturasValidas: 0, ultimoPonto: 0 };
     }
     function reposicionou() { if (!audio.paused && !audio.ended) tocou(); }
     function falhou() {
@@ -462,6 +491,7 @@ function App() {
     audio.addEventListener("error", falhou);
     audio.addEventListener("loadedmetadata", carregou);
     audio.addEventListener("ended", terminou);
+    audio.addEventListener("timeupdate", sincronizarRelogio);
 
     animationId = requestAnimationFrame(atualizarRelogio);
     audio.play().catch(() => setErroAudio("Clique em Reproduzir para liberar o áudio."));
@@ -481,6 +511,7 @@ function App() {
       audio.removeEventListener("error", falhou);
       audio.removeEventListener("loadedmetadata", carregou);
       audio.removeEventListener("ended", terminou);
+      audio.removeEventListener("timeupdate", sincronizarRelogio);
 
       audioRef.current = null;
     };
@@ -597,6 +628,8 @@ function App() {
       if (dados.jogador === 2) {
         setFrequencia2(dados.frequencia);
       }
+
+      if (!tocandoRef.current || jogoFinalizado.current || !Number.isFinite(dados.volume) || dados.volume < 0.008 || dados.volume > 1) return;
 
       if (!musica.afinacao) {
         const jogador = dados.jogador as 1 | 2;
@@ -781,7 +814,7 @@ function App() {
 
       if (dados.jogador === 1) {
         setPontos1(
-          (anterior) => anterior + pontos
+          (anterior) => Math.min(META_PONTOS, anterior + pontos)
         );
 
         setCombo1(
@@ -789,7 +822,7 @@ function App() {
         );
       } else {
         setPontos2(
-          (anterior) => anterior + pontos
+          (anterior) => Math.min(META_PONTOS, anterior + pontos)
         );
 
         setCombo2(
@@ -1010,7 +1043,7 @@ function App() {
             <h2>Preparados?</h2>
 
             <p>
-              Escolha a música para a demonstração.
+              Escolha sua música e solte a voz.
             </p>
           </div>
 
@@ -1019,8 +1052,8 @@ function App() {
               aria-pressed={musicaId === faixa.id}
               onMouseEnter={() => previa.agendar(faixa.arquivo)}
               onMouseLeave={() => previa.parar()}
-              onClick={() => { previa.parar(); setMusicaId(faixa.id); }}>
-              <div className="album-art">🎤</div>
+              onClick={() => { previa.parar(); setMusicaId(faixa.id); setAvisoSincronia(""); }}>
+              <div className="album-art" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.7" strokeLinecap="round"><rect x="8" y="2" width="8" height="13" rx="4"/><path d="M5 10v2a7 7 0 0 0 14 0v-2M12 19v3M8 22h8"/></svg></div>
               <div className="song-info">
                 <span className="demo-badge">{faixa.letraSincronizada ? "ÁUDIO LOCAL" : "INSTRUMENTAL · MODO LIVRE"}</span>
                 <h3>{faixa.titulo}</h3>
@@ -1038,7 +1071,7 @@ function App() {
           </button>
 
           <p className="dev-note">
-            Frequência analisada em tempo real pelos celulares.
+            Deixe o mouse sobre uma música por 15 segundos para ouvir uma prévia de até 30 segundos.
           </p>
         </section>
       </main>
@@ -1259,6 +1292,26 @@ function App() {
             if (pin) socket.emit("finalizar_partida", { pin });
             setTela("musicas");
           }}>← Trocar música</button>
+          <details className="sync-settings">
+            <summary>Ajustar sincronização</summary>
+            <div className="sync-panel">
+              <div className="sync-heading"><strong>Áudio e letra no mesmo ritmo</strong><span>{musica.titulo}</span></div>
+              <p>Se a letra aparece antes da voz, use <b>Atrasar</b>. O áudio continua no mesmo ponto.</p>
+              <div className="sync-row">
+                <button type="button" onClick={() => mudarSincronia({ ...ajuste, atraso: ajuste.atraso - 0.25 })}>Adiantar −0,25 s</button>
+                <output aria-label="Atraso da letra">{ajuste.atraso > 0 ? "+" : ""}{ajuste.atraso.toLocaleString("pt-BR", { minimumFractionDigits: 2 })} s</output>
+                <button type="button" onClick={() => mudarSincronia({ ...ajuste, atraso: ajuste.atraso + 0.25 })}>Atrasar +0,25 s</button>
+              </div>
+              <label className="sync-scale" htmlFor="sync-scale">Se começa certa, mas depois adianta: alongue o tempo da letra.
+                <span><input id="sync-scale" type="range" min="90" max="110" step="0.1" value={ajuste.escala * 100}
+                  onChange={e => mudarSincronia({ ...ajuste, escala: Number(e.target.value) / 100 })} />
+                <output>{(ajuste.escala * 100).toLocaleString("pt-BR", { maximumFractionDigits: 1 })}%</output></span>
+              </label>
+              <button type="button" className="sync-reset" onClick={() => mudarSincronia({ atraso: 0, escala: 1 })}>Zerar ajuste desta música</button>
+              <small role="status">{avisoSincronia || "Ajuste independente por música, salvo neste navegador."}</small>
+            </div>
+          </details>
+          {!conectadoServidor && <p className="connection-warning" role="status">Servidor desconectado. A pontuação volta quando os celulares reconectarem.</p>}
           {erroAudio && <div className="audio-recovery" role="alert">
             <p>{erroAudio}</p>
             <button onClick={tentarNovamenteAudio}>Tentar novamente</button>

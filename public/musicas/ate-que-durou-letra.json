@@ -1,0 +1,373 @@
+[
+  {
+    "inicio": 0,
+    "fim": 17.96,
+    "cantor": "intro",
+    "letra": "♪ Introdução ♪",
+    "alvoHz": 0
+  },
+  {
+    "inicio": 17.96,
+    "fim": 21.67,
+    "cantor": 1,
+    "letra": "Tentei fazer valer a pena",
+    "alvoHz": 0
+  },
+  {
+    "inicio": 21.67,
+    "fim": 25.35,
+    "cantor": 1,
+    "letra": "Passei por cima dos problemas",
+    "alvoHz": 0
+  },
+  {
+    "inicio": 25.35,
+    "fim": 28.56,
+    "cantor": 2,
+    "letra": "Achei que eu era o bastante",
+    "alvoHz": 0
+  },
+  {
+    "inicio": 28.56,
+    "fim": 32.2,
+    "cantor": 2,
+    "letra": "Mas não fui pra você",
+    "alvoHz": 0
+  },
+  {
+    "inicio": 32.2,
+    "fim": 35.77,
+    "cantor": 1,
+    "letra": "Tentei ser um cara perfeito",
+    "alvoHz": 0
+  },
+  {
+    "inicio": 35.77,
+    "fim": 39.23,
+    "cantor": 1,
+    "letra": "Eu fiz as coisas do seu jeito",
+    "alvoHz": 0
+  },
+  {
+    "inicio": 39.23,
+    "fim": 43.0,
+    "cantor": 2,
+    "letra": "Queria ser mais importante",
+    "alvoHz": 0
+  },
+  {
+    "inicio": 43.0,
+    "fim": 46.57,
+    "cantor": 2,
+    "letra": "Mas não fui pra você",
+    "alvoHz": 0
+  },
+  {
+    "inicio": 46.57,
+    "fim": 48.19,
+    "cantor": 1,
+    "letra": "Até que durou",
+    "alvoHz": 0
+  },
+  {
+    "inicio": 48.19,
+    "fim": 50.35,
+    "cantor": 1,
+    "letra": "Me diz o porquê",
+    "alvoHz": 0
+  },
+  {
+    "inicio": 50.35,
+    "fim": 53.42,
+    "cantor": 2,
+    "letra": "Perdeu tanto tempo aqui",
+    "alvoHz": 0
+  },
+  {
+    "inicio": 53.42,
+    "fim": 57.065714,
+    "cantor": 2,
+    "letra": "Te faço um favor",
+    "alvoHz": 0
+  },
+  {
+    "inicio": 57.065714,
+    "fim": 59.8,
+    "cantor": 1,
+    "letra": "Melhor eu sumir",
+    "alvoHz": 0
+  },
+  {
+    "inicio": 59.8,
+    "fim": 62.35,
+    "cantor": "dueto",
+    "letra": "Fui mais um nas suas mãos",
+    "alvoHz": 0
+  },
+  {
+    "inicio": 62.35,
+    "fim": 66.31,
+    "cantor": "dueto",
+    "letra": "Não sei se por carência ou falta de opção",
+    "alvoHz": 0
+  },
+  {
+    "inicio": 66.31,
+    "fim": 69.37,
+    "cantor": "dueto",
+    "letra": "Só sei que eu senti amor",
+    "alvoHz": 0
+  },
+  {
+    "inicio": 69.37,
+    "fim": 74.01,
+    "cantor": "dueto",
+    "letra": "Que pena, só eu senti amor",
+    "alvoHz": 0
+  },
+  {
+    "inicio": 74.01,
+    "fim": 76.916667,
+    "cantor": "dueto",
+    "letra": "O que faço com os planos",
+    "alvoHz": 0
+  },
+  {
+    "inicio": 76.916667,
+    "fim": 78.37,
+    "cantor": "dueto",
+    "letra": "Dos próximos anos",
+    "alvoHz": 0
+  },
+  {
+    "inicio": 78.37,
+    "fim": 80.28,
+    "cantor": "dueto",
+    "letra": "Juro que não sei",
+    "alvoHz": 0
+  },
+  {
+    "inicio": 80.28,
+    "fim": 83.59,
+    "cantor": "dueto",
+    "letra": "Só sei que eu senti amor",
+    "alvoHz": 0
+  },
+  {
+    "inicio": 83.59,
+    "fim": 89.47,
+    "cantor": "dueto",
+    "letra": "Que pena, só eu senti amor",
+    "alvoHz": 0
+  },
+  {
+    "inicio": 89.47,
+    "fim": 95.7,
+    "cantor": "dueto",
+    "letra": "Só eu senti amor",
+    "alvoHz": 0
+  },
+  {
+    "inicio": 95.7,
+    "fim": 99.23,
+    "cantor": 2,
+    "letra": "Tentei ser um cara perfeito",
+    "alvoHz": 0
+  },
+  {
+    "inicio": 99.23,
+    "fim": 102.71,
+    "cantor": 1,
+    "letra": "Eu fiz as coisas do seu jeito",
+    "alvoHz": 0
+  },
+  {
+    "inicio": 102.71,
+    "fim": 106.41,
+    "cantor": 1,
+    "letra": "Queria ser mais importante",
+    "alvoHz": 0
+  },
+  {
+    "inicio": 106.41,
+    "fim": 109.98,
+    "cantor": 2,
+    "letra": "Mas não fui pra você",
+    "alvoHz": 0
+  },
+  {
+    "inicio": 109.98,
+    "fim": 111.617143,
+    "cantor": 2,
+    "letra": "Até que durou",
+    "alvoHz": 0
+  },
+  {
+    "inicio": 111.617143,
+    "fim": 113.8,
+    "cantor": 1,
+    "letra": "Me diz o porquê",
+    "alvoHz": 0
+  },
+  {
+    "inicio": 113.8,
+    "fim": 116.95,
+    "cantor": 1,
+    "letra": "Perdeu tanto tempo aqui",
+    "alvoHz": 0
+  },
+  {
+    "inicio": 116.95,
+    "fim": 120.607143,
+    "cantor": 2,
+    "letra": "Te faço um favor",
+    "alvoHz": 0
+  },
+  {
+    "inicio": 120.607143,
+    "fim": 123.35,
+    "cantor": 2,
+    "letra": "Melhor eu sumir",
+    "alvoHz": 0
+  },
+  {
+    "inicio": 123.35,
+    "fim": 126.05,
+    "cantor": "dueto",
+    "letra": "Fui mais um nas suas mãos",
+    "alvoHz": 0
+  },
+  {
+    "inicio": 126.05,
+    "fim": 129.75,
+    "cantor": "dueto",
+    "letra": "Não sei se por carência ou falta de opção",
+    "alvoHz": 0
+  },
+  {
+    "inicio": 129.75,
+    "fim": 133.08,
+    "cantor": "dueto",
+    "letra": "Só sei que eu senti amor",
+    "alvoHz": 0
+  },
+  {
+    "inicio": 133.08,
+    "fim": 138.02,
+    "cantor": "dueto",
+    "letra": "Que pena, só eu senti amor",
+    "alvoHz": 0
+  },
+  {
+    "inicio": 138.02,
+    "fim": 140.56,
+    "cantor": "dueto",
+    "letra": "O que faço com os planos",
+    "alvoHz": 0
+  },
+  {
+    "inicio": 140.56,
+    "fim": 141.83,
+    "cantor": "dueto",
+    "letra": "Dos próximos anos",
+    "alvoHz": 0
+  },
+  {
+    "inicio": 141.83,
+    "fim": 143.94,
+    "cantor": "dueto",
+    "letra": "Juro que não sei",
+    "alvoHz": 0
+  },
+  {
+    "inicio": 143.94,
+    "fim": 147.19,
+    "cantor": "dueto",
+    "letra": "Só sei que eu senti amor",
+    "alvoHz": 0
+  },
+  {
+    "inicio": 147.19,
+    "fim": 151.93,
+    "cantor": "dueto",
+    "letra": "Que pena, só eu senti amor",
+    "alvoHz": 0
+  },
+  {
+    "inicio": 151.93,
+    "fim": 155.0,
+    "cantor": "dueto",
+    "letra": "Fui mais um nas suas mãos",
+    "alvoHz": 0
+  },
+  {
+    "inicio": 155.0,
+    "fim": 158.02,
+    "cantor": "dueto",
+    "letra": "Não sei se por carência ou falta de opção",
+    "alvoHz": 0
+  },
+  {
+    "inicio": 158.02,
+    "fim": 161.03,
+    "cantor": "dueto",
+    "letra": "Só sei que eu senti amor",
+    "alvoHz": 0
+  },
+  {
+    "inicio": 161.03,
+    "fim": 166.08,
+    "cantor": "dueto",
+    "letra": "Que pena, só eu senti amor",
+    "alvoHz": 0
+  },
+  {
+    "inicio": 166.08,
+    "fim": 168.946667,
+    "cantor": "dueto",
+    "letra": "O que faço com os planos",
+    "alvoHz": 0
+  },
+  {
+    "inicio": 168.946667,
+    "fim": 170.38,
+    "cantor": "dueto",
+    "letra": "Dos próximos anos",
+    "alvoHz": 0
+  },
+  {
+    "inicio": 170.38,
+    "fim": 172.16,
+    "cantor": "dueto",
+    "letra": "Juro que não sei",
+    "alvoHz": 0
+  },
+  {
+    "inicio": 172.16,
+    "fim": 175.59,
+    "cantor": "dueto",
+    "letra": "Só sei que eu senti amor",
+    "alvoHz": 0
+  },
+  {
+    "inicio": 175.59,
+    "fim": 181.14,
+    "cantor": "dueto",
+    "letra": "Que pena, só eu senti amor",
+    "alvoHz": 0
+  },
+  {
+    "inicio": 181.14,
+    "fim": 188.11,
+    "cantor": "dueto",
+    "letra": "Só eu senti amor",
+    "alvoHz": 0
+  },
+  {
+    "inicio": 188.11,
+    "fim": 208.306213,
+    "cantor": "intro",
+    "letra": "♪ Final ♪",
+    "alvoHz": 0
+  }
+]

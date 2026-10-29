@@ -1,0 +1,317 @@
+[
+  {
+    "inicio": 0,
+    "fim": 10.51991,
+    "cantor": "intro",
+    "letra": "♪ Introdução ♪",
+    "alvoHz": 0
+  },
+  {
+    "inicio": 10.51991,
+    "fim": 13.16991,
+    "cantor": 1,
+    "letra": "Num futuro perto",
+    "alvoHz": 0
+  },
+  {
+    "inicio": 13.16991,
+    "fim": 16.89991,
+    "cantor": 1,
+    "letra": "Quero atender sua chamada",
+    "alvoHz": 0
+  },
+  {
+    "inicio": 16.89991,
+    "fim": 19.70991,
+    "cantor": 2,
+    "letra": "Batendo a hora das agendas",
+    "alvoHz": 0
+  },
+  {
+    "inicio": 19.70991,
+    "fim": 25.32991,
+    "cantor": 2,
+    "letra": "Pro nosso fight se concretizar",
+    "alvoHz": 0
+  },
+  {
+    "inicio": 25.32991,
+    "fim": 28.55991,
+    "cantor": "dueto",
+    "letra": "Na imaginação, já fiz coisas com você",
+    "alvoHz": 0
+  },
+  {
+    "inicio": 28.55991,
+    "fim": 32.74991,
+    "cantor": "dueto",
+    "letra": "Cê não mensura o quanto foi bom",
+    "alvoHz": 0
+  },
+  {
+    "inicio": 32.74991,
+    "fim": 35.86991,
+    "cantor": "dueto",
+    "letra": "E a cada ação mais virava seu fã",
+    "alvoHz": 0
+  },
+  {
+    "inicio": 35.86991,
+    "fim": 40.05991,
+    "cantor": "dueto",
+    "letra": "Conteúdo exclusivo, mostrando seu dom",
+    "alvoHz": 0
+  },
+  {
+    "inicio": 40.05991,
+    "fim": 44.62991,
+    "cantor": 1,
+    "letra": "Cê é apelação, não é à toa que é tão cobiçada",
+    "alvoHz": 0
+  },
+  {
+    "inicio": 44.62991,
+    "fim": 47.20991,
+    "cantor": 1,
+    "letra": "Qual é a boa? Me explica essa charada",
+    "alvoHz": 0
+  },
+  {
+    "inicio": 47.20991,
+    "fim": 50.55991,
+    "cantor": 2,
+    "letra": "Receba essa botada, toma, toma catucada (me explica essa charada)",
+    "alvoHz": 0
+  },
+  {
+    "inicio": 50.55991,
+    "fim": 52.39991,
+    "cantor": 2,
+    "letra": "Toma, toma catucada (me explica essa charada)",
+    "alvoHz": 0
+  },
+  {
+    "inicio": 52.39991,
+    "fim": 54.76991,
+    "cantor": 1,
+    "letra": "Toma, toma catucada (me explica essa charada)",
+    "alvoHz": 0
+  },
+  {
+    "inicio": 54.76991,
+    "fim": 58.02991,
+    "cantor": "dueto",
+    "letra": "Na imaginação, já fiz coisas com você",
+    "alvoHz": 0
+  },
+  {
+    "inicio": 58.02991,
+    "fim": 62.15991,
+    "cantor": "dueto",
+    "letra": "Cê não mensura o quanto foi bom",
+    "alvoHz": 0
+  },
+  {
+    "inicio": 62.15991,
+    "fim": 65.43991,
+    "cantor": "dueto",
+    "letra": "E a cada ação mais virava seu fã",
+    "alvoHz": 0
+  },
+  {
+    "inicio": 65.43991,
+    "fim": 68.65991,
+    "cantor": "dueto",
+    "letra": "Conteúdo exclusivo, mostrando seu dom",
+    "alvoHz": 0
+  },
+  {
+    "inicio": 68.65991,
+    "fim": 72.20991,
+    "cantor": 1,
+    "letra": "Num fut—, num fut—, num futuro perto",
+    "alvoHz": 0
+  },
+  {
+    "inicio": 72.20991,
+    "fim": 75.86991,
+    "cantor": 2,
+    "letra": "Quero atender sua chamada",
+    "alvoHz": 0
+  },
+  {
+    "inicio": 75.86991,
+    "fim": 78.67991,
+    "cantor": 2,
+    "letra": "Batendo a hora das agendas",
+    "alvoHz": 0
+  },
+  {
+    "inicio": 78.67991,
+    "fim": 84.45991,
+    "cantor": 1,
+    "letra": "Pro nosso fight se concretizar",
+    "alvoHz": 0
+  },
+  {
+    "inicio": 84.45991,
+    "fim": 87.37991,
+    "cantor": "dueto",
+    "letra": "Na imaginação, já fiz coisas com você",
+    "alvoHz": 0
+  },
+  {
+    "inicio": 87.37991,
+    "fim": 91.58991,
+    "cantor": "dueto",
+    "letra": "Cê não mensura o quanto foi bom",
+    "alvoHz": 0
+  },
+  {
+    "inicio": 91.58991,
+    "fim": 94.76991,
+    "cantor": "dueto",
+    "letra": "E a cada ação mais virava seu fã",
+    "alvoHz": 0
+  },
+  {
+    "inicio": 94.76991,
+    "fim": 98.89991,
+    "cantor": "dueto",
+    "letra": "Conteúdo exclusivo, mostrando seu dom",
+    "alvoHz": 0
+  },
+  {
+    "inicio": 98.89991,
+    "fim": 103.71991,
+    "cantor": 1,
+    "letra": "Cê é apelação, não é à toa que é tão cobiçada",
+    "alvoHz": 0
+  },
+  {
+    "inicio": 103.71991,
+    "fim": 106.16991,
+    "cantor": 2,
+    "letra": "Qual é a boa? Me explica essa charada",
+    "alvoHz": 0
+  },
+  {
+    "inicio": 106.16991,
+    "fim": 109.48991,
+    "cantor": 2,
+    "letra": "Receba essa botada, toma, toma catucada (me explica essa charada)",
+    "alvoHz": 0
+  },
+  {
+    "inicio": 109.48991,
+    "fim": 111.31991,
+    "cantor": 1,
+    "letra": "Toma, toma catucada (me explica essa charada)",
+    "alvoHz": 0
+  },
+  {
+    "inicio": 111.31991,
+    "fim": 113.78991,
+    "cantor": 1,
+    "letra": "Toma, toma catucada (me explica essa charada)",
+    "alvoHz": 0
+  },
+  {
+    "inicio": 113.78991,
+    "fim": 117.02991,
+    "cantor": "dueto",
+    "letra": "Na imaginação, já fiz coisas com você",
+    "alvoHz": 0
+  },
+  {
+    "inicio": 117.02991,
+    "fim": 121.26991,
+    "cantor": "dueto",
+    "letra": "Cê não mensura o quanto foi bom",
+    "alvoHz": 0
+  },
+  {
+    "inicio": 121.26991,
+    "fim": 124.45991,
+    "cantor": "dueto",
+    "letra": "E a cada ação mais virava seu fã",
+    "alvoHz": 0
+  },
+  {
+    "inicio": 124.45991,
+    "fim": 128.51991,
+    "cantor": "dueto",
+    "letra": "Conteúdo exclusivo, mostrando seu dom",
+    "alvoHz": 0
+  },
+  {
+    "inicio": 128.51991,
+    "fim": 130.122767,
+    "cantor": 2,
+    "letra": "Cê é apelação",
+    "alvoHz": 0
+  },
+  {
+    "inicio": 130.122767,
+    "fim": 132.25991,
+    "cantor": 2,
+    "letra": "(Me explica essa charada)",
+    "alvoHz": 0
+  },
+  {
+    "inicio": 132.25991,
+    "fim": 134.05991,
+    "cantor": 1,
+    "letra": "(Me explica essa charada)",
+    "alvoHz": 0
+  },
+  {
+    "inicio": 134.05991,
+    "fim": 135.85991,
+    "cantor": 1,
+    "letra": "(Me explica essa charada)",
+    "alvoHz": 0
+  },
+  {
+    "inicio": 135.85991,
+    "fim": 137.514196,
+    "cantor": 2,
+    "letra": "Cê é apelação",
+    "alvoHz": 0
+  },
+  {
+    "inicio": 137.514196,
+    "fim": 139.71991,
+    "cantor": 2,
+    "letra": "(Me explica essa charada)",
+    "alvoHz": 0
+  },
+  {
+    "inicio": 139.71991,
+    "fim": 141.11491,
+    "cantor": 1,
+    "letra": "(Me explica essa charada)",
+    "alvoHz": 0
+  },
+  {
+    "inicio": 141.11491,
+    "fim": 142.50991,
+    "cantor": 1,
+    "letra": "(Me explica essa charada)",
+    "alvoHz": 0
+  },
+  {
+    "inicio": 142.50991,
+    "fim": 144.51991,
+    "cantor": 2,
+    "letra": "(E aê, DJ Topo?)",
+    "alvoHz": 0
+  },
+  {
+    "inicio": 144.51991,
+    "fim": 159.079909,
+    "cantor": "intro",
+    "letra": "♪ Final ♪",
+    "alvoHz": 0
+  }
+]

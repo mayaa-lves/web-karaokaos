@@ -1,0 +1,324 @@
+[
+  {
+    "inicio": 0,
+    "fim": 9.84,
+    "cantor": "intro",
+    "letra": "♪ Introdução ♪",
+    "alvoHz": 0
+  },
+  {
+    "inicio": 9.84,
+    "fim": 11.2,
+    "cantor": 1,
+    "letra": "Ei, amiga, senta aqui",
+    "alvoHz": 0
+  },
+  {
+    "inicio": 11.2,
+    "fim": 13.59,
+    "cantor": 1,
+    "letra": "Que cara é essa aí?",
+    "alvoHz": 0
+  },
+  {
+    "inicio": 13.59,
+    "fim": 15.65,
+    "cantor": 2,
+    "letra": "Será que alguém morreu?",
+    "alvoHz": 0
+  },
+  {
+    "inicio": 15.65,
+    "fim": 17.39,
+    "cantor": 2,
+    "letra": "O que aconteceu?",
+    "alvoHz": 0
+  },
+  {
+    "inicio": 17.39,
+    "fim": 19.23,
+    "cantor": 1,
+    "letra": "O que quer me dizer?",
+    "alvoHz": 0
+  },
+  {
+    "inicio": 19.23,
+    "fim": 19.745,
+    "cantor": "intro",
+    "letra": "♪ Instrumental ♪",
+    "alvoHz": 0
+  },
+  {
+    "inicio": 19.745,
+    "fim": 21.29,
+    "cantor": 1,
+    "letra": "Por que cê tá chorando?",
+    "alvoHz": 0
+  },
+  {
+    "inicio": 21.29,
+    "fim": 23.21,
+    "cantor": 2,
+    "letra": "Eu não tô entendendo",
+    "alvoHz": 0
+  },
+  {
+    "inicio": 23.21,
+    "fim": 24.96,
+    "cantor": 2,
+    "letra": "Cê tá me assustando",
+    "alvoHz": 0
+  },
+  {
+    "inicio": 24.96,
+    "fim": 26.96,
+    "cantor": 1,
+    "letra": "Lembro da noite, sim",
+    "alvoHz": 0
+  },
+  {
+    "inicio": 26.96,
+    "fim": 29.07,
+    "cantor": 1,
+    "letra": "Que a gente saiu",
+    "alvoHz": 0
+  },
+  {
+    "inicio": 29.07,
+    "fim": 30.83,
+    "cantor": 2,
+    "letra": "Cê disse que ia ali",
+    "alvoHz": 0
+  },
+  {
+    "inicio": 30.83,
+    "fim": 32.66,
+    "cantor": 2,
+    "letra": "Logo depois sumiu",
+    "alvoHz": 0
+  },
+  {
+    "inicio": 32.66,
+    "fim": 34.33,
+    "cantor": 1,
+    "letra": "Aonde você tava?",
+    "alvoHz": 0
+  },
+  {
+    "inicio": 34.33,
+    "fim": 36.62,
+    "cantor": 1,
+    "letra": "Como assim, vou ficar brava?",
+    "alvoHz": 0
+  },
+  {
+    "inicio": 36.62,
+    "fim": 40.0,
+    "cantor": 2,
+    "letra": "Que história é essa que aconteceu?",
+    "alvoHz": 0
+  },
+  {
+    "inicio": 40.0,
+    "fim": 44.02,
+    "cantor": 2,
+    "letra": "O cara que eu tava deu em cima de você, foi?",
+    "alvoHz": 0
+  },
+  {
+    "inicio": 44.02,
+    "fim": 47.63,
+    "cantor": 1,
+    "letra": "E aí você ficou com ele, mas foi uma vez, ok",
+    "alvoHz": 0
+  },
+  {
+    "inicio": 47.63,
+    "fim": 51.68,
+    "cantor": 1,
+    "letra": "Do que cê tá com medo? De estragar a amizade?",
+    "alvoHz": 0
+  },
+  {
+    "inicio": 51.68,
+    "fim": 57.06,
+    "cantor": 2,
+    "letra": "Nem fica preocupada, a gente resolve mais tarde",
+    "alvoHz": 0
+  },
+  {
+    "inicio": 57.06,
+    "fim": 61.03,
+    "cantor": "dueto",
+    "letra": "Se quem tava comigo era ele, a culpa é dele",
+    "alvoHz": 0
+  },
+  {
+    "inicio": 61.03,
+    "fim": 65.07,
+    "cantor": "dueto",
+    "letra": "Quem fez essa bagunça na nossa amizade é ele",
+    "alvoHz": 0
+  },
+  {
+    "inicio": 65.07,
+    "fim": 70.39,
+    "cantor": "dueto",
+    "letra": "Eu não vou deixar de ser sua amiga por causa de um qualquer",
+    "alvoHz": 0
+  },
+  {
+    "inicio": 70.39,
+    "fim": 72.71,
+    "cantor": "dueto",
+    "letra": "Que não respeita uma mulher",
+    "alvoHz": 0
+  },
+  {
+    "inicio": 72.71,
+    "fim": 76.36,
+    "cantor": "dueto",
+    "letra": "Se quem tava comigo era ele, a culpa é dele",
+    "alvoHz": 0
+  },
+  {
+    "inicio": 76.36,
+    "fim": 80.39,
+    "cantor": "dueto",
+    "letra": "Quem fez essa bagunça na nossa amizade é ele",
+    "alvoHz": 0
+  },
+  {
+    "inicio": 80.39,
+    "fim": 85.33,
+    "cantor": "dueto",
+    "letra": "Eu não vou deixar de ser sua amiga por causa de um qualquer",
+    "alvoHz": 0
+  },
+  {
+    "inicio": 85.33,
+    "fim": 90.22,
+    "cantor": "dueto",
+    "letra": "Que não respeita uma mulher",
+    "alvoHz": 0
+  },
+  {
+    "inicio": 90.22,
+    "fim": 104.51,
+    "cantor": "intro",
+    "letra": "♪ Instrumental ♪",
+    "alvoHz": 0
+  },
+  {
+    "inicio": 104.51,
+    "fim": 109.461667,
+    "cantor": 2,
+    "letra": "O cara que eu tava deu em cima de você, foi?",
+    "alvoHz": 0
+  },
+  {
+    "inicio": 109.461667,
+    "fim": 112.79,
+    "cantor": 1,
+    "letra": "Aí você ficou com ele, mas foi só uma vez",
+    "alvoHz": 0
+  },
+  {
+    "inicio": 112.79,
+    "fim": 116.81,
+    "cantor": 1,
+    "letra": "Do que cê tá com medo? De estragar a amizade?",
+    "alvoHz": 0
+  },
+  {
+    "inicio": 116.81,
+    "fim": 121.8,
+    "cantor": 2,
+    "letra": "Nem fica preocupada, a gente resolve mais tarde",
+    "alvoHz": 0
+  },
+  {
+    "inicio": 121.8,
+    "fim": 126.13,
+    "cantor": "dueto",
+    "letra": "Se quem tava comigo era ele, a culpa é dele",
+    "alvoHz": 0
+  },
+  {
+    "inicio": 126.13,
+    "fim": 129.83,
+    "cantor": "dueto",
+    "letra": "Quem fez essa bagunça na nossa amizade é ele",
+    "alvoHz": 0
+  },
+  {
+    "inicio": 129.83,
+    "fim": 134.71,
+    "cantor": "dueto",
+    "letra": "Eu não vou deixar de ser sua amiga por causa de um qualquer",
+    "alvoHz": 0
+  },
+  {
+    "inicio": 134.71,
+    "fim": 137.62,
+    "cantor": "dueto",
+    "letra": "Que não respeita uma mulher",
+    "alvoHz": 0
+  },
+  {
+    "inicio": 137.62,
+    "fim": 141.46,
+    "cantor": "dueto",
+    "letra": "Se quem tava comigo era ele, a culpa é dele",
+    "alvoHz": 0
+  },
+  {
+    "inicio": 141.46,
+    "fim": 145.16,
+    "cantor": "dueto",
+    "letra": "Quem fez essa bagunça na nossa amizade é ele",
+    "alvoHz": 0
+  },
+  {
+    "inicio": 145.16,
+    "fim": 150.5,
+    "cantor": "dueto",
+    "letra": "Eu não vou deixar de ser sua amiga por causa de um qualquer",
+    "alvoHz": 0
+  },
+  {
+    "inicio": 150.5,
+    "fim": 155.66,
+    "cantor": "dueto",
+    "letra": "Que não respeita uma mulher",
+    "alvoHz": 0
+  },
+  {
+    "inicio": 155.66,
+    "fim": 160.55,
+    "cantor": "intro",
+    "letra": "♪ Instrumental ♪",
+    "alvoHz": 0
+  },
+  {
+    "inicio": 160.55,
+    "fim": 165.5,
+    "cantor": "dueto",
+    "letra": "Eu não vou deixar de ser sua amiga por causa de um qualquer",
+    "alvoHz": 0
+  },
+  {
+    "inicio": 165.5,
+    "fim": 170.85,
+    "cantor": "dueto",
+    "letra": "Que não respeita uma mulher",
+    "alvoHz": 0
+  },
+  {
+    "inicio": 170.85,
+    "fim": 173.081542,
+    "cantor": "intro",
+    "letra": "♪ Final ♪",
+    "alvoHz": 0
+  }
+]

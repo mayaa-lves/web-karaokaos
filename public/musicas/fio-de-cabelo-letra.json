@@ -1,188 +1,188 @@
 [
   {
     "inicio": 0,
-    "fim": 16.24,
+    "fim": 18.24,
     "cantor": "intro",
     "letra": "♪ Introdução ♪",
     "alvoHz": 220
   },
   {
-    "inicio": 16.24,
-    "fim": 24.492,
+    "inicio": 18.24,
+    "fim": 26.492,
     "cantor": 1,
     "letra": "Quando a gente ama, qualquer coisa serve para relembrar",
     "alvoHz": 196
   },
   {
-    "inicio": 24.492,
-    "fim": 32.703,
+    "inicio": 26.492,
+    "fim": 34.703,
     "cantor": 2,
     "letra": "Um vestido velho da mulher amada tem muito valor",
     "alvoHz": 220
   },
   {
-    "inicio": 32.703,
-    "fim": 39.638,
+    "inicio": 34.703,
+    "fim": 41.638,
     "cantor": 1,
     "letra": "Aquele restinho do perfume dela que ficou no frasco",
     "alvoHz": 196
   },
   {
-    "inicio": 39.638,
-    "fim": 43.622,
+    "inicio": 41.638,
+    "fim": 45.622,
     "cantor": 2,
     "letra": "Sobre a penteadeira, mostrando que o quarto",
     "alvoHz": 220
   },
   {
-    "inicio": 43.622,
-    "fim": 50.578,
+    "inicio": 45.622,
+    "fim": 52.578,
     "cantor": 2,
     "letra": "Já foi o cenário de um grande amor",
     "alvoHz": 246.94
   },
   {
-    "inicio": 50.578,
-    "fim": 56.374,
+    "inicio": 52.578,
+    "fim": 58.374,
     "cantor": 1,
     "letra": "E hoje o que encontrei me deixou mais triste",
     "alvoHz": 220
   },
   {
-    "inicio": 56.374,
-    "fim": 60.632,
+    "inicio": 58.374,
+    "fim": 62.632,
     "cantor": 2,
     "letra": "Um pedacinho dela que existe",
     "alvoHz": 246.94
   },
   {
-    "inicio": 60.632,
-    "fim": 67.862,
+    "inicio": 62.632,
+    "fim": 69.862,
     "cantor": "dueto",
     "letra": "Um fio de cabelo no meu paletó",
     "alvoHz": 261.63
   },
   {
-    "inicio": 67.862,
-    "fim": 71.52,
+    "inicio": 69.862,
+    "fim": 73.52,
     "cantor": 1,
     "letra": "Lembrei de tudo entre nós",
     "alvoHz": 220
   },
   {
-    "inicio": 71.52,
-    "fim": 73.385,
+    "inicio": 73.52,
+    "fim": 75.385,
     "cantor": 2,
     "letra": "Do amor vivido",
     "alvoHz": 246.94
   },
   {
-    "inicio": 73.385,
-    "fim": 77.654,
+    "inicio": 75.385,
+    "fim": 79.654,
     "cantor": "dueto",
     "letra": "Aquele fio de cabelo comprido",
     "alvoHz": 261.63
   },
   {
-    "inicio": 77.654,
-    "fim": 86.465,
+    "inicio": 79.654,
+    "fim": 88.465,
     "cantor": "dueto",
     "letra": "Já esteve grudado em nosso suor",
     "alvoHz": 220
   },
   {
-    "inicio": 86.465,
-    "fim": 100.946,
+    "inicio": 88.465,
+    "fim": 102.946,
     "cantor": "intro",
     "letra": "♪ Instrumental ♪",
     "alvoHz": 220
   },
   {
-    "inicio": 100.946,
-    "fim": 109.314,
+    "inicio": 102.946,
+    "fim": 111.314,
     "cantor": 1,
     "letra": "Quando a gente ama e não vive junto com a pessoa amada",
     "alvoHz": 196
   },
   {
-    "inicio": 109.314,
-    "fim": 117.556,
+    "inicio": 111.314,
+    "fim": 119.556,
     "cantor": 2,
     "letra": "Uma coisa à toa é um bom motivo pra gente chorar",
     "alvoHz": 220
   },
   {
-    "inicio": 117.556,
-    "fim": 123.911,
+    "inicio": 119.556,
+    "fim": 125.911,
     "cantor": 1,
     "letra": "Apagam-se as luzes ao chegar a hora de ir para a cama",
     "alvoHz": 196
   },
   {
-    "inicio": 123.911,
-    "fim": 128.032,
+    "inicio": 125.911,
+    "fim": 130.032,
     "cantor": 2,
     "letra": "A gente começa a esperar por quem ama",
     "alvoHz": 220
   },
   {
-    "inicio": 128.032,
-    "fim": 135.041,
+    "inicio": 130.032,
+    "fim": 137.041,
     "cantor": 2,
     "letra": "Na impressão de que ela venha se deitar",
     "alvoHz": 246.94
   },
   {
-    "inicio": 135.041,
-    "fim": 141.049,
+    "inicio": 137.041,
+    "fim": 143.049,
     "cantor": 1,
     "letra": "E hoje o que encontrei me deixou mais triste",
     "alvoHz": 220
   },
   {
-    "inicio": 141.049,
-    "fim": 144.864,
+    "inicio": 143.049,
+    "fim": 146.864,
     "cantor": 2,
     "letra": "Um pedacinho dela que existe",
     "alvoHz": 246.94
   },
   {
-    "inicio": 144.864,
-    "fim": 151.831,
+    "inicio": 146.864,
+    "fim": 153.831,
     "cantor": "dueto",
     "letra": "Um fio de cabelo no meu paletó",
     "alvoHz": 261.63
   },
   {
-    "inicio": 151.831,
-    "fim": 156.004,
+    "inicio": 153.831,
+    "fim": 158.004,
     "cantor": 1,
     "letra": "Lembrei de tudo entre nós",
     "alvoHz": 220
   },
   {
-    "inicio": 156.004,
-    "fim": 157.648,
+    "inicio": 158.004,
+    "fim": 159.648,
     "cantor": 2,
     "letra": "Do amor vivido",
     "alvoHz": 246.94
   },
   {
-    "inicio": 157.648,
-    "fim": 162.012,
+    "inicio": 159.648,
+    "fim": 164.012,
     "cantor": "dueto",
     "letra": "Aquele fio de cabelo comprido",
     "alvoHz": 261.63
   },
   {
-    "inicio": 162.012,
-    "fim": 170.707,
+    "inicio": 164.012,
+    "fim": 172.707,
     "cantor": "dueto",
     "letra": "Já esteve grudado em nosso suor",
     "alvoHz": 220
   },
   {
-    "inicio": 170.707,
+    "inicio": 172.707,
     "fim": 180.1404,
     "cantor": "intro",
     "letra": "♪ Final ♪",
